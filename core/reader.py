@@ -42,6 +42,7 @@ from functools import lru_cache
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parent.parent / "data"
+RULES_VERSION = "1.1"   # 1.0 ran the blind test; 1.1 fixed two rule bugs it exposed (see README)
 MODEL_PATH = DATA / "reader_model.json"
 LEXICON_PATH = DATA / "english_words.txt.gz"   # the 50,000 commonest English words, from wordfreq
 
@@ -358,7 +359,7 @@ class Model:
         "program" one from Prograf, and no string similarity can tell them apart;
         a word list can. Such words are never matched, only exact names are.
         """
-        return mention not in self.keys and all(w in self.lexicon for w in mention.split())
+        return mention not in self.keys and all(w in self.lexicon or len(w) == 1 for w in mention.split())
 
     def decide(self, mention: str) -> dict:
         """The model's verdict on one mention, before windows compete with each other."""
@@ -491,6 +492,8 @@ def read_list(text: str, model: Model | None = None, max_words: int = 4) -> dict
                 mention = key(text[start:end])
                 if len(mention.replace(" ", "")) < 3:
                     continue
+                if size > 1 and mention.split()[-1] in STOP and mention not in model.keys:
+                    continue      # "Zyvox 600 mg BID" is a drug and a schedule, not a drug named "zyvox bid"
                 verdict = model.decide(mention)
                 if verdict["status"] == "none":
                     continue
@@ -540,5 +543,5 @@ def read_list(text: str, model: Model | None = None, max_words: int = 4) -> dict
         "drugs": drugs,
         "not_covered": not_covered,
         "ambiguous": asks,
-        "model": {"name": model.meta.get("name"), "version": model.meta.get("version")},
+        "model": {"name": model.meta.get("name"), "version": model.meta.get("version"), "rules": RULES_VERSION},
     }

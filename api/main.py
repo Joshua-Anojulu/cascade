@@ -1,4 +1,4 @@
-"""Cascade API. Three endpoints, no database, no accounts.
+"""Cascade API. Four endpoints, no database, no accounts.
 
 Educational prototype. Not clinical decision support.
 """
@@ -15,6 +15,7 @@ from pydantic import BaseModel, Field
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from core.model import STRONG_CAP, analyze, cascades, pairwise_findings  # noqa: E402
+from core.reader import load_model, read_list  # noqa: E402
 from core.roles import listed_drugs, load_roles, resolve_all  # noqa: E402
 
 WEB = Path(__file__).resolve().parent.parent / "web"
@@ -29,6 +30,10 @@ app = FastAPI(title="Cascade", description=DISCLAIMER, version="1.0.0")
 
 class Request(BaseModel):
     drugs: list[str] = Field(default_factory=list, max_length=40)
+
+
+class ListText(BaseModel):
+    text: str = Field(default="", max_length=5000)
 
 
 def _contributor(c) -> dict:
@@ -85,6 +90,18 @@ def analyse(request: Request) -> dict:
         "strong_cap": STRONG_CAP,
         "disclaimer": DISCLAIMER,
     }
+
+
+@app.post("/api/read")
+def read(request: ListText) -> dict:
+    """Read a pasted medication list with the trained reader (core/reader.py).
+
+    Runs here; nothing is sent to any outside service.
+    """
+    result = read_list(request.text, load_model())
+    result["note"] = ("Read by a small trained model. Check every reading: a name it is unsure of "
+                      "is asked about or left unread, never guessed.")
+    return result
 
 
 @app.get("/api/roles/{drug}")

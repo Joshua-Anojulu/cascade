@@ -57,6 +57,25 @@ details ul{margin:7px 0 0 17px}
 table.roles{width:100%;border-collapse:collapse;font-size:13px;margin-top:9px}
 table.roles th,table.roles td{text-align:left;padding:5px 9px;border-bottom:1px solid var(--line)}
 table.roles th{font-size:11px;letter-spacing:.4px;text-transform:uppercase;color:var(--muted)}
+textarea{width:100%;min-height:118px;font:inherit;font-size:14px;line-height:1.55;padding:10px 12px;border:1px solid #cdd2db;border-radius:7px;background:#fff;resize:vertical}
+textarea:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.reader-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:9px}
+.readout{margin-top:14px}
+.readout .echo{font-size:13.5px;line-height:1.75;background:var(--bg);border:1px solid var(--line);border-radius:7px;padding:10px 12px;white-space:pre-wrap}
+.echo mark{border-radius:3px;padding:0 2px}
+.echo mark.matched{background:#d1fadf}
+.echo mark.not_covered{background:#eaecf0}
+.echo mark.ambiguous{background:#fef0c7}
+.reads{list-style:none;margin-top:10px}
+.reads li{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;font-size:13.5px;padding:6px 0;border-bottom:1px solid var(--line)}
+.reads li:last-child{border-bottom:0}
+.reads .typed{color:var(--muted);min-width:150px}
+.reads .as b{font-weight:600}
+.reads .tag{font-size:11.5px;font-weight:600;padding:1px 7px;border-radius:4px}
+.tag.matched{background:#d1fadf;color:#05603a}
+.tag.not_covered{background:#eaecf0;color:#344054}
+.tag.ambiguous{background:#fef0c7;color:#93370d}
+.reads button.choice{padding:3px 9px;font-size:12.5px}
 footer{font-size:12.5px;color:var(--muted);margin-top:26px;line-height:1.75}
 footer a{color:var(--accent)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
@@ -71,6 +90,17 @@ footer a{color:var(--accent)}
 </div></header>
 
 <main class="wrap">
+  <section class="panel">
+    <label for="pasted">Paste a medication list</label>
+    <textarea id="pasted" spellcheck="false" placeholder="Type it the way it is written: Zocor 40 at night, Cardizem CD 180, the erythromycin from the walk-in clinic..."></textarea>
+    <div class="reader-actions">
+      <button class="primary" type="button" id="read">Read the list</button>
+      <button type="button" id="messy">Use a messy example</button>
+    </div>
+    <p class="hint">Brand names, misspellings, doses and pharmacy printouts are fine. A small model trained for this reads the list on this server; nothing is sent anywhere. Every reading is shown so you can check it, and a name it is unsure of is asked about or left unread, never guessed.</p>
+    <div class="readout" id="readout" aria-live="polite"></div>
+  </section>
+
   <section class="panel">
     <label for="drug">Drug list</label>
     <form class="entry" id="form">
@@ -101,7 +131,8 @@ footer a{color:var(--accent)}
 
   <footer>
     Roles and class definitions: <a href="https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems" target="_blank" rel="noopener">FDA, Drug Development and Drug Interactions, Table 1</a>.
-    Exposure ratios are intervals because the FDA classes are defined by ranges; nothing here is a fitted parameter.
+    Exposure ratios are intervals because the FDA classes are defined by ranges; no number in them is a fitted parameter.
+    The list reader is a small trained model, measured on lists it never saw; see the README.
     Built by Joshua Anojulu with AI assistance; see the README for who wrote what.
   </footer>
 </main>
@@ -193,6 +224,73 @@ function add(name) {
   run();
 }
 
+const MESSY = `Zocor 40mg at bedtime
+Cardizem CD 180 daily
+erythromycin 500 four times a day (new, for chest infection)
+grapefruit juice with breakfast
+Toprol XL 50
+Prilosec 20
+Coumadin 5mg Mon/Wed/Fri
+lisinopril 10`;
+
+const STATUS = {matched: 'read', not_covered: 'not in the FDA table', ambiguous: 'which one?'};
+
+function describe(item) {
+  if (item.status === 'not_covered') {
+    const inside = item.others.join(', ');
+    const same = inside.toLowerCase() === item.read_as.toLowerCase();
+    return `<b>${esc(item.read_as)}</b>${inside && !same ? ` <span class="range">${esc(inside)}</span>` : ''}`;
+  }
+  const via = item.kind === 'brand' ? ` <span class="range">brand ${esc(item.read_as)}</span>` : '';
+  return `<b>${esc(item.drugs.join(' + '))}</b>${via}`;
+}
+
+function showReading(text, data) {
+  let echo = '', at = 0;
+  for (const item of data.items) {
+    echo += esc(text.slice(at, item.start)) +
+      `<mark class="${esc(item.status)}">${esc(text.slice(item.start, item.end))}</mark>`;
+    at = item.end;
+  }
+  echo += esc(text.slice(at));
+  const rows = data.items.map((item, n) => {
+    const choices = item.status === 'ambiguous'
+      ? ' ' + item.choices.map((c, k) =>
+          `<button type="button" class="choice" data-n="${n}" data-k="${k}">${esc(c.read_as)}</button>`).join(' ')
+        + ` <button type="button" class="choice" data-n="${n}" data-k="-1">neither</button>`
+      : '';
+    const as = item.status === 'ambiguous' ? '' : `<span class="as">${describe(item)}</span>`;
+    return `<li><span class="typed">${esc(item.text)}</span>
+      <span class="tag ${esc(item.status)}">${STATUS[item.status]}</span>${as}${choices}</li>`;
+  }).join('');
+  const none = data.items.length ? '' : '<li>Nothing in this text was read as a medicine.</li>';
+  $('#readout').innerHTML = `<div class="echo">${echo}</div><ul class="reads">${rows || none}</ul>
+    <p class="hint">Highlighted text was read. Anything not highlighted was left unread; add it below by hand if it is a medicine.</p>`;
+  document.querySelectorAll('.reads button.choice').forEach(b => b.onclick = () => {
+    const item = data.items[Number(b.dataset.n)];
+    const pick = Number(b.dataset.k);
+    b.parentElement.querySelectorAll('button.choice').forEach(x => x.disabled = true);
+    if (pick >= 0) item.choices[pick].drugs.forEach(d => { if (!drugs.includes(d)) drugs.push(d); });
+    run();
+  });
+}
+
+async function readList() {
+  const text = $('#pasted').value;
+  if (!text.trim()) return;
+  $('#readout').innerHTML = '<p class="hint">Reading...</p>';
+  const response = await fetch('/api/read', {
+    method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({text})
+  });
+  if (!response.ok) { $('#readout').innerHTML = '<p class="hint">The list could not be read.</p>'; return; }
+  const data = await response.json();
+  showReading(text, data);
+  for (const d of data.drugs) if (!drugs.includes(d)) drugs.push(d);
+  run();
+}
+
+$('#read').onclick = readList;
+$('#messy').onclick = () => { $('#pasted').value = MESSY; readList(); };
 $('#form').addEventListener('submit', e => { e.preventDefault(); add($('#drug').value); });
 $('#demo').onclick = () => { drugs = [...DEMO]; run(); };
 $('#clear').onclick = () => { drugs = []; run(); };
