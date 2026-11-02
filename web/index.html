@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cascade: the interaction a pairwise check cannot see</title>
+<style>
+:root{--ink:#16181d;--muted:#5d6472;--line:#e3e5ea;--paper:#fff;--bg:#f6f7f9;--accent:#1d4ed8;
+--high:#b42318;--high-bg:#fef3f2;--moderate:#b54708;--moderate-bg:#fffaeb;--low:#475467;--low-bg:#f2f4f7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font:15px/1.6 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--bg)}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px 56px}
+header .wrap{padding-bottom:0}
+header{background:var(--paper);border-bottom:1px solid var(--line);padding:20px 0 18px;margin-bottom:20px}
+h1{font-size:25px;font-weight:650;letter-spacing:-.4px}
+h1 span{color:var(--muted);font-weight:400}
+.disclaimer{background:#fffaeb;border:1px solid #fedf89;border-radius:8px;padding:11px 14px;font-size:13px;color:#7a2e0e;margin-top:14px}
+.disclaimer b{font-weight:650}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:18px}
+label{display:block;font-size:13px;font-weight:600;margin-bottom:7px}
+.hint{font-size:12.5px;color:var(--muted);margin-top:7px}
+.entry{display:flex;gap:8px;flex-wrap:wrap}
+input[type=text]{flex:1;min-width:220px;font:inherit;padding:9px 11px;border:1px solid #cdd2db;border-radius:7px;background:#fff}
+input:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+button{font:inherit;font-weight:550;padding:9px 14px;border:1px solid #cdd2db;border-radius:7px;background:#fff;cursor:pointer}
+button:hover{background:#f3f5f8}
+button.primary{background:var(--ink);color:#fff;border-color:var(--ink)}
+button.primary:hover{background:#2b2f39}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px;min-height:4px}
+.chip{display:inline-flex;align-items:center;gap:7px;background:#eef1f6;border:1px solid #dde2ea;border-radius:999px;padding:4px 7px 4px 11px;font-size:13px}
+.chip button{border:0;background:none;padding:0 3px;font-size:15px;line-height:1;color:var(--muted);cursor:pointer}
+.chip.unlisted{background:var(--moderate-bg);border-color:#fedf89;color:#7a2e0e}
+.columns{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:860px){.columns{grid-template-columns:1fr}}
+.col h2{font-size:15px;font-weight:650;margin-bottom:3px}
+.col p.sub{font-size:12.5px;color:var(--muted);margin-bottom:13px}
+.finding{border:1px solid var(--line);border-left-width:4px;border-radius:8px;padding:13px 15px;margin-bottom:10px;background:var(--paper)}
+.finding.high{border-left-color:var(--high);background:var(--high-bg)}
+.finding.moderate{border-left-color:var(--moderate);background:var(--moderate-bg)}
+.finding.low{border-left-color:#98a2b3;background:var(--low-bg)}
+.badge{display:inline-block;font-size:11px;font-weight:650;letter-spacing:.4px;text-transform:uppercase;padding:2px 7px;border-radius:4px}
+.badge.high{background:#fee4e2;color:var(--high)}
+.badge.moderate{background:#fef0c7;color:var(--moderate)}
+.badge.low{background:#e4e7ec;color:var(--low)}
+.finding h3{font-size:15px;font-weight:600;margin:8px 0 2px}
+.ratio{font-variant-numeric:tabular-nums;font-size:22px;font-weight:650;letter-spacing:-.4px}
+.range{font-size:12.5px;color:var(--muted);font-variant-numeric:tabular-nums}
+.why{font-size:13px;margin-top:8px;color:#344054}
+.why b{font-weight:600}
+details{margin-top:9px;font-size:12.5px;color:var(--muted)}
+summary{cursor:pointer;font-weight:550}
+details ul{margin:7px 0 0 17px}
+.empty{color:var(--muted);font-size:13.5px;padding:13px 0}
+.headline{border:1px solid #fecdca;background:var(--high-bg);border-radius:10px;padding:16px 20px;margin-bottom:18px}
+.headline h2{font-size:17px;font-weight:650;color:var(--high);margin-bottom:5px}
+.headline p{font-size:14px;color:#7a271a}
+table.roles{width:100%;border-collapse:collapse;font-size:13px;margin-top:9px}
+table.roles th,table.roles td{text-align:left;padding:5px 9px;border-bottom:1px solid var(--line)}
+table.roles th{font-size:11px;letter-spacing:.4px;text-transform:uppercase;color:var(--muted)}
+footer{font-size:12.5px;color:var(--muted);margin-top:26px;line-height:1.75}
+footer a{color:var(--accent)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Cascade <span>the interaction a pairwise check cannot see</span></h1>
+  <div class="disclaimer"><b>Educational prototype, not clinical decision support.</b>
+    Predictions come from a static model built on the FDA's published interaction classes.
+    They describe drug classes, not any individual patient, and must not be used to make or change treatment.</div>
+</div></header>
+
+<main class="wrap">
+  <section class="panel">
+    <label for="drug">Drug list</label>
+    <form class="entry" id="form">
+      <input type="text" id="drug" list="catalogue" autocomplete="off" placeholder="Start typing, for example simvastatin" aria-describedby="hint" />
+      <datalist id="catalogue"></datalist>
+      <button class="primary" type="submit">Add</button>
+      <button type="button" id="demo">Load the example regimen</button>
+      <button type="button" id="clear">Clear</button>
+    </form>
+    <div class="chips" id="chips" aria-live="polite"></div>
+    <p class="hint" id="hint">Only drugs in the FDA interaction table can be scored. Anything else is listed as not covered rather than guessed at.</p>
+  </section>
+
+  <div id="headline"></div>
+
+  <div class="columns">
+    <section class="col">
+      <h2>One pair at a time</h2>
+      <p class="sub">The same model, shown every pair separately. This is what a pairwise checker can see.</p>
+      <div id="pairwise"><p class="empty">Add drugs to begin.</p></div>
+    </section>
+    <section class="col">
+      <h2>The whole list at once</h2>
+      <p class="sub">Every inhibitor of one enzyme combined, which is where a cascade appears.</p>
+      <div id="full"><p class="empty">Add drugs to begin.</p></div>
+    </section>
+  </div>
+
+  <footer>
+    Roles and class definitions: <a href="https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems" target="_blank" rel="noopener">FDA, Drug Development and Drug Interactions, Table 1</a>.
+    Exposure ratios are intervals because the FDA classes are defined by ranges; nothing here is a fitted parameter.
+    Built by Joshua Anojulu with AI assistance; see the README for who wrote what.
+  </footer>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const DEMO = ['simvastatin','diltiazem','erythromycin','grapefruit juice','metoprolol','omeprazole','warfarin'];
+let drugs = [], catalogue = [];
+
+const ratio = v => v >= 20 ? '20+' : v.toFixed(1);
+const title = s => s.charAt(0).toUpperCase() + s.slice(1);
+
+function card(f, prefix='') {
+  const names = [...f.inhibitors, ...f.inducers];
+  const roles = names.map(c => `${esc(c.drug)} <span class="range">(${esc(c.strength)} ${esc(c.role)})</span>`).join(', ');
+  return `<article class="finding ${esc(f.severity)}">
+    <span class="badge ${esc(f.severity)}">${esc(f.severity)}</span>
+    <h3>${esc(title(f.substrate))} via ${esc(f.enzyme)}</h3>
+    <p><span class="ratio">${ratio(f.aucr.point)}&times;</span>
+       <span class="range">predicted exposure, range ${ratio(f.aucr.low)} to ${ratio(f.aucr.high)}</span></p>
+    <p class="why">${prefix}<b>${names.length}</b> contributing drug${names.length===1?'':'s'}: ${roles}.
+       ${esc(title(f.substrate))} is a ${esc(f.substrate_class)} substrate of ${esc(f.enzyme)}.</p>
+    <details><summary>How this number was reached</summary>
+      <ul>
+        <li>Fraction metabolised through ${esc(f.enzyme)}: ${f.fm[0].toFixed(2)} to ${f.fm[1].toFixed(2)}, derived from the substrate class.</li>
+        <li>Competitive combination of inhibitors. Treating them as independent instead would give up to ${ratio(f.aucr.independent_high)}&times;.</li>
+        ${f.assumptions.map(a => `<li>${esc(a)}</li>`).join('')}
+      </ul></details>
+  </article>`;
+}
+
+async function run() {
+  $('#chips').innerHTML = drugs.map((d,i) =>
+    `<span class="chip">${esc(d)}<button data-i="${i}" aria-label="Remove ${esc(d)}">&times;</button></span>`).join('');
+  document.querySelectorAll('.chip button').forEach(b =>
+    b.onclick = () => { drugs.splice(Number(b.dataset.i), 1); run(); });
+  if (!drugs.length) {
+    $('#headline').innerHTML = '';
+    $('#pairwise').innerHTML = $('#full').innerHTML = '<p class="empty">Add drugs to begin.</p>';
+    return;
+  }
+  const response = await fetch('/api/analyze', {
+    method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({drugs})
+  });
+  if (!response.ok) { $('#full').innerHTML = '<p class="empty">The analysis could not run.</p>'; return; }
+  const data = await response.json();
+
+  // Show what each entry resolved to, so a brand name and its generic are one drug.
+  const canonical = [];
+  for (const row of data.resolved) {
+    const name = row.drug || row.input;
+    if (!canonical.some(d => d.toLowerCase() === name.toLowerCase())) canonical.push(name);
+  }
+  if (canonical.join('\u0000') !== drugs.join('\u0000')) { drugs = canonical; return run(); }
+  $('#chips').innerHTML = drugs.map((d, i) => {
+    const row = data.resolved.find(r => (r.drug || r.input) === d);
+    const note = row?.status === 'synonym' ? ` <span class="range">(${esc(row.input)})</span>` : '';
+    const bad = row && !row.drug ? ' unlisted' : '';
+    const label = bad ? `${esc(d)}: not in the FDA table` : esc(d) + note;
+    return `<span class="chip${bad}">${label}<button data-i="${i}" aria-label="Remove ${esc(d)}">&times;</button></span>`;
+  }).join('');
+  document.querySelectorAll('.chip button').forEach(b =>
+    b.onclick = () => { drugs.splice(Number(b.dataset.i), 1); run(); });
+
+  $('#headline').innerHTML = data.cascades.length ? data.cascades.map(c => {
+    const f = c.finding;
+    return `<section class="headline">
+      <h2>A pairwise check would call this ${esc(c.pairwise_severity)}. Together these drugs read ${esc(f.severity)}.</h2>
+      <p>${f.inhibitors.length} drugs each inhibit ${esc(f.enzyme)}. No single pair reaches more than
+      ${ratio(c.pairwise_aucr)}&times; predicted exposure of ${esc(f.substrate)}; the full list reaches
+      ${ratio(f.aucr.point)}&times;, which is the band the FDA uses to define a strong inhibitor.</p>
+    </section>`;
+  }).join('') : '';
+
+  $('#pairwise').innerHTML = data.pairwise.length
+    ? data.pairwise.map(f => card(f, 'Best single pair. ')).join('')
+    : '<p class="empty">No pair of these drugs produces a predicted exposure change.</p>';
+  $('#full').innerHTML = data.findings.length
+    ? data.findings.map(f => card(f)).join('')
+    : '<p class="empty">No predicted exposure change. The list has no inhibitor or inducer acting on a listed substrate.</p>';
+}
+
+function add(name) {
+  const value = name.trim();
+  if (!value) return;
+  if (!drugs.some(d => d.toLowerCase() === value.toLowerCase())) drugs.push(value);
+  $('#drug').value = '';
+  run();
+}
+
+$('#form').addEventListener('submit', e => { e.preventDefault(); add($('#drug').value); });
+$('#demo').onclick = () => { drugs = [...DEMO]; run(); };
+$('#clear').onclick = () => { drugs = []; run(); };
+
+fetch('/api/drugs').then(r => r.json()).then(d => {
+  catalogue = d.drugs;
+  $('#catalogue').innerHTML = catalogue.map(name => `<option value="${esc(name)}"></option>`).join('');
+  $('#hint').textContent = `${catalogue.length} drugs from the FDA interaction table can be scored. Anything else is listed as not covered rather than guessed at.`;
+}).catch(() => {});
+</script>
+</body>
+</html>
