@@ -1,0 +1,1968 @@
+name,kind,table_drugs,other_ingredients,source
+A-Phedrin,brand,,pseudoephedrine;triprolidine,RxNorm brand
+Abilify,brand,,aripiprazole,RxNorm brand
+abiraterone,generic,abiraterone,,FDA table
+Abirtega,brand,abiraterone,,RxNorm brand
+Absorica,brand,,isotretinoin,RxNorm brand
+abuse-deterrent,generic,,abuse-deterrent,RxNorm ingredient
+abuse-deterrent oxycodone,generic,,abuse-deterrent oxycodone,RxNorm ingredient
+Accuretic,brand,,hydrochlorothiazide;quinapril,RxNorm brand
+Accutane,brand,,isotretinoin,RxNorm brand
+acetaminophen,generic,,acetaminophen,ClinCalc Top 300
+acetic acid,generic,,acetic acid,RxNorm ingredient
+Aciphex,brand,rabeprazole,,RxNorm brand
+aclidinium bromide,generic,,aclidinium bromide,RxNorm ingredient
+ACT Fluoride Rinse,brand,,sodium fluoride,RxNorm brand
+Acticlate,brand,,doxycycline,RxNorm brand
+Activella,brand,,estradiol;norethindrone,RxNorm brand
+Actos,brand,pioglitazone,,synonyms.csv
+Acular,brand,,ketorolac tromethamine,RxNorm brand
+Acuvail,brand,,ketorolac tromethamine,RxNorm brand
+acyclovir,generic,acyclovir,,FDA table
+adagrasib,generic,adagrasib,,FDA table
+adalimumab,generic,,adalimumab,ClinCalc Top 300
+adalimumab-aacf,generic,,adalimumab-aacf,RxNorm ingredient
+adalimumab-aaty,generic,,adalimumab-aaty,RxNorm ingredient
+adalimumab-adbm,generic,,adalimumab-adbm,RxNorm ingredient
+adapalene,generic,,adapalene,RxNorm ingredient
+Adcirca,brand,tadalafil,,RxNorm brand
+adderall,brand,,amphetamine,hand: common brand outside the table; its four-ingredient RxNorm name was filtered out
+Adlarity,brand,,donepezil,RxNorm brand
+Admelog,brand,,insulin lispro,RxNorm brand
+Adoxa,brand,,doxycycline,RxNorm brand
+Adoxa Pak,brand,,doxycycline,RxNorm brand
+Adrenalin,brand,,epinephrine,RxNorm brand
+Adrucil,brand,,fluorouracil,RxNorm brand
+Adthyza,brand,,thyroid (usp),RxNorm brand
+Advair,brand,,fluticasone;salmeterol,RxNorm brand
+Advil,brand,,ibuprofen,RxNorm brand
+Adzenys,brand,,amphetamine,RxNorm brand
+Afeditab CR,brand,,nifedipine,RxNorm brand
+Afinitor,brand,everolimus,,synonyms.csv
+Afrezza,brand,,insulin,RxNorm brand
+AirDuo,brand,,fluticasone;salmeterol,RxNorm brand
+Airsupra,brand,budesonide,albuterol,RxNorm brand
+Akeega,brand,abiraterone,niraparib,RxNorm brand
+Akten,brand,,lidocaine,RxNorm brand
+Alavert,brand,,loratadine,RxNorm brand
+albuterol,generic,,albuterol,ClinCalc Top 300
+Alcortin,brand,,hydrocortisone;iodoquinol,RxNorm brand
+Aldactone,brand,,spironolactone,RxNorm brand
+alendronate,generic,,alendronate,ClinCalc Top 300
+alendronic acid,generic,,alendronic acid,RxNorm ingredient
+Alevazol,brand,clotrimazole,,RxNorm brand
+Aleve,brand,,naproxen,RxNorm brand
+alfentanil,generic,alfentanil,,FDA table
+alfuzosin,generic,,alfuzosin,ClinCalc Top 300
+aliskiren,generic,,aliskiren,RxNorm ingredient
+Alka-Seltzer,brand,,aspirin;citric acid;sodium bicarbonate,RxNorm brand
+Allegra,brand,,fexofenadine,RxNorm brand
+Aller-Cort,brand,,triamcinolone acetonide,RxNorm brand
+Aller-Flo,brand,,fluticasone,RxNorm brand
+Aller-Tec,brand,,cetirizine,RxNorm brand
+Allerclear,brand,,loratadine;pseudoephedrine,RxNorm brand
+AllerNaze,brand,,triamcinolone acetonide,RxNorm brand
+Alleroff,brand,,cetirizine,RxNorm brand
+Allfen CX,brand,,carbetapentane;guaifenesin,RxNorm brand
+allopurinol,generic,allopurinol,,FDA table
+Alloxate,brand,,meloxicam,RxNorm brand
+Allzital,brand,,acetaminophen;butalbital,RxNorm brand
+aloe polysaccharide,generic,,aloe polysaccharide,RxNorm ingredient
+Aloe Vesta Antifungal,brand,miconazole,,RxNorm brand
+alogliptin,generic,,alogliptin,RxNorm ingredient
+Aloprim,brand,allopurinol,,RxNorm brand
+alosetron,generic,alosetron,,FDA table
+alpha tocopherol,generic,,alpha tocopherol,RxNorm ingredient
+Alphagan,brand,,brimonidine,RxNorm brand
+alprazolam,generic,alprazolam,,FDA table
+Altace,brand,,ramipril,RxNorm brand
+Altavera,brand,,ethinyl estradiol;inert ingredients;levonorgestrel,RxNorm brand
+Altoprev,brand,lovastatin,,RxNorm brand
+Altreno,brand,,tretinoin,RxNorm brand
+Alunbrig,brand,brigatinib,,RxNorm brand
+Alyacen,brand,,ethinyl estradiol;inert ingredients;norethindrone,RxNorm brand
+Alyq,brand,tadalafil,,RxNorm brand
+Amabelz,brand,,estradiol;norethindrone,RxNorm brand
+Amaryl,brand,glimepiride,,synonyms.csv
+Ambien,brand,,zolpidem,RxNorm brand
+Ambifed-G CD,brand,,codeine;guaifenesin;pseudoephedrine,RxNorm brand
+Amerithroid,brand,,thyroid (usp),RxNorm brand
+Amethia,brand,,ethinyl estradiol;levonorgestrel,RxNorm brand
+Amethyst,brand,,ethinyl estradiol;levonorgestrel,RxNorm brand
+amiodarone,generic,amiodarone,,FDA table
+amitriptyline,generic,,amitriptyline,ClinCalc Top 300
+amlodipine,generic,,amlodipine,ClinCalc Top 300
+ammonium lactate,generic,,ammonium lactate,RxNorm ingredient
+Amnesteem,brand,,isotretinoin,RxNorm brand
+Amodip,brand,,amlodipine,RxNorm brand
+Amoxi-tabs,brand,,amoxicillin,RxNorm brand
+amoxicillin,generic,,amoxicillin,ClinCalc Top 300
+amphetamine,generic,,amphetamine,ClinCalc Top 300
+amphetamine aspartate,generic,,amphetamine aspartate,ClinCalc Top 300
+Amrix,brand,,cyclobenzaprine,RxNorm brand
+amylase,generic,,amylase,RxNorm ingredient
+Anabar,brand,,acetaminophen;phenyltoloxamine;salicylamide,RxNorm brand
+Anacin,brand,caffeine,aspirin,RxNorm brand
+Anaprox,brand,,naproxen,RxNorm brand
+anastrozole,generic,,anastrozole,ClinCalc Top 300
+Androderm,brand,,testosterone,RxNorm brand
+Androgel,brand,,testosterone,RxNorm brand
+Angeliq,brand,,drospirenone;estradiol,RxNorm brand
+Anjeso,brand,,meloxicam,RxNorm brand
+Anoro,brand,,umeclidinium;vilanterol,RxNorm brand
+Antabuse,brand,disulfiram,,RxNorm brand
+Antara,brand,,fenofibrate,RxNorm brand
+Antirobe,brand,,clindamycin,RxNorm brand
+Antivert,brand,,meclizine,RxNorm brand
+apalutamide,generic,apalutamide,,FDA table
+Aphedrid,brand,,pseudoephedrine;triprolidine,RxNorm brand
+apixaban,generic,,apixaban,ClinCalc Top 300
+Aplenzin,brand,bupropion,,RxNorm brand
+Aponvie,brand,aprepitant,,RxNorm brand
+aprepitant,generic,aprepitant,,FDA table
+Apri,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Apriso,brand,,mesalamine,RxNorm brand
+Aptensio,brand,,40/60 release,RxNorm brand
+Aptivus,brand,tipranavir,,RxNorm brand
+Arbli,brand,,losartan,RxNorm brand
+Aricept,brand,,donepezil,RxNorm brand
+Arimidex,brand,,anastrozole,RxNorm brand
+aripiprazole,generic,,aripiprazole,ClinCalc Top 300
+armodafinil,generic,armodafinil,,FDA table
+Armonair,brand,,sensor,RxNorm brand
+Arnuity,brand,,fluticasone furoate,RxNorm brand
+Arthrotec,brand,,diclofenac;misoprostol,RxNorm brand
+Articadent,brand,,articaine;epinephrine,RxNorm brand
+articaine,generic,,articaine,RxNorm ingredient
+Arynta,brand,,lisdexamfetamine dimesylate,RxNorm brand
+Ascomp,brand,caffeine,aspirin;butalbital;codeine,RxNorm brand
+Ascor,brand,,ascorbic acid,RxNorm brand
+ascorbic acid,generic,,ascorbic acid,ClinCalc Top 300
+Asmanex,brand,,mometasone furoate,RxNorm brand
+Aspi-Cor,brand,,aspirin,RxNorm brand
+aspirin,generic,,aspirin,ClinCalc Top 300
+Aspruzyo,brand,ranolazine,,RxNorm brand
+Astagraf,brand,tacrolimus,,RxNorm brand
+Astepro,brand,,azelastine,RxNorm brand
+Atacand HCT,brand,,candesartan cilexetil;hydrochlorothiazide,RxNorm brand
+atazanavir,generic,,atazanavir,RxNorm ingredient
+atenolol,generic,,atenolol,ClinCalc Top 300
+Ativan,brand,,lorazepam,RxNorm brand
+Atmeksi,brand,,methocarbamol,RxNorm brand
+atomoxetine,generic,atomoxetine,,FDA table
+Atoncy,brand,atomoxetine,,RxNorm brand
+Atorvaliq,brand,atorvastatin,,RxNorm brand
+atorvastatin,generic,atorvastatin,,FDA table
+Atralin,brand,,tretinoin,RxNorm brand
+Atripla,brand,efavirenz;tenofovir,emtricitabine,RxNorm brand
+atropine,generic,,atropine,RxNorm ingredient
+Atrovent,brand,,ipratropium bromide,RxNorm brand
+Attero,brand,,betamethasone dipropionate;calcipotriene,RxNorm brand
+Aubagio,brand,teriflunomide,,RxNorm brand
+Aubra,brand,,ethinyl estradiol;inert ingredients;levonorgestrel,RxNorm brand
+augmented betamethasone,generic,,augmented betamethasone,RxNorm ingredient
+Augmentin,brand,,amoxicillin;clavulanate,RxNorm brand
+Augtyro,brand,repotrectinib,,RxNorm brand
+Auvelity,brand,bupropion;dextromethorphan,,RxNorm brand
+Avaclyr,brand,acyclovir,,RxNorm brand
+Avagard,brand,,chlorhexidine;ethanol,RxNorm brand
+Avalide,brand,,hydrochlorothiazide;irbesartan,RxNorm brand
+avanafil,generic,avanafil,,FDA table
+Avandia,brand,rosiglitazone,,synonyms.csv
+Avapro,brand,,irbesartan,RxNorm brand
+Avar,brand,,sulfacetamide;sulfur,RxNorm brand
+Aveed,brand,,testosterone undecanoate,RxNorm brand
+Avelox,brand,,moxifloxacin,RxNorm brand
+Averi,brand,,desogestrel;ethinyl estradiol;ferrous bisglycinate,RxNorm brand
+Avidoxy,brand,,doxycycline;salicylic acid,RxNorm brand
+Avita,brand,,tretinoin,RxNorm brand
+AzaSite,brand,,azithromycin,RxNorm brand
+azelastine,generic,,azelastine,ClinCalc Top 300
+azilsartan medoxomil,generic,,azilsartan medoxomil,RxNorm ingredient
+azithromycin,generic,,azithromycin,ClinCalc Top 300
+Azmiro,brand,,testosterone cypionate,RxNorm brand
+Azor,brand,,amlodipine;olmesartan medoxomil,RxNorm brand
+Azstarys,brand,,dexmethylphenidate;serdexmethylphenidate,RxNorm brand
+Babee Cof,brand,dextromethorphan,,RxNorm brand
+bacitracin,generic,,bacitracin,RxNorm ingredient
+bacitracin zinc,generic,,bacitracin zinc,RxNorm ingredient
+Backaid IPF,brand,caffeine,acetaminophen;aspirin,RxNorm brand
+Backprin,brand,caffeine,acetaminophen;magnesium salicylate,RxNorm brand
+baclofen,generic,,baclofen,ClinCalc Top 300
+Bactimicina,brand,,acetaminophen,RxNorm brand
+Bactine,brand,,benzalkonium chloride;lidocaine,RxNorm brand
+Bactrim,brand,trimethoprim,sulfamethoxazole,RxNorm brand
+Bactroban,brand,,mupirocin,RxNorm brand
+Balziva,brand,,ethinyl estradiol;inert ingredients;norethindrone,RxNorm brand
+Banophen,brand,,diphenhydramine,RxNorm brand
+Banzel,brand,rufinamide,,RxNorm brand
+Baridium,brand,,phenazopyridine,RxNorm brand
+Basaglar,brand,,insulin glargine,RxNorm brand
+Baza,brand,miconazole,,RxNorm brand
+beclomethasone,generic,,beclomethasone,ClinCalc Top 300
+beclomethasone dipropionate,generic,,beclomethasone dipropionate,RxNorm ingredient
+Beconase,brand,,beclomethasone dipropionate,RxNorm brand
+Bekyree,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+bempedoic acid,generic,,bempedoic acid,RxNorm ingredient
+Benadryl,brand,,diphenhydramine,RxNorm brand
+benazepril,generic,,benazepril,ClinCalc Top 300
+Benicar,brand,,olmesartan medoxomil,RxNorm brand
+Benicar HCT,brand,,hydrochlorothiazide;olmesartan medoxomil,RxNorm brand
+Bentyl,brand,,dicyclomine,RxNorm brand
+benzalkonium chloride,generic,,benzalkonium chloride,RxNorm ingredient
+Benzamycin,brand,erythromycin,benzoyl peroxide,RxNorm brand
+Benzefoam,brand,,benzoyl peroxide,RxNorm brand
+Benzepro,brand,,benzoyl peroxide,RxNorm brand
+benzethonium chloride,generic,,benzethonium chloride,RxNorm ingredient
+benzocaine,generic,,benzocaine,RxNorm ingredient
+benzonatate,generic,,benzonatate,ClinCalc Top 300
+benzoyl peroxide,generic,,benzoyl peroxide,ClinCalc Top 300
+Beser,brand,,fluticasone,RxNorm brand
+Betacilin,brand,,amoxicillin;clavulanate,RxNorm brand
+betamethasone,generic,,betamethasone,ClinCalc Top 300
+betamethasone dipropionate,generic,,betamethasone dipropionate,RxNorm ingredient
+Betavet,brand,,betamethasone,RxNorm brand
+Betimol,brand,,timolol hemihydrate,RxNorm brand
+Bevespi,brand,,formoterol;glycopyrrolate,RxNorm brand
+Beyaz,brand,,drospirenone;ethinyl estradiol;levomefolate,RxNorm brand
+Biaxin,brand,clarithromycin,,synonyms.csv
+sodium bicarbonate,generic,,sodium bicarbonate,RxNorm ingredient
+bictegravir,generic,,bictegravir,RxNorm ingredient
+Bidil,brand,,hydralazine;isosorbide dinitrate,RxNorm brand
+Bijuva,brand,,estradiol;progesterone,RxNorm brand
+Biktarvy,brand,tenofovir,bictegravir;emtricitabine,RxNorm brand
+Binosto,brand,,alendronic acid,RxNorm brand
+Bio-Statin,brand,,nystatin,RxNorm brand
+Biomox,brand,,amoxicillin,RxNorm brand
+birth control,alias,oral contraceptives,,hand: how people write it
+birth control pill,alias,oral contraceptives,,hand: how people write it
+birth control pills,alias,oral contraceptives,,hand: how people write it
+bismuth subcitrate,generic,,bismuth subcitrate,RxNorm ingredient
+bismuth subsalicylate,generic,,bismuth subsalicylate,RxNorm ingredient
+bisoprolol,generic,,bisoprolol,ClinCalc Top 300
+Black Draught,brand,,sennosides,RxNorm brand
+Blephamide,brand,,prednisolone;sulfacetamide,RxNorm brand
+Bonine,brand,,meclizine,RxNorm brand
+Bonqat,brand,,pregabalin,RxNorm brand
+bosentan,generic,bosentan,,FDA table
+Breo,brand,,fluticasone furoate;vilanterol,RxNorm brand
+Breyna,brand,budesonide,formoterol,RxNorm brand
+Breztri,brand,budesonide,formoterol;glycopyrrolate,RxNorm brand
+Briellyn,brand,,ethinyl estradiol;inert ingredients;norethindrone,RxNorm brand
+brigatinib,generic,brigatinib,,FDA table
+Brilinta,brand,ticagrelor,,synonyms.csv
+brimonidine,generic,,brimonidine,ClinCalc Top 300
+brinzolamide,generic,,brinzolamide,RxNorm ingredient
+Brisdelle,brand,paroxetine,,RxNorm brand
+brompheniramine,generic,,brompheniramine,ClinCalc Top 300
+Bronkaid,brand,,ephedrine;guaifenesin,RxNorm brand
+Brovex PBC,brand,,brompheniramine;codeine;phenylephrine,RxNorm brand
+Brukinsa,brand,zanubrutinib,,RxNorm brand
+Brynovin,brand,,sitagliptin,RxNorm brand
+Bucapsol,brand,buspirone,,RxNorm brand
+budesonide,generic,budesonide,,FDA table
+bumetanide,generic,,bumetanide,ClinCalc Top 300
+Bumex,brand,,bumetanide,RxNorm brand
+Bupap,brand,,acetaminophen;butalbital,RxNorm brand
+bupivacaine,generic,,bupivacaine,RxNorm ingredient
+bupropion,generic,bupropion,,FDA table
+Buspar,brand,buspirone,,synonyms.csv
+buspirone,generic,buspirone,,FDA table
+butalbital,generic,,butalbital,ClinCalc Top 300
+By Ache,brand,,acetaminophen;phenyltoloxamine;salicylamide,RxNorm brand
+Byqlovi,brand,,clobetasol,RxNorm brand
+Bystolic,brand,nebivolol,,synonyms.csv
+Byvalson,brand,nebivolol,valsartan,RxNorm brand
+Cabenuva,brand,rilpivirine,cabotegravir,RxNorm brand
+cabotegravir,generic,,cabotegravir,RxNorm ingredient
+Cabtreo,brand,,adapalene;benzoyl peroxide;clindamycin,RxNorm brand
+Caduet,brand,atorvastatin,amlodipine,RxNorm brand
+Cafcit,brand,caffeine,,RxNorm brand
+Cafergot,brand,caffeine,ergotamine,RxNorm brand
+caffeine,generic,caffeine,,FDA table
+Calagel,brand,,benzethonium chloride;diphenhydramine;zinc acetate,RxNorm brand
+Calan,brand,verapamil,,synonyms.csv
+Calcidol,brand,,ergocalciferol,RxNorm brand
+calcipotriene,generic,,calcipotriene,RxNorm ingredient
+calcitriol,generic,,calcitriol,ClinCalc Top 300
+calcium carbonate,generic,,calcium carbonate,RxNorm ingredient
+Caldolor,brand,,ibuprofen,RxNorm brand
+Calmicid,brand,,famotidine,RxNorm brand
+Cambia,brand,,diclofenac,RxNorm brand
+Camrese,brand,,ethinyl estradiol;levonorgestrel,RxNorm brand
+CamreseLo,brand,,ethinyl estradiol;levonorgestrel,RxNorm brand
+canagliflozin,generic,,canagliflozin,RxNorm ingredient
+Canasa,brand,,mesalamine,RxNorm brand
+candesartan cilexetil,generic,,candesartan cilexetil,RxNorm ingredient
+Capacet,brand,caffeine,acetaminophen;butalbital,RxNorm brand
+capmatinib,generic,capmatinib,,FDA table
+Carac,brand,,fluorouracil,RxNorm brand
+Carafate,brand,,sucralfate,RxNorm brand
+carbachol,generic,,carbachol,RxNorm ingredient
+carbamazepine,generic,carbamazepine,,FDA table
+Carbatrol,brand,carbamazepine,,RxNorm brand
+carbetapentane,generic,,carbetapentane,RxNorm ingredient
+Cardalis,brand,,benazepril;spironolactone,RxNorm brand
+Cardizem,brand,diltiazem,,synonyms.csv
+Cardura,brand,,doxazosin,RxNorm brand
+Carmol Scalp,brand,,sulfacetamide,RxNorm brand
+Carospir,brand,,spironolactone,RxNorm brand
+Cartia,brand,diltiazem,,RxNorm brand
+carvedilol,generic,,carvedilol,ClinCalc Top 300
+Cataflam,brand,,diclofenac,RxNorm brand
+Catapres,brand,,clonidine,RxNorm brand
+cefdinir,generic,,cefdinir,ClinCalc Top 300
+cefuroxime,generic,,cefuroxime,ClinCalc Top 300
+Celebrex,brand,celecoxib,,synonyms.csv
+celecoxib,generic,celecoxib,,FDA table
+Celestone Soluspan,brand,,betamethasone,RxNorm brand
+Celexa,brand,,citalopram,RxNorm brand
+Cellcept,brand,,mycophenolate mofetil,RxNorm brand
+Cemill,brand,,ascorbic acid,RxNorm brand
+cenobamate,generic,cenobamate,,FDA table
+Centany,brand,,mupirocin,RxNorm brand
+cephalexin,generic,,cephalexin,ClinCalc Top 300
+Cequa,brand,cyclosporine,,RxNorm brand
+Cerdelga,brand,eliglustat,,RxNorm brand
+ceritinib,generic,ceritinib,,FDA table
+cetirizine,generic,,cetirizine,ClinCalc Top 300
+Cetraxal,brand,ciprofloxacin,,RxNorm brand
+Chateal,brand,,ethinyl estradiol;inert ingredients;levonorgestrel,RxNorm brand
+chlorhexidine,generic,,chlorhexidine,ClinCalc Top 300
+sodium chloride,generic,,sodium chloride,RxNorm ingredient
+chlorpheniramine,generic,,chlorpheniramine,RxNorm ingredient
+chlorthalidone,generic,,chlorthalidone,ClinCalc Top 300
+chlorzoxazone,generic,chlorzoxazone,,FDA table
+cholecalciferol,generic,,cholecalciferol,ClinCalc Top 300
+Cialis,brand,tadalafil,,synonyms.csv
+Ciclodan,brand,,ciclopirox,RxNorm brand
+ciclopirox,generic,,ciclopirox,ClinCalc Top 300
+cigarette,alias,tobacco (smoking),,hand: how people write it
+cigarettes,alias,tobacco (smoking),,hand: how people write it
+cigs,alias,tobacco (smoking),,hand: how people write it
+cilostazol,generic,cilostazol,,FDA table
+Ciloxan,brand,ciprofloxacin,,RxNorm brand
+cimetidine,generic,cimetidine,,FDA table
+cinacalcet,generic,cinacalcet,,FDA table
+Cinvanti,brand,aprepitant,,RxNorm brand
+Cipro,brand,ciprofloxacin,,synonyms.csv
+Ciprodex,brand,ciprofloxacin,dexamethasone,RxNorm brand
+ciprofloxacin,generic,ciprofloxacin,,FDA table
+citalopram,generic,,citalopram,ClinCalc Top 300
+Citanest Forte,brand,,epinephrine;prilocaine,RxNorm brand
+citric acid,generic,,citric acid,RxNorm ingredient
+Claravis,brand,,isotretinoin,RxNorm brand
+Clarinex,brand,desloratadine,,RxNorm brand
+Clarispray,brand,,fluticasone,RxNorm brand
+clarithromycin,generic,clarithromycin,,FDA table
+Claritin,brand,,loratadine,RxNorm brand
+Clavacillin,brand,,amoxicillin;clavulanate,RxNorm brand
+Clavamox,brand,,amoxicillin;clavulanate,RxNorm brand
+clavulanate,generic,,clavulanate,ClinCalc Top 300
+ClearLax,brand,,polyethylene glycol,RxNorm brand
+Clenia,brand,,sulfacetamide;sulfur,RxNorm brand
+Clenziderm Lotion,brand,,benzoyl peroxide,RxNorm brand
+Cleocin,brand,,clindamycin,RxNorm brand
+Clindacin,brand,,clindamycin,RxNorm brand
+ClindaCure,brand,,clindamycin,RxNorm brand
+Clindagel,brand,,once-daily clindamycin,RxNorm brand
+Clindamax,brand,,twice-daily clindamycin,RxNorm brand
+clindamycin,generic,,clindamycin,ClinCalc Top 300
+Clindesse,brand,,clindamycin,RxNorm brand
+Clinpro,brand,,sodium fluoride,RxNorm brand
+clobazam,generic,clobazam,,FDA table
+clobetasol,generic,,clobetasol,ClinCalc Top 300
+Clobex,brand,,clobetasol,RxNorm brand
+Clodan,brand,,clobetasol,RxNorm brand
+clonazepam,generic,,clonazepam,ClinCalc Top 300
+clonidine,generic,,clonidine,ClinCalc Top 300
+clopidogrel,generic,clopidogrel,,FDA table
+Clotic,brand,clotrimazole,,RxNorm brand
+clotrimazole,generic,clotrimazole,,FDA table
+clozapine,generic,clozapine,,FDA table
+Clozaril,brand,clozapine,,synonyms.csv
+cobicistat,generic,cobicistat,,FDA table
+codeine,generic,,codeine,ClinCalc Top 300
+Colace,brand,,docusate,RxNorm brand
+colchicine,generic,colchicine,,FDA table
+Colcrys,brand,colchicine,,synonyms.csv
+Combigan,brand,,brimonidine;timolol,RxNorm brand
+Combivent,brand,,albuterol;ipratropium bromide,RxNorm brand
+Combogesic,brand,,acetaminophen;ibuprofen,RxNorm brand
+Comfortlax,brand,,polyethylene glycol,RxNorm brand
+Complera,brand,rilpivirine;tenofovir,emtricitabine,RxNorm brand
+Compoz,brand,,diphenhydramine,RxNorm brand
+Conazol Miconazole,brand,miconazole,,RxNorm brand
+Concerta,brand,,methylphenidate,RxNorm brand
+conivaptan,generic,conivaptan,,FDA table
+Consensi,brand,celecoxib,amlodipine,RxNorm brand
+oral contraceptive,alias,oral contraceptives,,hand: how people write it
+contraceptive pill,alias,oral contraceptives,,hand: how people write it
+oral contraceptives,generic,oral contraceptives,,FDA table
+Contrave,brand,bupropion,naltrexone,RxNorm brand
+ConZip,brand,tramadol,,RxNorm brand
+Cordarone,brand,amiodarone,,synonyms.csv
+Coreg,brand,,carvedilol,RxNorm brand
+Corlanor,brand,ivabradine,,synonyms.csv
+Cortamine,brand,,prednisolone;trimeprazine,RxNorm brand
+Cortenema,brand,,hydrocortisone,RxNorm brand
+Cortisporin,brand,,hydrocortisone;neomycin;polymyxin b,RxNorm brand
+Cortizone,brand,,hydrocortisone,RxNorm brand
+Cosopt,brand,,preservative-free dorzolamide;timolol,RxNorm brand
+Cotempla,brand,,methylphenidate,RxNorm brand
+Coumadin,brand,warfarin,,synonyms.csv
+Counteract IB,brand,,ibuprofen,RxNorm brand
+Cozaar,brand,,losartan,RxNorm brand
+Creomulsion,brand,dextromethorphan,,RxNorm brand
+Creon,brand,,amylase;lipase;protease,RxNorm brand
+Crestor,brand,,rosuvastatin,RxNorm brand
+Crinone,brand,,progesterone,RxNorm brand
+crizotinib,generic,crizotinib,,FDA table
+Cruex Antifungal,brand,clotrimazole,,RxNorm brand
+Cryselle,brand,,ethinyl estradiol;inert ingredients;norgestrel,RxNorm brand
+CTx3 Rinse,brand,,sodium fluoride,RxNorm brand
+Cutiecaine,brand,,lidocaine,RxNorm brand
+Cuvposa,brand,,glycopyrrolate,RxNorm brand
+cyanocobalamin,generic,,cyanocobalamin,ClinCalc Top 300
+cyclobenzaprine,generic,,cyclobenzaprine,ClinCalc Top 300
+cyclosporine,generic,cyclosporine,,FDA table
+Cyltezo Pen,brand,,adalimumab-adbm,RxNorm brand
+Cymbalta,brand,duloxetine,,synonyms.csv
+cyproheptadine,generic,,cyproheptadine,ClinCalc Top 300
+Cyprolara,brand,,cyproheptadine,RxNorm brand
+Cyred,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Cytomel,brand,,liothyronine,RxNorm brand
+dabrafenib,generic,dabrafenib,,FDA table
+dapagliflozin,generic,,dapagliflozin,ClinCalc Top 300
+darifenacin,generic,darifenacin,,FDA table
+Dartisla,brand,,glycopyrrolate,RxNorm brand
+darunavir,generic,darunavir,,FDA table
+dasatinib,generic,dasatinib,,FDA table
+Dasetta,brand,,ethinyl estradiol;inert ingredients;norethindrone,RxNorm brand
+21 day ethinyl estradiol,generic,,21 day ethinyl estradiol,RxNorm ingredient
+Daysee,brand,,ethinyl estradiol;levonorgestrel,RxNorm brand
+Daytrana,brand,,methylphenidate,RxNorm brand
+Dayvigo,brand,lemborexant,,RxNorm brand
+Decadron,brand,,dexamethasone,RxNorm brand
+Decalcitrol,brand,,cholecalciferol,RxNorm brand
+Decara,brand,,cholecalciferol,RxNorm brand
+deferasirox,generic,deferasirox,,FDA table
+Delsym,brand,dextromethorphan,,RxNorm brand
+Deltasone,brand,,prednisone,RxNorm brand
+Delzicol,brand,,mesalamine,RxNorm brand
+Dentagel,brand,,sodium fluoride,RxNorm brand
+Depakote,brand,,divalproex,RxNorm brand
+Depo-Medrol,brand,,methylprednisolone,RxNorm brand
+Depo-Provera,brand,,medroxyprogesterone,RxNorm brand
+depo-subQ provera,brand,,medroxyprogesterone,RxNorm brand
+DermaFungal,brand,miconazole,,RxNorm brand
+Dermagran,brand,miconazole,,RxNorm brand
+Dermatin,brand,clotrimazole,,RxNorm brand
+Descovy,brand,tenofovir,emtricitabine,RxNorm brand
+Desenex,brand,miconazole,,RxNorm brand
+desipramine,generic,desipramine,,FDA table
+desloratadine,generic,desloratadine,,FDA table
+desogestrel,generic,,desogestrel,ClinCalc Top 300
+desvenlafaxine,generic,,desvenlafaxine,ClinCalc Top 300
+desyrel,brand,,trazodone,hand: common brand outside the table no longer in RxNav
+Detrol,brand,tolterodine,,synonyms.csv
+dexamethasone,generic,,dexamethasone,ClinCalc Top 300
+Dexasone,brand,,dexamethasone,RxNorm brand
+dexbrompheniramine,generic,,dexbrompheniramine,RxNorm ingredient
+Dexedrine,brand,,dextroamphetamine,RxNorm brand
+Dexilant,brand,,dexlansoprazole,RxNorm brand
+Dexium,brand,,dexamethasone,RxNorm brand
+dexlansoprazole,generic,,dexlansoprazole,ClinCalc Top 300
+dexmethylphenidate,generic,,dexmethylphenidate,ClinCalc Top 300
+DexPak TaperPak,brand,,dexamethasone,RxNorm brand
+dextroamphetamine,generic,,dextroamphetamine,ClinCalc Top 300
+dextroamphetamine saccharate,generic,,dextroamphetamine saccharate,ClinCalc Top 300
+dextromethorphan,generic,dextromethorphan,,FDA table
+Diamode,brand,loperamide,,RxNorm brand
+Diastat,brand,diazepam,,RxNorm brand
+diazepam,generic,diazepam,,FDA table
+diclofenac,generic,,diclofenac,ClinCalc Top 300
+dicyclomine,generic,,dicyclomine,ClinCalc Top 300
+didecyldimethylammonium chloride,generic,,didecyldimethylammonium chloride,RxNorm ingredient
+Diflucan,brand,fluconazole,,synonyms.csv
+digoxin,generic,,digoxin,hand: common medicine outside the Top 300 list used here
+dihydrocodeine,generic,,dihydrocodeine,RxNorm ingredient
+Dilantin,brand,phenytoin,,synonyms.csv
+Dilt,brand,diltiazem,,RxNorm brand
+diltiazem,generic,diltiazem,,FDA table
+Diltzac,brand,diltiazem,,RxNorm brand
+dimethicone,generic,,dimethicone,RxNorm ingredient
+dimethyl sulfoxide,generic,,dimethyl sulfoxide,RxNorm ingredient
+diosmin,generic,diosmin,,FDA table
+Diovan,brand,,valsartan,RxNorm brand
+Diovan HCT,brand,,hydrochlorothiazide;valsartan,RxNorm brand
+diphenhydramine,generic,,diphenhydramine,ClinCalc Top 300
+Diprolene,brand,,augmented betamethasone,RxNorm brand
+Disal,brand,,furosemide,RxNorm brand
+disulfiram,generic,disulfiram,,FDA table
+ditropan,brand,,oxybutynin,hand: common brand outside the table no longer in RxNav
+divalproex,generic,,divalproex,RxNorm ingredient
+docosahexaenoic acid,generic,,docosahexaenoic acid,RxNorm ingredient
+Doculase,brand,,docusate,RxNorm brand
+docusate,generic,,docusate,ClinCalc Top 300
+Docusol,brand,,docusate,RxNorm brand
+dodecylbenzenesulfonic acid,generic,,dodecylbenzenesulfonic acid,RxNorm ingredient
+Dodex,brand,,vitamin b12,RxNorm brand
+Dologesic,brand,,acetaminophen;phenyltoloxamine,RxNorm brand
+dolutegravir,generic,,dolutegravir,RxNorm ingredient
+donepezil,generic,,donepezil,ClinCalc Top 300
+Donnatal,brand,phenobarbital,atropine;hyoscyamine;scopolamine,RxNorm brand
+Doryx,brand,,doxycycline,RxNorm brand
+dorzolamide,generic,,dorzolamide,ClinCalc Top 300
+doxazosin,generic,,doxazosin,ClinCalc Top 300
+doxepin,generic,,doxepin,hand: sound-alike partner of a table drug outside the Top 300
+Doxy,brand,,doxycycline,RxNorm brand
+doxycycline,generic,,doxycycline,ClinCalc Top 300
+Drisdol,brand,,ergocalciferol,RxNorm brand
+Drizalma,brand,duloxetine,,RxNorm brand
+dronedarone,generic,dronedarone,,FDA table
+drospirenone,generic,,drospirenone,ClinCalc Top 300
+Duaklir,brand,,aclidinium bromide;formoterol,RxNorm brand
+Duetact,brand,glimepiride;pioglitazone,,RxNorm brand
+Duexis,brand,,famotidine;ibuprofen,RxNorm brand
+dulaglutide,generic,,dulaglutide,ClinCalc Top 300
+Dulcolax Osmotic,brand,,polyethylene glycol,RxNorm brand
+Dulera,brand,,formoterol;mometasone furoate,RxNorm brand
+duloxetine,generic,duloxetine,,FDA table
+dupilumab,generic,,dupilumab,ClinCalc Top 300
+Dupixent,brand,,dupilumab,RxNorm brand
+Duraclon,brand,,clonidine,RxNorm brand
+Duraflor,brand,,sodium fluoride,RxNorm brand
+Duramorph,brand,,morphine,RxNorm brand
+Durlaza,brand,,aspirin,RxNorm brand
+dutasteride,generic,,dutasteride,RxNorm ingredient
+Dxevo,brand,,dexamethasone,RxNorm brand
+Dyanavel,brand,,amphetamine,RxNorm brand
+Dyazide,brand,,hydrochlorothiazide;triamterene,RxNorm brand
+Dymista,brand,,azelastine;fluticasone,RxNorm brand
+Dyrenium,brand,,triamterene,RxNorm brand
+Ecotrin,brand,,aspirin,RxNorm brand
+Edarbyclor,brand,,azilsartan medoxomil;chlorthalidone,RxNorm brand
+Edluar,brand,,zolpidem,RxNorm brand
+Edurant,brand,rilpivirine,,RxNorm brand
+efavirenz,generic,efavirenz,,FDA table
+Effexor,brand,r-venlafaxine,,synonyms.csv
+Efudex,brand,,fluorouracil,RxNorm brand
+eicosapentaenoic acid,generic,,eicosapentaenoic acid,RxNorm ingredient
+elagolix,generic,elagolix,,FDA table
+Elavil,brand,,amitriptyline,RxNorm brand
+Elepsia,brand,,levetiracetam,RxNorm brand
+eletriptan,generic,eletriptan,,FDA table
+elexacaftor,generic,,elexacaftor,RxNorm ingredient
+eliglustat,generic,eliglustat,,FDA table
+Elinest,brand,,ethinyl estradiol;inert ingredients;norgestrel,RxNorm brand
+Eliquis,brand,,apixaban,RxNorm brand
+Elixophyllin,brand,theophylline,,RxNorm brand
+EluRyng,brand,,21 day ethinyl estradiol;etonogestrel,RxNorm brand
+elvitegravir,generic,,elvitegravir,RxNorm ingredient
+elvitegravir and ritonavir,generic,elvitegravir and ritonavir,,FDA table
+elvitegravir ritonavir,alias,elvitegravir and ritonavir,,hand: written as elvitegravir/ritonavir
+Elyxyb,brand,celecoxib,,RxNorm brand
+Emend,brand,aprepitant,,RxNorm brand
+Emgel,brand,erythromycin,,RxNorm brand
+emollient clobetasol,generic,,emollient clobetasol,RxNorm ingredient
+emollient tretinoin,generic,,emollient tretinoin,RxNorm ingredient
+empagliflozin,generic,,empagliflozin,ClinCalc Top 300
+emtricitabine,generic,,emtricitabine,ClinCalc Top 300
+Emtriva,brand,,emtricitabine,RxNorm brand
+Enablex,brand,darifenacin,,synonyms.csv
+enalapril,generic,,enalapril,ClinCalc Top 300
+Enbumyst,brand,,bumetanide,RxNorm brand
+Encora Capsule,brand,,linoleic acid;omega-3 acid ethyl esters (usp);vitamin e,RxNorm brand
+End-Zit,brand,,sulfur,RxNorm brand
+Endocet,brand,,acetaminophen;oxycodone,RxNorm brand
+Endometrin,brand,,progesterone,RxNorm brand
+Enemeez,brand,,docusate,RxNorm brand
+Enilloring,brand,,21 day ethinyl estradiol;etonogestrel,RxNorm brand
+Enskyce,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Enstilar,brand,,betamethasone dipropionate;calcipotriene,RxNorm brand
+Entadfi,brand,tadalafil,finasteride,RxNorm brand
+entrectinib,generic,entrectinib,,FDA table
+Entresto,brand,,sacubitril;valsartan,RxNorm brand
+Envarsus,brand,tacrolimus,,RxNorm brand
+enzalutamide,generic,enzalutamide,,FDA table
+Eohilia,brand,budesonide,,RxNorm brand
+Epaned,brand,,enalapril,RxNorm brand
+ephedrine,generic,,ephedrine,RxNorm ingredient
+epinephrine,generic,,epinephrine,ClinCalc Top 300
+Epitol,brand,carbamazepine,,RxNorm brand
+eplerenone,generic,eplerenone,,FDA table
+Eprontia,brand,,topiramate,RxNorm brand
+Equetro,brand,carbamazepine,,RxNorm brand
+ergocalciferol,generic,,ergocalciferol,ClinCalc Top 300
+ergotamine,generic,,ergotamine,RxNorm ingredient
+Erleada,brand,apalutamide,,RxNorm brand
+Ermeza,brand,,levothyroxine,RxNorm brand
+ertugliflozin,generic,,ertugliflozin,RxNorm ingredient
+Erygel,brand,erythromycin,,RxNorm brand
+EryPed,brand,erythromycin,,RxNorm brand
+Erythrocin,brand,erythromycin,,RxNorm brand
+erythromycin,generic,erythromycin,,FDA table
+Esbriet,brand,pirfenidone,,RxNorm brand
+escitalopram,generic,escitalopram,,FDA table
+Esgic,brand,caffeine,acetaminophen;butalbital,RxNorm brand
+esomeprazole,alias,omeprazole,,hand: follows the project's existing Nexium alias; the FDA table lists only omeprazole
+Estarylla,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+estrace,brand,,estradiol,hand: common brand outside the table cut by the 15-brand limit
+estradiol,generic,,estradiol,ClinCalc Top 300
+ethanol,generic,,ethanol,RxNorm ingredient
+ethinyl estradiol,generic,,ethinyl estradiol,ClinCalc Top 300
+etonogestrel,generic,,etonogestrel,ClinCalc Top 300
+etravirine,generic,etravirine,,FDA table
+Etyqa,brand,,estradiol;norethindrone,RxNorm brand
+Euthyrox,brand,,levothyroxine,RxNorm brand
+Evekeo,brand,,amphetamine,RxNorm brand
+evening dosing,generic,,evening dosing,RxNorm ingredient
+everolimus,generic,everolimus,,FDA table
+Evexithroid,brand,,thyroid (usp),RxNorm brand
+evolocumab,generic,,evolocumab,ClinCalc Top 300
+Evotaz,brand,cobicistat,atazanavir,RxNorm brand
+Exaprin,brand,caffeine,acetaminophen;aspirin;salicylamide,RxNorm brand
+Excedrin,brand,caffeine,acetaminophen;aspirin,RxNorm brand
+Exforge,brand,,amlodipine;valsartan,RxNorm brand
+Exforge HCT,brand,,amlodipine;hydrochlorothiazide;valsartan,RxNorm brand
+Exidine,brand,,chlorhexidine,RxNorm brand
+Exjade,brand,deferasirox,,RxNorm brand
+Exkivity,brand,mobocertinib,,RxNorm brand
+Eyemycin,brand,erythromycin,,RxNorm brand
+Ezallor,brand,,rosuvastatin,RxNorm brand
+ezetimibe,generic,,ezetimibe,ClinCalc Top 300
+Falmina,brand,,ethinyl estradiol;inert ingredients;levonorgestrel,RxNorm brand
+famotidine,generic,,famotidine,ClinCalc Top 300
+Farxiga,brand,,dapagliflozin,RxNorm brand
+Favlyxa,brand,,fluorouracil,RxNorm brand
+felbamate,generic,felbamate,,FDA table
+Felbatol,brand,felbamate,,RxNorm brand
+felodipine,generic,felodipine,,FDA table
+Femara,brand,,letrozole,RxNorm brand
+Femmesil,brand,miconazole,,RxNorm brand
+Femynor,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+fenofibrate,generic,,fenofibrate,ClinCalc Top 300
+fenofibric acid,generic,,fenofibric acid,RxNorm ingredient
+Fenoglide,brand,,fenofibrate,RxNorm brand
+Feosol,brand,,ferrous,RxNorm brand
+Ferrex,brand,,folic acid;polysaccharide iron complex;vitamin b12,RxNorm brand
+ferrous,generic,,ferrous,ClinCalc Top 300
+ferrous bisglycinate,generic,,ferrous bisglycinate,RxNorm ingredient
+Fexmid,brand,,cyclobenzaprine,RxNorm brand
+fexofenadine,generic,,fexofenadine,ClinCalc Top 300
+fezolinetant,generic,fezolinetant,,FDA table
+Fiasp,brand,,niacinamide insulin aspart,RxNorm brand
+Fibricor,brand,,fenofibric acid,RxNorm brand
+finasteride,generic,,finasteride,ClinCalc Top 300
+Fioricet,brand,caffeine,acetaminophen;butalbital,RxNorm brand
+Flagyl,brand,,metronidazole,RxNorm brand
+flecainide,generic,,flecainide,ClinCalc Top 300
+Flector,brand,,twice-daily diclofenac epolamine,RxNorm brand
+Fleqsuvy,brand,,baclofen,RxNorm brand
+Fletchers Castoria,brand,,sennosides,RxNorm brand
+flexeril,brand,,cyclobenzaprine,hand: common brand outside the table no longer in RxNav
+Flolipid,brand,simvastatin,,RxNorm brand
+Flomax,brand,,tamsulosin,RxNorm brand
+Flonase,brand,,fluticasone,RxNorm brand
+Flonase Sensimist,brand,,fluticasone furoate,RxNorm brand
+florfenicol,generic,,florfenicol,RxNorm ingredient
+fluconazole,generic,fluconazole,,FDA table
+fluocinolone acetonide,generic,,fluocinolone acetonide,RxNorm ingredient
+sodium fluoride,generic,,sodium fluoride,ClinCalc Top 300
+FluoriSHIELD,brand,,sodium fluoride,RxNorm brand
+Fluoroplex,brand,,fluorouracil,RxNorm brand
+fluorouracil,generic,,fluorouracil,ClinCalc Top 300
+fluoxetine,generic,fluoxetine,,FDA table
+Fluticare,brand,,fluticasone,RxNorm brand
+fluticasone,generic,,fluticasone,ClinCalc Top 300
+fluticasone furoate,generic,,fluticasone furoate,RxNorm ingredient
+fluvastatin,generic,fluvastatin,,FDA table
+fluvoxamine,generic,fluvoxamine,,FDA table
+Focalin,brand,,dexmethylphenidate,RxNorm brand
+Focinvez,brand,fosaprepitant,,RxNorm brand
+Folacin,brand,,folic acid,RxNorm brand
+Folbee,brand,,folic acid;vitamin b12;vitamin b6,RxNorm brand
+Folbic,brand,,folic acid;vitamin b12;vitamin b6,RxNorm brand
+Folditam,brand,,cholecalciferol;folic acid,RxNorm brand
+Folgard,brand,,folic acid;vitamin b12;vitamin b6,RxNorm brand
+folic acid,generic,,folic acid,ClinCalc Top 300
+Folitab,brand,,ascorbic acid;ferrous;folic acid,RxNorm brand
+Foltabs,brand,,folic acid;vitamin b12;vitamin b6,RxNorm brand
+Foltrate,brand,,folic acid;vitamin b12,RxNorm brand
+Forfivo,brand,bupropion,,RxNorm brand
+formoterol,generic,,formoterol,ClinCalc Top 300
+Fortesta,brand,,testosterone,RxNorm brand
+Fosamax,brand,,alendronic acid,RxNorm brand
+fosaprepitant,generic,fosaprepitant,,FDA table
+fostamatinib,generic,fostamatinib,,FDA table
+Fostex,brand,,benzoyl peroxide,RxNorm brand
+Fungicure Solution,brand,clotrimazole,,RxNorm brand
+Fungistat,brand,clotrimazole,,RxNorm brand
+Fungizyl,brand,miconazole,dimethyl sulfoxide,RxNorm brand
+Fungoid,brand,miconazole,,RxNorm brand
+Furadantin,brand,,nitrofurantoin,RxNorm brand
+Furoscix,brand,,furosemide,RxNorm brand
+furosemide,generic,,furosemide,ClinCalc Top 300
+Fyarro,brand,sirolimus,,RxNorm brand
+gabapentin,generic,,gabapentin,ClinCalc Top 300
+gabapentin enacarbil,generic,,gabapentin enacarbil,RxNorm ingredient
+Gabarone,brand,,gabapentin,RxNorm brand
+Gablofen,brand,,baclofen,RxNorm brand
+Garzulys,brand,,insulin aspart-fsan,RxNorm brand
+Gastrobim,brand,omeprazole,,RxNorm brand
+Gavilax,brand,,polyethylene glycol,RxNorm brand
+Gavreto,brand,pralsetinib,,RxNorm brand
+Gelnique,brand,,oxybutynin chloride,RxNorm brand
+gemfibrozil,generic,gemfibrozil,,FDA table
+Genaphed,brand,,pseudoephedrine,RxNorm brand
+Gengraf,brand,cyclosporine,,RxNorm brand
+Genone,brand,,betamethasone;gentamicin,RxNorm brand
+Genpril,brand,,ibuprofen,RxNorm brand
+Gentacalm,brand,,betamethasone;gentamicin,RxNorm brand
+gentamicin,generic,,gentamicin,RxNorm ingredient
+GentaVed,brand,,betamethasone;gentamicin,RxNorm brand
+GentleLax,brand,,polyethylene glycol,RxNorm brand
+Genvoya,brand,cobicistat;tenofovir,elvitegravir;emtricitabine,RxNorm brand
+Gimoti,brand,,metoclopramide,RxNorm brand
+Gleevec,brand,imatinib,,RxNorm brand
+glimepiride,generic,glimepiride,,FDA table
+glipizide,generic,,glipizide,ClinCalc Top 300
+Gloperba,brand,colchicine,,RxNorm brand
+Glucophage,brand,,metformin,RxNorm brand
+Glucotrol,brand,,glipizide,RxNorm brand
+Glumetza,brand,,modified,RxNorm brand
+Glycate,brand,,glycopyrrolate,RxNorm brand
+glycopyrrolate,generic,,glycopyrrolate,ClinCalc Top 300
+Glyrx,brand,,glycopyrrolate,RxNorm brand
+Glyxambi,brand,,empagliflozin;linagliptin,RxNorm brand
+Gonitro,brand,,nitroglycerin,RxNorm brand
+Gralise,brand,,once-daily gabapentin,RxNorm brand
+grapefruit,alias,grapefruit juice,,hand: how people write it
+grapefruit juice,generic,grapefruit juice,,FDA table
+guaiacolsulfonate,generic,,guaiacolsulfonate,RxNorm ingredient
+guaifenesin,generic,,guaifenesin,ClinCalc Top 300
+guanfacine,generic,,guanfacine,ClinCalc Top 300
+Halcion,brand,triazolam,,synonyms.csv
+halobetasol,generic,,halobetasol,RxNorm ingredient
+Haloette,brand,,21 day ethinyl estradiol;etonogestrel,RxNorm brand
+HealthyLax,brand,,polyethylene glycol,RxNorm brand
+Hemangeol,brand,propranolol,,RxNorm brand
+Hemiclor,brand,,chlorthalidone,RxNorm brand
+Hemril,brand,,hydrocortisone,RxNorm brand
+heptanoic acid,generic,,heptanoic acid,RxNorm ingredient
+hesperidin methylchalcone,generic,,hesperidin methylchalcone,RxNorm ingredient
+Hetlioz,brand,tasimelteon,,synonyms.csv
+Hexatrione,brand,,triamcinolone hexacetonide,RxNorm brand
+HiDex,brand,,dexamethasone,RxNorm brand
+homatropine methylbromide,generic,,homatropine methylbromide,RxNorm ingredient
+Horizant,brand,,gabapentin enacarbil,RxNorm brand
+Humalog,brand,,insulin lispro,RxNorm brand
+Humira Pen,brand,,adalimumab,RxNorm brand
+Humira Prefilled Syringe,brand,,adalimumab,RxNorm brand
+Humulin,brand,,insulin;insulin isophane,RxNorm brand
+Hy-KXP,brand,,guaiacolsulfonate;hydrocodone,RxNorm brand
+HybriSil,brand,,methylprednisolone,RxNorm brand
+Hycet,brand,,acetaminophen;hydrocodone,RxNorm brand
+Hycodan,brand,,homatropine methylbromide;hydrocodone,RxNorm brand
+Hycofenix,brand,,guaifenesin;hydrocodone;pseudoephedrine,RxNorm brand
+hydralazine,generic,,hydralazine,ClinCalc Top 300
+hydrochlorothiazide,generic,,hydrochlorothiazide,ClinCalc Top 300
+hydrocodone,generic,,hydrocodone,ClinCalc Top 300
+hydrocortisone,generic,,hydrocortisone,ClinCalc Top 300
+hydrogen peroxide,generic,,hydrogen peroxide,RxNorm ingredient
+Hydromet,brand,,homatropine methylbromide;hydrocodone,RxNorm brand
+hydroquinone,generic,,hydroquinone,ClinCalc Top 300
+hydroxychloroquine,generic,,hydroxychloroquine,ClinCalc Top 300
+5-hydroxytryptophan,generic,,5-hydroxytryptophan,RxNorm ingredient
+hydroxyzine,generic,,hydroxyzine,ClinCalc Top 300
+hydroxyzine pamoate,generic,,hydroxyzine pamoate,RxNorm ingredient
+Hyftor,brand,sirolimus,,RxNorm brand
+hyoscyamine,generic,,hyoscyamine,RxNorm ingredient
+hypericum,alias,st. john's wort,,hand: botanical name
+Hyrnuo,brand,sevabertinib,,RxNorm brand
+Hysingla,brand,,abuse-deterrent,RxNorm brand
+Hyzaar,brand,,hydrochlorothiazide;losartan,RxNorm brand
+ibrutinib,generic,ibrutinib,,FDA table
+Ibtrozi,brand,taletrectinib,,RxNorm brand
+Ibudone,brand,,hydrocodone;ibuprofen,RxNorm brand
+ibuprofen,generic,,ibuprofen,ClinCalc Top 300
+Ibuprohm,brand,,ibuprofen,RxNorm brand
+Idacio Pen,brand,,adalimumab-aacf,RxNorm brand
+idelalisib,generic,idelalisib,,FDA table
+Iferex,brand,,folic acid;polysaccharide iron complex;vitamin b12,RxNorm brand
+imatinib,generic,imatinib,,FDA table
+Imbruvica,brand,ibrutinib,,RxNorm brand
+imdur,brand,,isosorbide mononitrate,hand: common brand outside the table no longer in RxNav
+imipramine,generic,imipramine,,FDA table
+Imitrex,brand,,sumatriptan,RxNorm brand
+Imkeldi,brand,imatinib,,RxNorm brand
+Imodium,brand,loperamide,,RxNorm brand
+Impoyz,brand,,clobetasol,RxNorm brand
+Imvexxy,brand,,estradiol,RxNorm brand
+Incruse,brand,,umeclidinium,RxNorm brand
+indapamide,generic,,indapamide,RxNorm ingredient
+Inderal,brand,propranolol,,synonyms.csv
+indinavir,generic,indinavir,,FDA table
+indinavir and ritonavir,generic,indinavir and ritonavir,,FDA table
+indinavir ritonavir,alias,indinavir and ritonavir,,hand: written as indinavir/ritonavir
+Indocin,brand,,indomethacin,RxNorm brand
+indomethacin,generic,,indomethacin,ClinCalc Top 300
+inert ingredients,generic,,inert ingredients,RxNorm ingredient
+Infumorph,brand,,morphine,RxNorm brand
+InnoPran,brand,propranolol,,RxNorm brand
+inositol,generic,,inositol,RxNorm ingredient
+Inova,brand,,benzoyl peroxide;salicylic acid,RxNorm brand
+Inspra,brand,eplerenone,,synonyms.csv
+insulin aspart,generic,,insulin aspart,ClinCalc Top 300
+insulin aspart-fsan,generic,,insulin aspart-fsan,RxNorm ingredient
+insulin aspart protamine,generic,,insulin aspart protamine,RxNorm ingredient
+insulin aspart-szjj,generic,,insulin aspart-szjj,RxNorm ingredient
+insulin aspart-xjhz,generic,,insulin aspart-xjhz,RxNorm ingredient
+insulin degludec,generic,,insulin degludec,ClinCalc Top 300
+insulin detemir,generic,,insulin detemir,ClinCalc Top 300
+insulin glargine,generic,,insulin glargine,ClinCalc Top 300
+insulin glargine-aglr,generic,,insulin glargine-aglr,RxNorm ingredient
+insulin glargine-aldy,generic,,insulin glargine-aldy,RxNorm ingredient
+insulin glargine-yfgn,generic,,insulin glargine-yfgn,RxNorm ingredient
+insulin human,generic,,insulin human,ClinCalc Top 300
+insulin isophane,generic,,insulin isophane,ClinCalc Top 300
+insulin isophane human,generic,,insulin isophane human,ClinCalc Top 300
+insulin lispro,generic,,insulin lispro,ClinCalc Top 300
+insulin lispro-aabc,generic,,insulin lispro-aabc,RxNorm ingredient
+insulin lispro protamine,generic,,insulin lispro protamine,RxNorm ingredient
+Intelence,brand,etravirine,,RxNorm brand
+Introvale,brand,,ethinyl estradiol;inert ingredients;levonorgestrel,RxNorm brand
+Intuniv,brand,,guanfacine,RxNorm brand
+Invokamet,brand,,canagliflozin;metformin,RxNorm brand
+Inzirqo,brand,,hydrochlorothiazide,RxNorm brand
+Inzo,brand,miconazole,,RxNorm brand
+iodoquinol,generic,,iodoquinol,RxNorm ingredient
+ipratropium,generic,,ipratropium,ClinCalc Top 300
+irbesartan,generic,,irbesartan,ClinCalc Top 300
+Irenka,brand,duloxetine,,RxNorm brand
+iron carbonyl,generic,,iron carbonyl,RxNorm ingredient
+isavuconazole,generic,isavuconazole,,FDA table
+Isibloom,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+isoflupredone,generic,,isoflupredone,RxNorm ingredient
+isopropyl alcohol,generic,,isopropyl alcohol,RxNorm ingredient
+Isoptin,brand,verapamil,,RxNorm brand
+isosorbide,generic,,isosorbide,ClinCalc Top 300
+isosorbide dinitrate,generic,,isosorbide dinitrate,RxNorm ingredient
+isotretinoin,generic,,isotretinoin,ClinCalc Top 300
+Istalol,brand,,timolol,RxNorm brand
+istradefylline,generic,istradefylline,,FDA table
+itraconazole,generic,itraconazole,,FDA table
+ivabradine,generic,ivabradine,,FDA table
+ivacaftor,generic,ivacaftor,,FDA table
+ivosidenib,generic,ivosidenib,,FDA table
+Iyuzeh,brand,,latanoprost,RxNorm brand
+Jadenu,brand,deferasirox,,RxNorm brand
+Jalyn,brand,,dutasteride;tamsulosin,RxNorm brand
+Jantoven,brand,warfarin,,synonyms.csv
+Janumet,brand,,metformin;sitagliptin,RxNorm brand
+Januvia,brand,,sitagliptin,RxNorm brand
+Jardiance,brand,,empagliflozin,RxNorm brand
+Jasmiel,brand,,drospirenone;ethinyl estradiol;inert ingredients,RxNorm brand
+Jatenzo,brand,,testosterone undecanoate,RxNorm brand
+Javadin,brand,,clonidine,RxNorm brand
+Jaypirca,brand,pirtobrutinib,,RxNorm brand
+Jentadueto,brand,,linagliptin;metformin,RxNorm brand
+Jock-Eze,brand,clotrimazole,,RxNorm brand
+Joenja,brand,leniolisib,,RxNorm brand
+Jornay,brand,,evening dosing,RxNorm brand
+Juleber,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Juluca,brand,rilpivirine,dolutegravir,RxNorm brand
+Junel,brand,,ethinyl estradiol;norethindrone,RxNorm brand
+Juxtapid,brand,lomitapide,,RxNorm brand
+Jylamvo,brand,,methotrexate,RxNorm brand
+Jynarque,brand,tolvaptan,,RxNorm brand
+Kadian,brand,,morphine,RxNorm brand
+Kaletra,brand,lopinavir and ritonavir,,RxNorm brand
+Kalliga,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Kalydeco,brand,ivacaftor,,RxNorm brand
+Kapspargo,brand,metoprolol,,RxNorm brand
+Kapvay,brand,,clonidine,RxNorm brand
+Kariva,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Katerzia,brand,,amlodipine,RxNorm brand
+Kazano,brand,,alogliptin;metformin,RxNorm brand
+Keepan,brand,,benzalkonium chloride;lidocaine,RxNorm brand
+Keflex,brand,,cephalexin,RxNorm brand
+Kenalog,brand,,triamcinolone acetonide,RxNorm brand
+Keppra,brand,,levetiracetam,RxNorm brand
+Kesium,brand,,amoxicillin;clavulanate,RxNorm brand
+ketoconazole,generic,ketoconazole,,FDA table
+ketorolac,generic,,ketorolac,ClinCalc Top 300
+ketorolac tromethamine,generic,,ketorolac tromethamine,RxNorm ingredient
+Khedezla,brand,,desvenlafaxine,RxNorm brand
+Kirsty,brand,,insulin aspart-xjhz,RxNorm brand
+Klaron,brand,,sulfacetamide,RxNorm brand
+Klonopin,brand,,clonazepam,RxNorm brand
+Kolorz,brand,,sodium fluoride,RxNorm brand
+Kombiglyze,brand,,metformin;saxagliptin,RxNorm brand
+Konvomep,brand,omeprazole,sodium bicarbonate,RxNorm brand
+Kourzeq,brand,,triamcinolone acetonide,RxNorm brand
+Krazati,brand,adagrasib,,RxNorm brand
+Kuric,brand,ketoconazole,,RxNorm brand
+Kurvelo,brand,,ethinyl estradiol;inert ingredients;levonorgestrel,RxNorm brand
+Kyzatrex,brand,,testosterone undecanoate,RxNorm brand
+labetalol,generic,labetalol,,FDA table
+lactate,generic,,lactate,RxNorm ingredient
+lactic acid,generic,,lactic acid,RxNorm ingredient
+Lagicam,brand,miconazole,,RxNorm brand
+Lamictal,brand,,lamotrigine,RxNorm brand
+Lamisil,brand,terbinafine,,synonyms.csv
+lamivudine,generic,,lamivudine,RxNorm ingredient
+lamotrigine,generic,,lamotrigine,ClinCalc Top 300
+Langlara,brand,,insulin glargine-aldy,RxNorm brand
+lanoxin,brand,,digoxin,hand: common medicine outside the Top 300 list used here
+lansoprazole,generic,lansoprazole,,FDA table
+Lantus,brand,,insulin glargine,RxNorm brand
+larotrectinib,generic,larotrectinib,,FDA table
+Lasix,brand,,furosemide,RxNorm brand
+Lasolex Liquid,brand,clotrimazole,,RxNorm brand
+latanoprost,generic,,latanoprost,ClinCalc Top 300
+Latuda,brand,lurasidone,,synonyms.csv
+Laxacin,brand,,docusate;sennosides,RxNorm brand
+Lazcluze,brand,lazertinib,,RxNorm brand
+lazertinib,generic,lazertinib,,FDA table
+lemborexant,generic,lemborexant,,FDA table
+leniolisib,generic,leniolisib,,FDA table
+Lescol,brand,fluvastatin,,RxNorm brand
+letrozole,generic,,letrozole,ClinCalc Top 300
+levalbuterol,generic,,levalbuterol,ClinCalc Top 300
+Levaquin,brand,,levofloxacin,RxNorm brand
+Levemir,brand,,insulin detemir,RxNorm brand
+levetiracetam,generic,,levetiracetam,ClinCalc Top 300
+Levitra,brand,vardenafil,,synonyms.csv
+levocetirizine,generic,,levocetirizine,ClinCalc Top 300
+levocetirizine dihydrochloride,generic,,levocetirizine dihydrochloride,RxNorm ingredient
+levofloxacin,generic,,levofloxacin,ClinCalc Top 300
+levoketoconazole,generic,,levoketoconazole,RxNorm ingredient
+levomefolate,generic,,levomefolate,RxNorm ingredient
+Levonest,brand,,ethinyl estradiol;inert ingredients;levonorgestrel,RxNorm brand
+levonorgestrel,generic,,levonorgestrel,ClinCalc Top 300
+levothyroxine,generic,,levothyroxine,ClinCalc Top 300
+Levoxyl,brand,,levothyroxine,RxNorm brand
+Lexapro,brand,escitalopram,,synonyms.csv
+Lialda,brand,,mesalamine,RxNorm brand
+Libervant,brand,diazepam,,RxNorm brand
+Licart,brand,,once-daily diclofenac epolamine,RxNorm brand
+lidocaine,generic,,lidocaine,ClinCalc Top 300
+Lidoderm,brand,,lidocaine,RxNorm brand
+Lignospan,brand,,epinephrine;lidocaine,RxNorm brand
+Likmez,brand,,metronidazole,RxNorm brand
+linaclotide,generic,,linaclotide,ClinCalc Top 300
+linagliptin,generic,,linagliptin,RxNorm ingredient
+linoleic acid,generic,,linoleic acid,RxNorm ingredient
+Linzess,brand,,linaclotide,RxNorm brand
+Liomny,brand,,liothyronine,RxNorm brand
+Lioresal,brand,,baclofen,RxNorm brand
+liothyronine,generic,,liothyronine,ClinCalc Top 300
+lipase,generic,,lipase,RxNorm ingredient
+Lipitor,brand,atorvastatin,,synonyms.csv
+Lipofen,brand,,fenofibrate,RxNorm brand
+Liqrev,brand,sildenafil,,RxNorm brand
+Liquimat,brand,,sulfur,RxNorm brand
+liraglutide,generic,,liraglutide,ClinCalc Top 300
+lisdexamfetamine,generic,,lisdexamfetamine,ClinCalc Top 300
+lisdexamfetamine dimesylate,generic,,lisdexamfetamine dimesylate,RxNorm ingredient
+lisinopril,generic,,lisinopril,ClinCalc Top 300
+lithium,generic,,lithium,ClinCalc Top 300
+lixisenatide,generic,,lixisenatide,RxNorm ingredient
+Lo-Zumandimine,brand,,drospirenone;ethinyl estradiol;inert ingredients,RxNorm brand
+Lodoco,brand,colchicine,,RxNorm brand
+Loestrin,brand,,ethinyl estradiol;norethindrone,RxNorm brand
+Lofena,brand,,diclofenac,RxNorm brand
+Lomaira,brand,,phentermine,RxNorm brand
+lomitapide,generic,lomitapide,,FDA table
+Lonhala,brand,,glycopyrrolate,RxNorm brand
+loperamide,generic,loperamide,,FDA table
+Lopid,brand,gemfibrozil,,synonyms.csv
+lopinavir,alias,lopinavir and ritonavir,,hand: lopinavir is only sold with ritonavir
+lopinavir and ritonavir,generic,lopinavir and ritonavir,,FDA table
+lopinavir ritonavir,alias,lopinavir and ritonavir,,hand: written as lopinavir/ritonavir
+Lopreeza,brand,,estradiol;norethindrone,RxNorm brand
+Lopressor,brand,metoprolol,,synonyms.csv
+Lopressor HCT,brand,metoprolol,hydrochlorothiazide,RxNorm brand
+Loprox,brand,,ciclopirox,RxNorm brand
+Loradamed,brand,,loratadine,RxNorm brand
+loratadine,generic,,loratadine,ClinCalc Top 300
+lorazepam,generic,,lorazepam,ClinCalc Top 300
+Lorbrena,brand,lorlatinib,,RxNorm brand
+lorcaserin,generic,lorcaserin,,FDA table
+Loreev,brand,,lorazepam,RxNorm brand
+lorlatinib,generic,lorlatinib,,FDA table
+Loryna,brand,,drospirenone;ethinyl estradiol;inert ingredients,RxNorm brand
+Lorzone,brand,chlorzoxazone,,RxNorm brand
+losartan,generic,,losartan,ClinCalc Top 300
+Lotensin,brand,,benazepril,RxNorm brand
+Lotensin HCT,brand,,benazepril;hydrochlorothiazide,RxNorm brand
+Lotrel,brand,,amlodipine;benazepril,RxNorm brand
+Lotrimin,brand,clotrimazole,,RxNorm brand
+Lotronex,brand,alosetron,,synonyms.csv
+lovastatin,generic,lovastatin,,FDA table
+Lovaza,brand,,omega-3 acid ethyl esters (usp),RxNorm brand
+Low-Ogestrel,brand,,ethinyl estradiol;inert ingredients;norgestrel,RxNorm brand
+Loxicom,brand,,meloxicam,RxNorm brand
+lumacaftor,alias,lumacaftor and ivacaftor,,hand: lumacaftor is only sold with ivacaftor
+lumacaftor and ivacaftor,generic,lumacaftor and ivacaftor,,FDA table
+lumacaftor ivacaftor,alias,lumacaftor and ivacaftor,,hand: written as lumacaftor/ivacaftor
+Lumakras,brand,sotorasib,,RxNorm brand
+Lumify,brand,,brimonidine,RxNorm brand
+lurasidone,generic,lurasidone,,FDA table
+Lustra,brand,,hydroquinone,RxNorm brand
+Luvox,brand,fluvoxamine,,synonyms.csv
+Lybalvi,brand,,olanzapine;samidorphan,RxNorm brand
+LymePak,brand,,doxycycline,RxNorm brand
+Lyrica,brand,,pregabalin,RxNorm brand
+Lysodren,brand,mitotane,,RxNorm brand
+Lyumjev,brand,,insulin lispro-aabc,RxNorm brand
+Lyvispah,brand,,baclofen,RxNorm brand
+MacerRx,brand,miconazole,,RxNorm brand
+macitentan,generic,,macitentan,RxNorm ingredient
+Macrobid,brand,,nitrofurantoin,RxNorm brand
+Macrodantin,brand,,nitrofurantoin,RxNorm brand
+MagneBind,brand,,calcium carbonate;folic acid;magnesium carbonate,RxNorm brand
+magnesium,generic,,magnesium,RxNorm ingredient
+magnesium carbonate,generic,,magnesium carbonate,RxNorm ingredient
+magnesium hydroxide,generic,,magnesium hydroxide,RxNorm ingredient
+magnesium oxide,generic,,magnesium oxide,RxNorm ingredient
+magnesium salicylate,generic,,magnesium salicylate,RxNorm ingredient
+Mar-cof CG,brand,,codeine;guaifenesin,RxNorm brand
+maraviroc,generic,maraviroc,,FDA table
+Marlissa,brand,,ethinyl estradiol;inert ingredients;levonorgestrel,RxNorm brand
+Marten-Tab,brand,,acetaminophen;butalbital,RxNorm brand
+Matzim,brand,diltiazem,,RxNorm brand
+Maxalt,brand,,rizatriptan,RxNorm brand
+Maxitrol,brand,,dexamethasone;neomycin;polymyxin b,RxNorm brand
+Maxzide,brand,,hydrochlorothiazide;triamterene,RxNorm brand
+meclizine,generic,,meclizine,ClinCalc Top 300
+Medi-Lyte,brand,,calcium;magnesium carbonate;potassium chloride,RxNorm brand
+Medrol,brand,,methylprednisolone,RxNorm brand
+Medrol Dosepak,brand,,methylprednisolone,RxNorm brand
+medroxyprogesterone,generic,,medroxyprogesterone,ClinCalc Top 300
+Melatonex,brand,melatonin,pyridoxine,RxNorm brand
+melatonin,generic,melatonin,,FDA table
+meloxicam,generic,,meloxicam,ClinCalc Top 300
+Meloxidyl,brand,,meloxicam,RxNorm brand
+Meloxivet,brand,,meloxicam,RxNorm brand
+memantine,generic,,memantine,ClinCalc Top 300
+menthol,generic,,menthol,RxNorm ingredient
+mephenytoin,alias,s-mephenytoin,,hand: the table lists the S-enantiomer
+Merilog,brand,,insulin aspart-szjj,RxNorm brand
+mesalamine,generic,,mesalamine,ClinCalc Top 300
+Metacam,brand,,meloxicam,RxNorm brand
+Metadate,brand,,30/70 release,RxNorm brand
+metformin,generic,,metformin,ClinCalc Top 300
+methocarbamol,generic,,methocarbamol,ClinCalc Top 300
+methotrexate,generic,,methotrexate,ClinCalc Top 300
+methoxsalen,generic,methoxsalen,,FDA table
+Methylin,brand,,methylphenidate,RxNorm brand
+methylphenidate,generic,,methylphenidate,ClinCalc Top 300
+methylprednisolone,generic,,methylprednisolone,ClinCalc Top 300
+metoclopramide,generic,,metoclopramide,ClinCalc Top 300
+metoprolol,generic,metoprolol,,FDA table
+Metozolv,brand,,metoclopramide,RxNorm brand
+MetroCream,brand,,metronidazole,RxNorm brand
+MetroGel,brand,,metronidazole,RxNorm brand
+MetroLotion,brand,,metronidazole,RxNorm brand
+metronidazole,generic,,metronidazole,ClinCalc Top 300
+Mevacor,brand,lovastatin,,synonyms.csv
+mexiletine,generic,mexiletine,,FDA table
+Micaderm,brand,miconazole,,RxNorm brand
+Micardis,brand,,telmisartan,RxNorm brand
+Micardis-HCT,brand,,hydrochlorothiazide;telmisartan,RxNorm brand
+Micatin,brand,miconazole,,RxNorm brand
+miconazole,generic,miconazole,,FDA table
+microencapsulated potassium chloride,generic,,microencapsulated potassium chloride,RxNorm ingredient
+Microgestin,brand,,ethinyl estradiol;norethindrone,RxNorm brand
+midazolam,generic,midazolam,,FDA table
+Migergot,brand,caffeine,ergotamine,RxNorm brand
+Mili,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+Millipred,brand,,prednisolone,RxNorm brand
+Mimvey,brand,,estradiol;norethindrone,RxNorm brand
+Minipress,brand,,prazosin,RxNorm brand
+Miniprin,brand,,aspirin,RxNorm brand
+minoxidil,generic,,minoxidil,ClinCalc Top 300
+mirabegron,generic,mirabegron,,FDA table
+Miralax,brand,,polyethylene glycol,RxNorm brand
+Mirapex,brand,,pramipexole dihydrochloride,RxNorm brand
+Mirataz,brand,,mirtazapine,RxNorm brand
+mirtazapine,generic,,mirtazapine,ClinCalc Top 300
+Mirvaso,brand,,brimonidine,RxNorm brand
+misoprostol,generic,,misoprostol,RxNorm ingredient
+Mitigare,brand,colchicine,,RxNorm brand
+Mitigo,brand,,morphine,RxNorm brand
+mitotane,generic,mitotane,,FDA table
+Mobic,brand,,meloxicam,RxNorm brand
+mobocertinib,generic,mobocertinib,,FDA table
+modafinil,generic,modafinil,,FDA table
+mometasone,generic,,mometasone,ClinCalc Top 300
+mometasone furoate,generic,,mometasone furoate,RxNorm ingredient
+Mondoxyne,brand,,doxycycline,RxNorm brand
+Monistat,brand,miconazole,,RxNorm brand
+Mono-Linyah,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+Monodox,brand,,doxycycline,RxNorm brand
+montelukast,generic,montelukast,,FDA table
+Morgidox,brand,,doxycycline,RxNorm brand
+morphine,generic,,morphine,ClinCalc Top 300
+Motrin,brand,,ibuprofen,RxNorm brand
+Mounjaro,brand,,tirzepatide,RxNorm brand
+Movantik,brand,naloxegol,,RxNorm brand
+Moxatag,brand,,amoxicillin,RxNorm brand
+moxifloxacin,generic,,moxifloxacin,ClinCalc Top 300
+MS Contin,brand,,morphine,RxNorm brand
+Multaq,brand,dronedarone,,synonyms.csv
+mupirocin,generic,,mupirocin,ClinCalc Top 300
+Muricin,brand,,mupirocin,RxNorm brand
+mycophenolate mofetil,generic,,mycophenolate mofetil,ClinCalc Top 300
+Myhelper,brand,,benzoyl peroxide,RxNorm brand
+Myhibbin,brand,,mycophenolate mofetil,RxNorm brand
+Myorisan,brand,,isotretinoin,RxNorm brand
+Myrbetriq,brand,mirabegron,,synonyms.csv
+Mysoline,brand,primidone,,RxNorm brand
+Myxredlin,brand,,insulin,RxNorm brand
+nabumetone,generic,,nabumetone,ClinCalc Top 300
+Nafrinse,brand,,sodium fluoride,RxNorm brand
+Nalocet,brand,,acetaminophen;oxycodone,RxNorm brand
+naloxegol,generic,naloxegol,,FDA table
+naltrexone,generic,,naltrexone,RxNorm ingredient
+Namenda,brand,,memantine,RxNorm brand
+Namzaric,brand,,donepezil;memantine,RxNorm brand
+Naprelan,brand,,naproxen,RxNorm brand
+Naprosyn,brand,,naproxen,RxNorm brand
+naproxen,generic,,naproxen,ClinCalc Top 300
+Nasacort,brand,,triamcinolone acetonide,RxNorm brand
+Nascobal,brand,,vitamin b12,RxNorm brand
+Nasonex,brand,,mometasone furoate,RxNorm brand
+Nasopro,brand,,fluticasone,RxNorm brand
+Natesto,brand,,testosterone,RxNorm brand
+Nature-Throid,brand,,thyroid (usp),RxNorm brand
+Navitrux,brand,fosaprepitant,,RxNorm brand
+Nayzilam,brand,midazolam,,RxNorm brand
+nda020503,generic,,nda020503,RxNorm ingredient
+nda020983,generic,,nda020983,RxNorm ingredient
+nda201739,generic,,nda201739,RxNorm ingredient
+nebivolol,generic,nebivolol,,FDA table
+nefazodone,generic,nefazodone,,FDA table
+Neffy,brand,,epinephrine,RxNorm brand
+nelfinavir,generic,nelfinavir,,FDA table
+Neo-Polycin,brand,,bacitracin;neomycin;polymyxin b,RxNorm brand
+Neo-Predef,brand,,isoflupredone;neomycin;tetracaine,RxNorm brand
+Neo-Synalar,brand,,fluocinolone acetonide;neomycin,RxNorm brand
+neomycin,generic,,neomycin,ClinCalc Top 300
+Neoprofen,brand,,ibuprofen,RxNorm brand
+Neoral,brand,cyclosporine,,synonyms.csv
+neostigmine methylsulfate,generic,,neostigmine methylsulfate,RxNorm ingredient
+Neovet,brand,,neomycin,RxNorm brand
+netarsudil,generic,,netarsudil,RxNorm ingredient
+Neuac,brand,,benzoyl peroxide;clindamycin,RxNorm brand
+Neurontin,brand,,gabapentin,RxNorm brand
+NeutraGard,brand,,sodium fluoride,RxNorm brand
+Neutramaxx,brand,,sodium fluoride,RxNorm brand
+nevirapine,generic,nevirapine,,FDA table
+Nexiclon,brand,,clonidine,RxNorm brand
+Nexium,brand,omeprazole,,synonyms.csv
+Nexlizet,brand,,bempedoic acid;ezetimibe,RxNorm brand
+Nexplanon,brand,,etonogestrel,RxNorm brand
+Nexterone,brand,amiodarone,,RxNorm brand
+niacinamide insulin aspart,generic,,niacinamide insulin aspart,RxNorm ingredient
+nifedipine,generic,,nifedipine,ClinCalc Top 300
+Ninjacof XG,brand,,codeine;guaifenesin,RxNorm brand
+niraparib,generic,,niraparib,RxNorm ingredient
+nirmatrelvir,generic,,nirmatrelvir,ClinCalc Top 300
+nisoldipine,generic,nisoldipine,,FDA table
+Nitro-Dur,brand,,nitroglycerin,RxNorm brand
+nitrofurantoin,generic,,nitrofurantoin,ClinCalc Top 300
+nitroglycerin,generic,,nitroglycerin,ClinCalc Top 300
+Nitrolingual,brand,,nitroglycerin,RxNorm brand
+NitroMist,brand,,nitroglycerin,RxNorm brand
+Nitrostat,brand,,nitroglycerin,RxNorm brand
+Nizoral,brand,ketoconazole,,synonyms.csv
+No Doz,brand,caffeine,,RxNorm brand
+Norco,brand,,acetaminophen;hydrocodone,RxNorm brand
+norelgestromin,generic,,norelgestromin,ClinCalc Top 300
+norethindrone,generic,,norethindrone,ClinCalc Top 300
+Norgesic,brand,caffeine,aspirin;orphenadrine,RxNorm brand
+norgestimate,generic,,norgestimate,ClinCalc Top 300
+norgestrel,generic,,norgestrel,ClinCalc Top 300
+Noritate,brand,,metronidazole,RxNorm brand
+Norliqva,brand,,amlodipine,RxNorm brand
+Norpramin,brand,desipramine,,RxNorm brand
+nortriptyline,generic,nortriptyline,,FDA table
+Norvasc,brand,,amlodipine,RxNorm brand
+Norvir,brand,ritonavir,,synonyms.csv
+Nourianz,brand,istradefylline,,RxNorm brand
+Novolin,brand,,insulin;insulin isophane,RxNorm brand
+NovoLog,brand,,insulin aspart,RxNorm brand
+Noxafil,brand,posaconazole,,RxNorm brand
+Nuedexta,brand,dextromethorphan;quinidine,,RxNorm brand
+Nupro Chlorhexidine,brand,,chlorhexidine,RxNorm brand
+Nurtec,brand,,rimegepant,RxNorm brand
+NuvaRing,brand,,21 day ethinyl estradiol;etonogestrel,RxNorm brand
+Nuvessa,brand,,metronidazole,RxNorm brand
+Nuvigil,brand,armodafinil,,RxNorm brand
+Nyamyc,brand,,nystatin,RxNorm brand
+Nydamax,brand,,metronidazole,RxNorm brand
+Nymyo,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+nystatin,generic,,nystatin,ClinCalc Top 300
+Nystop,brand,,nystatin,RxNorm brand
+Obredon,brand,,guaifenesin;hydrocodone,RxNorm brand
+ocps,alias,oral contraceptives,,hand: clinical abbreviation
+Ocuflox,brand,,ofloxacin,RxNorm brand
+Odefsey,brand,rilpivirine;tenofovir,emtricitabine,RxNorm brand
+ofloxacin,generic,,ofloxacin,ClinCalc Top 300
+Okebo,brand,,doxycycline,RxNorm brand
+olanzapine,generic,,olanzapine,ClinCalc Top 300
+olmesartan,generic,,olmesartan,ClinCalc Top 300
+olmesartan medoxomil,generic,,olmesartan medoxomil,RxNorm ingredient
+olodaterol,generic,,olodaterol,RxNorm ingredient
+olopatadine,generic,,olopatadine,ClinCalc Top 300
+Olux,brand,,emollient clobetasol,RxNorm brand
+Omeclamox,brand,clarithromycin;omeprazole,amoxicillin,RxNorm brand
+omega-3-acid ethyl esters,generic,,omega-3-acid ethyl esters,ClinCalc Top 300
+omega-3 acid ethyl esters (usp),generic,,omega-3 acid ethyl esters (usp),RxNorm ingredient
+omeprazole,generic,omeprazole,,FDA table
+Omidria,brand,,ketorolac;phenylephrine,RxNorm brand
+once-daily clindamycin,generic,,once-daily clindamycin,RxNorm ingredient
+once-daily diclofenac epolamine,generic,,once-daily diclofenac epolamine,RxNorm ingredient
+once-daily gabapentin,generic,,once-daily gabapentin,RxNorm ingredient
+ondansetron,generic,,ondansetron,ClinCalc Top 300
+Onexton,brand,,benzoyl peroxide;clindamycin,RxNorm brand
+Onfi,brand,clobazam,,RxNorm brand
+Ontralfy,brand,tizanidine,,RxNorm brand
+Onyda,brand,,clonidine,RxNorm brand
+Onzetra,brand,,sumatriptan,RxNorm brand
+Opill,brand,,norgestrel,RxNorm brand
+Opipza,brand,,aripiprazole,RxNorm brand
+Opsynvi,brand,tadalafil,macitentan,RxNorm brand
+Orabloc,brand,,articaine;epinephrine,RxNorm brand
+Oralone,brand,,triamcinolone acetonide,RxNorm brand
+Orap,brand,pimozide,,synonyms.csv
+Orapred,brand,,prednisolone,RxNorm brand
+Oravig,brand,miconazole,,RxNorm brand
+orbifloxacin,generic,,orbifloxacin,RxNorm ingredient
+Oriahnn,brand,elagolix,estradiol;norethindrone,RxNorm brand
+Orilissa,brand,elagolix,,RxNorm brand
+Orkambi,brand,lumacaftor and ivacaftor,,RxNorm brand
+orphenadrine,generic,,orphenadrine,RxNorm ingredient
+Orphengesic,brand,caffeine,aspirin;orphenadrine,RxNorm brand
+Orsythia,brand,,ethinyl estradiol;inert ingredients;levonorgestrel,RxNorm brand
+Ortikos,brand,budesonide,,RxNorm brand
+Oscion,brand,,benzoyl peroxide,RxNorm brand
+oseltamivir,generic,,oseltamivir,ClinCalc Top 300
+Oseni,brand,pioglitazone,alogliptin,RxNorm brand
+osmotic,generic,,osmotic,RxNorm ingredient
+Ostilox,brand,,meloxicam,RxNorm brand
+Otovel,brand,ciprofloxacin,fluocinolone acetonide,RxNorm brand
+Otrexup,brand,,methotrexate,RxNorm brand
+Ovace,brand,,sulfacetamide,RxNorm brand
+Oxaydo,brand,,oxycodone,RxNorm brand
+oxcarbazepine,generic,,oxcarbazepine,ClinCalc Top 300
+Oxtellar,brand,,oxcarbazepine,RxNorm brand
+oxybutynin,generic,,oxybutynin,ClinCalc Top 300
+oxybutynin chloride,generic,,oxybutynin chloride,RxNorm ingredient
+oxycodone,generic,,oxycodone,ClinCalc Top 300
+Oxycontin,brand,,abuse-deterrent,RxNorm brand
+Oxytrol,brand,,oxybutynin,RxNorm brand
+Oysco,brand,,calcium carbonate;cholecalciferol,RxNorm brand
+Ozempic,brand,,semaglutide,RxNorm brand
+Ozobax,brand,,baclofen,RxNorm brand
+Pacerone,brand,amiodarone,,synonyms.csv
+pamabrom,generic,,pamabrom,RxNorm ingredient
+Pamelor,brand,nortriptyline,,RxNorm brand
+PanaKare,brand,,amylase;lipase;protease,RxNorm brand
+Pancreaze,brand,,amylase;lipase;protease,RxNorm brand
+pancrelipase amylase,generic,,pancrelipase amylase,ClinCalc Top 300
+pancrelipase lipase,generic,,pancrelipase lipase,ClinCalc Top 300
+pancrelipase protease,generic,,pancrelipase protease,ClinCalc Top 300
+PancrePlus,brand,,amylase;lipase;protease,RxNorm brand
+pantoprazole,generic,,pantoprazole,ClinCalc Top 300
+paritaprevir,alias,paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),,hand: paritaprevir is only sold in these combinations
+paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),generic,paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),,FDA table
+Paroex,brand,,chlorhexidine,RxNorm brand
+paroxetine,generic,paroxetine,,FDA table
+Pataday,brand,,olopatadine,RxNorm brand
+Patanase,brand,,olopatadine,RxNorm brand
+Paxil,brand,paroxetine,,synonyms.csv
+Paxlovid,brand,ritonavir,nirmatrelvir,RxNorm brand
+Pediapred,brand,,prednisolone,RxNorm brand
+Pegasys,brand,peginterferon alpha-2a,,RxNorm brand
+peginterferon alfa-2a,alias,peginterferon alpha-2a,,hand: RxNorm spelling
+peginterferon alpha-2a,generic,peginterferon alpha-2a,,FDA table
+penicillin v,generic,,penicillin v,ClinCalc Top 300
+Pennsaid,brand,,diclofenac,RxNorm brand
+Pentasa,brand,,mesalamine,RxNorm brand
+pentobarbital,generic,,pentobarbital,RxNorm ingredient
+Pepcid,brand,,famotidine,RxNorm brand
+Percocet,brand,,acetaminophen;oxycodone,RxNorm brand
+Percogesic,brand,,acetaminophen;diphenhydramine,RxNorm brand
+Perforomist,brand,,formoterol,RxNorm brand
+perindopril arginine,generic,,perindopril arginine,RxNorm ingredient
+Periostat,brand,,doxycycline,RxNorm brand
+perphenazine,generic,perphenazine,,FDA table
+Perseris,brand,,risperidone,RxNorm brand
+Pertzye,brand,,amylase;lipase;protease,RxNorm brand
+Pet-ema,brand,,docusate,RxNorm brand
+petrolatum,generic,,petrolatum,RxNorm ingredient
+pexidartinib,generic,pexidartinib,,FDA table
+Phenadoz,brand,,promethazine,RxNorm brand
+phenazopyridine,generic,,phenazopyridine,ClinCalc Top 300
+Phenergan,brand,,promethazine,RxNorm brand
+phenobarbital,generic,phenobarbital,,FDA table
+Phenohytro,brand,phenobarbital,atropine;hyoscyamine;scopolamine,RxNorm brand
+phentermine,generic,,phentermine,ClinCalc Top 300
+phenylephrine,generic,,phenylephrine,RxNorm ingredient
+phenyltoloxamine,generic,,phenyltoloxamine,RxNorm ingredient
+Phenytek,brand,phenytoin,,RxNorm brand
+phenytoin,generic,phenytoin,,FDA table
+Philith,brand,,ethinyl estradiol;inert ingredients;norethindrone,RxNorm brand
+Phos-Flur,brand,,sodium fluoride,RxNorm brand
+Phyrago,brand,dasatinib,,RxNorm brand
+Pileran,brand,,metoclopramide,RxNorm brand
+pimozide,generic,pimozide,,FDA table
+Pimtrea,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+pioglitazone,generic,pioglitazone,,FDA table
+piperine,generic,piperine,,FDA table
+pirfenidone,generic,pirfenidone,,FDA table
+Pirnuo,brand,,mupirocin,RxNorm brand
+pirtobrutinib,generic,pirtobrutinib,,FDA table
+Plaquenil,brand,,hydroxychloroquine,RxNorm brand
+Plavix,brand,clopidogrel,,synonyms.csv
+Plexion,brand,,sulfacetamide;sulfur,RxNorm brand
+Pokonza,brand,,potassium chloride,RxNorm brand
+Poly-Dex,brand,,dexamethasone;neomycin;polymyxin b,RxNorm brand
+Polycin,brand,,bacitracin;polymyxin b,RxNorm brand
+polyethylene glycol 3350,generic,,polyethylene glycol 3350,ClinCalc Top 300
+polyethylene glycol 3350 with electrolytes,generic,,polyethylene glycol 3350 with electrolytes,ClinCalc Top 300
+polymyxin b,generic,,polymyxin b,ClinCalc Top 300
+polysaccharide iron complex,generic,,polysaccharide iron complex,RxNorm ingredient
+Polysporin,brand,,bacitracin;polymyxin b,RxNorm brand
+posaconazole,generic,posaconazole,,FDA table
+potassium chloride,generic,,potassium chloride,ClinCalc Top 300
+pralsetinib,generic,pralsetinib,,FDA table
+pramipexole,generic,,pramipexole,ClinCalc Top 300
+pramipexole dihydrochloride,generic,,pramipexole dihydrochloride,RxNorm ingredient
+Pramosone,brand,,hydrocortisone;pramoxine,RxNorm brand
+pramoxine,generic,,pramoxine,RxNorm ingredient
+Pravachol,brand,,pravastatin,RxNorm brand
+pravastatin,generic,,pravastatin,ClinCalc Top 300
+prazosin,generic,,prazosin,ClinCalc Top 300
+Pred Forte,brand,,prednisolone,RxNorm brand
+prednisolone,generic,,prednisolone,ClinCalc Top 300
+prednisone,generic,,prednisone,ClinCalc Top 300
+Prednistab,brand,,prednisolone,RxNorm brand
+pregabalin,generic,,pregabalin,ClinCalc Top 300
+Pregnitude,brand,,folic acid;inositol,RxNorm brand
+premarin,brand,,conjugated estrogens,hand: common brand outside the table
+Premphase,brand,,medroxyprogesterone,RxNorm brand
+Prempro,brand,,medroxyprogesterone,RxNorm brand
+Premsyn PMS,brand,,acetaminophen;pamabrom;pyrilamine,RxNorm brand
+preservative-free dorzolamide,generic,,preservative-free dorzolamide,RxNorm ingredient
+preservative-free timolol,generic,,preservative-free timolol,RxNorm ingredient
+Prestalia,brand,,amlodipine;perindopril arginine,RxNorm brand
+Prevacid,brand,lansoprazole,,synonyms.csv
+Prevantics,brand,,chlorhexidine;isopropyl alcohol,RxNorm brand
+Prevduo,brand,,glycopyrrolate;neostigmine methylsulfate,RxNorm brand
+Prevpac,brand,clarithromycin;lansoprazole,amoxicillin,RxNorm brand
+Prezcobix,brand,cobicistat;darunavir,,RxNorm brand
+Prezista,brand,darunavir,,RxNorm brand
+prilocaine,generic,,prilocaine,RxNorm ingredient
+Prilosec,brand,omeprazole,,synonyms.csv
+Primeguard,brand,omeprazole,,RxNorm brand
+primidone,generic,primidone,,FDA table
+Primlev,brand,,acetaminophen;oxycodone,RxNorm brand
+Primsol,brand,trimethoprim,,RxNorm brand
+Prinivil,brand,,lisinopril,RxNorm brand
+Pristiq,brand,,desvenlafaxine,RxNorm brand
+ProAir,brand,,albuterol,RxNorm brand
+Procardia,brand,,osmotic,RxNorm brand
+ProCentra,brand,,dextroamphetamine,RxNorm brand
+Procort,brand,,hydrocortisone;pramoxine,RxNorm brand
+Proctocort,brand,,hydrocortisone,RxNorm brand
+ProDenRx Rinse,brand,,sodium fluoride,RxNorm brand
+progesterone,generic,,progesterone,ClinCalc Top 300
+Prograf,brand,tacrolimus,,synonyms.csv
+Prolate,brand,,acetaminophen;oxycodone,RxNorm brand
+promethazine,generic,,promethazine,ClinCalc Top 300
+Promethegan,brand,,promethazine,RxNorm brand
+Prometrium,brand,,progesterone,RxNorm brand
+Promolaxin,brand,,docusate,RxNorm brand
+propafenone,generic,propafenone,,FDA table
+Propecia,brand,,finasteride,RxNorm brand
+Propel,brand,,mometasone furoate,RxNorm brand
+propranolol,generic,propranolol,,FDA table
+Proprinal,brand,,ibuprofen,RxNorm brand
+Proscar,brand,,finasteride,RxNorm brand
+protease,generic,,protease,RxNorm ingredient
+Protonix,brand,,pantoprazole,RxNorm brand
+Proventil,brand,,nda020503,RxNorm brand
+Provera,brand,,medroxyprogesterone,RxNorm brand
+Provigil,brand,modafinil,,RxNorm brand
+Prozac,brand,fluoxetine,,synonyms.csv
+pseudoephedrine,generic,,pseudoephedrine,ClinCalc Top 300
+Pulmicort,brand,budesonide,,RxNorm brand
+PureLax,brand,,polyethylene glycol,RxNorm brand
+Pylera,brand,,bismuth subcitrate;metronidazole;tetracycline,RxNorm brand
+Pyridium,brand,,phenazopyridine,RxNorm brand
+pyridoxine,generic,,pyridoxine,RxNorm ingredient
+pyrilamine,generic,,pyrilamine,RxNorm ingredient
+Qamzova,brand,,meloxicam,RxNorm brand
+Qbrelis,brand,,lisinopril,RxNorm brand
+Qdolo,brand,tramadol,,RxNorm brand
+Qlonilik,brand,,clonidine,RxNorm brand
+Qmiiz,brand,,meloxicam,RxNorm brand
+Qnasl,brand,,beclomethasone dipropionate,RxNorm brand
+Qsymia,brand,,phentermine;topiramate,RxNorm brand
+Qtern,brand,,dapagliflozin;saxagliptin,RxNorm brand
+Quartette,brand,,ethinyl estradiol;levonorgestrel,RxNorm brand
+Qudexy,brand,,sprinkle,RxNorm brand
+quetiapine,generic,quetiapine,,FDA table
+QuilliChew,brand,,methylphenidate,RxNorm brand
+Quillivant,brand,,methylphenidate,RxNorm brand
+quinapril,generic,,quinapril,RxNorm ingredient
+quinidine,generic,quinidine,,FDA table
+Quiofic,brand,,folic acid,RxNorm brand
+Quzyttir,brand,,cetirizine,RxNorm brand
+Qvar,brand,,beclomethasone dipropionate,RxNorm brand
+r-venlafaxine,generic,r-venlafaxine,,FDA table
+rabeprazole,generic,rabeprazole,,FDA table
+Rajani,brand,,drospirenone;ethinyl estradiol;levomefolate,RxNorm brand
+Raldesy,brand,,trazodone,RxNorm brand
+ramelteon,generic,ramelteon,,FDA table
+ramipril,generic,,ramipril,ClinCalc Top 300
+Ranexa,brand,ranolazine,,RxNorm brand
+ranitidine,generic,ranitidine,,FDA table
+ranolazine,generic,ranolazine,,FDA table
+Rapamune,brand,sirolimus,,synonyms.csv
+Rasuvo,brand,,methotrexate,RxNorm brand
+Rayos,brand,,prednisone,RxNorm brand
+Reclipsen,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Reconcile,brand,fluoxetine,,RxNorm brand
+Recorlev,brand,,levoketoconazole,RxNorm brand
+Rectiv,brand,,nitroglycerin,RxNorm brand
+Reditrex,brand,,methotrexate,RxNorm brand
+Refenesen,brand,,guaifenesin,RxNorm brand
+Refissa,brand,,emollient tretinoin,RxNorm brand
+Regenecare,brand,,lidocaine,RxNorm brand
+Reglan,brand,,metoclopramide,RxNorm brand
+Regoxidine,brand,,minoxidil,RxNorm brand
+Relafen,brand,,nabumetone,RxNorm brand
+Relexxii,brand,,methylphenidate,RxNorm brand
+Relgaabi,brand,,gabapentin,RxNorm brand
+Relovox,brand,,benzoyl peroxide,RxNorm brand
+Relpax,brand,eletriptan,,RxNorm brand
+Remeron,brand,,mirtazapine,RxNorm brand
+Renova,brand,,tretinoin,RxNorm brand
+Renthyroid,brand,,thyroid (usp),RxNorm brand
+repaglinide,generic,repaglinide,,FDA table
+Repan,brand,caffeine,acetaminophen;butalbital,RxNorm brand
+Repatha,brand,,evolocumab,RxNorm brand
+Replesta NX,brand,,cholecalciferol;vitamin e,RxNorm brand
+repotrectinib,generic,repotrectinib,,FDA table
+Reprexain,brand,,hydrocodone;ibuprofen,RxNorm brand
+resmetirom,generic,resmetirom,,FDA table
+Restasis,brand,cyclosporine,,RxNorm brand
+Restone,brand,melatonin,tryptophan,RxNorm brand
+Restoril,brand,,temazepam,RxNorm brand
+Retevmo,brand,selpercatinib,,RxNorm brand
+Revatio,brand,sildenafil,,synonyms.csv
+Rezdiffra,brand,resmetirom,,RxNorm brand
+Rezvoglar,brand,,insulin glargine-aglr,RxNorm brand
+Rhinocort,brand,budesonide,,RxNorm brand
+ribociclib,generic,,ribociclib,RxNorm ingredient
+rifabutin,generic,,rifabutin,RxNorm ingredient
+Rifadin,brand,rifampin,,synonyms.csv
+rifampicin,alias,rifampin,,synonyms.csv
+rifampin,generic,rifampin,,FDA table
+Rilexine,brand,,cephalexin,RxNorm brand
+rilpivirine,generic,rilpivirine,,FDA table
+rimegepant,generic,,rimegepant,ClinCalc Top 300
+Riomet,brand,,metformin,RxNorm brand
+Risperdal,brand,,risperidone,RxNorm brand
+risperidone,generic,,risperidone,ClinCalc Top 300
+Ritalin,brand,,50/50 release,RxNorm brand
+ritonavir,generic,ritonavir,,FDA table
+rivaroxaban,generic,rivaroxaban,,FDA table
+Rizafilm,brand,,rizatriptan,RxNorm brand
+rizatriptan,generic,,rizatriptan,ClinCalc Top 300
+Robafen,brand,,guaifenesin,RxNorm brand
+Robaxin,brand,,methocarbamol,RxNorm brand
+Robinul,brand,,glycopyrrolate,RxNorm brand
+Rocaltrol,brand,,calcitriol,RxNorm brand
+Rocklatan,brand,,latanoprost;netarsudil,RxNorm brand
+Rogaine,brand,,minoxidil,RxNorm brand
+rolapitant,generic,rolapitant,,FDA table
+Rompe Pecho,brand,,guaifenesin,RxNorm brand
+ropinirole,generic,,ropinirole,ClinCalc Top 300
+Rosadan,brand,,metronidazole,RxNorm brand
+Rosanil,brand,,sulfacetamide;sulfur,RxNorm brand
+rosiglitazone,generic,rosiglitazone,,FDA table
+Rosula,brand,,sulfacetamide;sulfur,RxNorm brand
+rosuvastatin,generic,,rosuvastatin,ClinCalc Top 300
+Roszet,brand,,ezetimibe;rosuvastatin,RxNorm brand
+Rowasa,brand,,mesalamine,RxNorm brand
+Roweepra,brand,,levetiracetam,RxNorm brand
+Roxicodone,brand,,oxycodone,RxNorm brand
+Roxybond,brand,,abuse-deterrent oxycodone,RxNorm brand
+Rozerem,brand,ramelteon,,synonyms.csv
+Rozlytrek,brand,entrectinib,,RxNorm brand
+rufinamide,generic,rufinamide,,FDA table
+Ryaltris,brand,,mometasone furoate;olopatadine,RxNorm brand
+Rybelsus,brand,,semaglutide,RxNorm brand
+Rykindo,brand,,risperidone,RxNorm brand
+Rythmol,brand,propafenone,,synonyms.csv
+s-mephenytoin,generic,s-mephenytoin,,FDA table
+s-venlafaxine,generic,s-venlafaxine,,FDA table
+sacubitril,generic,,sacubitril,ClinCalc Top 300
+Safyral,brand,,drospirenone;ethinyl estradiol;levomefolate,RxNorm brand
+saint johns wort,alias,st. john's wort,,hand: common spelling of the FDA table entry
+Saleto,brand,caffeine,acetaminophen;aspirin;salicylamide,RxNorm brand
+salicylamide,generic,,salicylamide,RxNorm ingredient
+salicylic acid,generic,,salicylic acid,RxNorm ingredient
+salmeterol,generic,,salmeterol,ClinCalc Top 300
+samidorphan,generic,,samidorphan,RxNorm ingredient
+Samsca,brand,tolvaptan,,RxNorm brand
+Samson,brand,,ibuprofen,RxNorm brand
+Sandimmune,brand,cyclosporine,,synonyms.csv
+saquinavir,generic,saquinavir,,FDA table
+saquinavir and ritonavir,generic,saquinavir and ritonavir,,FDA table
+saquinavir ritonavir,alias,saquinavir and ritonavir,,hand: written as saquinavir/ritonavir
+saxagliptin,generic,,saxagliptin,RxNorm ingredient
+Saxenda,brand,,weight management,RxNorm brand
+Scalacort DK,brand,,hydrocortisone;salicylic acid;sulfur,RxNorm brand
+scopolamine,generic,,scopolamine,RxNorm ingredient
+Sdamlo,brand,,amlodipine,RxNorm brand
+Seglentis,brand,celecoxib;tramadol,,RxNorm brand
+Segluromet,brand,,ertugliflozin;metformin,RxNorm brand
+selexipag,generic,selexipag,,FDA table
+selpercatinib,generic,selpercatinib,,FDA table
+Selzentry,brand,maraviroc,,RxNorm brand
+semaglutide,generic,,semaglutide,ClinCalc Top 300
+Semglee,brand,,insulin glargine-yfgn,RxNorm brand
+Semintra,brand,,telmisartan,RxNorm brand
+Senexon,brand,,sennosides,RxNorm brand
+senna,generic,,senna,ClinCalc Top 300
+sennosides,generic,,sennosides,RxNorm ingredient
+Senokot,brand,,sennosides,RxNorm brand
+SenoSol,brand,,sennosides,RxNorm brand
+Sensipar,brand,cinacalcet,,RxNorm brand
+Septocaine,brand,,articaine;epinephrine,RxNorm brand
+serdexmethylphenidate,generic,,serdexmethylphenidate,RxNorm ingredient
+Serevent,brand,,salmeterol,RxNorm brand
+Sernivo,brand,,betamethasone,RxNorm brand
+Seroquel,brand,quetiapine,,synonyms.csv
+sertraline,generic,sertraline,,FDA table
+sevabertinib,generic,sevabertinib,,FDA table
+Sezaby,brand,phenobarbital,,RxNorm brand
+sildenafil,generic,sildenafil,,FDA table
+Silka Powder,brand,miconazole,,RxNorm brand
+Simbrinza,brand,,brimonidine;brinzolamide,RxNorm brand
+simethicone,generic,,simethicone,RxNorm ingredient
+Simliya,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+simvastatin,generic,simvastatin,,FDA table
+sinequan,brand,,doxepin,hand: sound-alike of Seroquel
+Singulair,brand,montelukast,,synonyms.csv
+Sinuva,brand,,mometasone furoate,RxNorm brand
+sirolimus,generic,sirolimus,,FDA table
+sitagliptin,generic,,sitagliptin,ClinCalc Top 300
+Sitavig,brand,acyclovir,,RxNorm brand
+Slynd,brand,,drospirenone;inert ingredients,RxNorm brand
+smoke,alias,tobacco (smoking),,hand: how people write it
+smoker,alias,tobacco (smoking),,hand: how people write it
+smokes,alias,tobacco (smoking),,hand: how people write it
+smoking,alias,tobacco (smoking),,hand: how people write it
+Soaanz,brand,,torsemide,RxNorm brand
+Solarcaine,brand,,lidocaine,RxNorm brand
+solifenacin,generic,,solifenacin,ClinCalc Top 300
+Soliqua,brand,,insulin glargine;lixisenatide,RxNorm brand
+Solu-Cortef,brand,,hydrocortisone,RxNorm brand
+Solu-Medrol,brand,,methylprednisolone,RxNorm brand
+Sominex,brand,,diphenhydramine,RxNorm brand
+Somnicin,brand,melatonin,5-hydroxytryptophan;magnesium oxide;tryptophan;vitamin b6,RxNorm brand
+sotorasib,generic,sotorasib,,FDA table
+Sotret,brand,,isotretinoin,RxNorm brand
+Sovuna,brand,,hydroxychloroquine,RxNorm brand
+Spiriva,brand,,tiotropium,RxNorm brand
+spironolactone,generic,,spironolactone,ClinCalc Top 300
+Sporanox,brand,itraconazole,,synonyms.csv
+sprinkle,generic,,sprinkle,RxNorm ingredient
+Spritam,brand,,levetiracetam,RxNorm brand
+Sprix,brand,,ketorolac tromethamine,RxNorm brand
+Sprycel,brand,dasatinib,,RxNorm brand
+st john wort,alias,st. john's wort,,hand: common spelling of the FDA table entry
+st. john's wort,generic,st. john's wort,,FDA table
+StaphAseptic,brand,,benzethonium chloride;lidocaine,RxNorm brand
+Staxyn,brand,vardenafil,,RxNorm brand
+Steglujan,brand,,ertugliflozin;sitagliptin,RxNorm brand
+Stendra,brand,avanafil,,RxNorm brand
+Stiolto,brand,,olodaterol;tiotropium,RxNorm brand
+Strattera,brand,atomoxetine,,synonyms.csv
+Stribild,brand,cobicistat;tenofovir,elvitegravir;emtricitabine,RxNorm brand
+Subvenite,brand,,lamotrigine,RxNorm brand
+sucralfate,generic,,sucralfate,ClinCalc Top 300
+Sudafed,brand,,pseudoephedrine,RxNorm brand
+Sudogest,brand,,pseudoephedrine,RxNorm brand
+Sular,brand,nisoldipine,,RxNorm brand
+sulfacetamide,generic,,sulfacetamide,ClinCalc Top 300
+sulfadiazine,generic,,sulfadiazine,RxNorm ingredient
+sulfamethoxazole,generic,,sulfamethoxazole,ClinCalc Top 300
+Sulfatrim,brand,trimethoprim,sulfamethoxazole,RxNorm brand
+sulfur,generic,,sulfur,ClinCalc Top 300
+sumatriptan,generic,,sumatriptan,ClinCalc Top 300
+Sumaxin,brand,,sulfacetamide;sulfur,RxNorm brand
+Sutab,brand,,magnesium;potassium chloride;sodium,RxNorm brand
+Swiss Kriss,brand,,sennosides,RxNorm brand
+Syeda,brand,,drospirenone;ethinyl estradiol;inert ingredients,RxNorm brand
+Symbicort,brand,budesonide,formoterol,RxNorm brand
+Symbravo,brand,,meloxicam;rizatriptan,RxNorm brand
+Symbyax,brand,fluoxetine,olanzapine,RxNorm brand
+Symdeko,brand,ivacaftor,tezacaftor,RxNorm brand
+Symfi,brand,efavirenz;tenofovir,lamivudine,RxNorm brand
+Symjepi,brand,,epinephrine,RxNorm brand
+Sympazan,brand,clobazam,,RxNorm brand
+Symtuza,brand,cobicistat;darunavir;tenofovir,emtricitabine,RxNorm brand
+Synjardy,brand,,empagliflozin;metformin,RxNorm brand
+Synthroid,brand,,levothyroxine,RxNorm brand
+Tabrecta,brand,capmatinib,,RxNorm brand
+Taclonex,brand,,betamethasone dipropionate;calcipotriene,RxNorm brand
+tacrolimus,generic,tacrolimus,,FDA table
+tadalafil,generic,tadalafil,,FDA table
+Tadliq,brand,tadalafil,,RxNorm brand
+Tafinlar,brand,dabrafenib,,RxNorm brand
+Tagamet,brand,cimetidine,,synonyms.csv
+taletrectinib,generic,taletrectinib,,FDA table
+Talicia,brand,omeprazole,amoxicillin;rifabutin,RxNorm brand
+Tamiflu,brand,,oseltamivir,RxNorm brand
+tamsulosin,generic,,tamsulosin,ClinCalc Top 300
+Tanlor,brand,,methocarbamol,RxNorm brand
+TaperDex,brand,,dexamethasone,RxNorm brand
+Targadox,brand,,doxycycline,RxNorm brand
+Tarpeyo,brand,budesonide,,RxNorm brand
+tasimelteon,generic,tasimelteon,,FDA table
+Tavalisse,brand,fostamatinib,,RxNorm brand
+tazemetostat,generic,tazemetostat,,FDA table
+Taztia,brand,diltiazem,,RxNorm brand
+Tazverik,brand,tazemetostat,,RxNorm brand
+technivie,brand,paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),ombitasvir,hand: discontinued brand not returned by RxNav
+Tegretol,brand,carbamazepine,,synonyms.csv
+Tekturna HCT,brand,,aliskiren;hydrochlorothiazide,RxNorm brand
+telithromycin,generic,telithromycin,,FDA table
+telmisartan,generic,,telmisartan,ClinCalc Top 300
+temazepam,generic,,temazepam,ClinCalc Top 300
+Temovate,brand,,clobetasol,RxNorm brand
+Tencon,brand,,acetaminophen;butalbital,RxNorm brand
+tenofovir,generic,tenofovir,,FDA table
+Tenoretic,brand,,atenolol;chlorthalidone,RxNorm brand
+Tenormin,brand,,atenolol,RxNorm brand
+terazosin,generic,,terazosin,ClinCalc Top 300
+terbinafine,generic,terbinafine,,FDA table
+teriflunomide,generic,teriflunomide,,FDA table
+Terpenicol Antifungal,brand,miconazole,,RxNorm brand
+Tessalon Perles,brand,,benzonatate,RxNorm brand
+Testim,brand,,5000 mg testosterone,RxNorm brand
+Testopel,brand,,testosterone,RxNorm brand
+testosterone,generic,,testosterone,ClinCalc Top 300
+testosterone cypionate,generic,,testosterone cypionate,RxNorm ingredient
+testosterone enanthate,generic,,testosterone enanthate,RxNorm ingredient
+testosterone undecanoate,generic,,testosterone undecanoate,RxNorm ingredient
+tetracaine,generic,,tetracaine,RxNorm ingredient
+tetracycline,generic,,tetracycline,RxNorm ingredient
+Tetterine,brand,miconazole,,RxNorm brand
+tezacaftor,generic,,tezacaftor,RxNorm ingredient
+Tezruly,brand,,terazosin,RxNorm brand
+Thalitone,brand,,chlorthalidone,RxNorm brand
+Theo-24,brand,theophylline,,synonyms.csv
+theophylline,generic,theophylline,,FDA table
+Theramycin,brand,erythromycin,,RxNorm brand
+Thermotabs,brand,,potassium chloride;sodium chloride,RxNorm brand
+thiabendazole,generic,,thiabendazole,RxNorm ingredient
+thiamine,generic,,thiamine,ClinCalc Top 300
+Thylox,brand,,sulfur,RxNorm brand
+Thyquidity,brand,,levothyroxine,RxNorm brand
+Thyrocryn,brand,,levothyroxine,RxNorm brand
+thyroid,generic,,thyroid,ClinCalc Top 300
+thyroid (usp),generic,,thyroid (usp),RxNorm ingredient
+Thyrolar,brand,,levothyroxine;liothyronine,RxNorm brand
+Tiadylt,brand,diltiazem,,RxNorm brand
+Tiazac,brand,diltiazem,,synonyms.csv
+Tibsovo,brand,ivosidenib,,RxNorm brand
+ticagrelor,generic,ticagrelor,,FDA table
+ticlopidine,generic,ticlopidine,,FDA table
+timolol,generic,,timolol,ClinCalc Top 300
+timolol hemihydrate,generic,,timolol hemihydrate,RxNorm ingredient
+Timoptic,brand,,preservative-free timolol,RxNorm brand
+tiotropium,generic,,tiotropium,ClinCalc Top 300
+tipranavir,generic,tipranavir,,FDA table
+tipranavir and ritonavir,generic,tipranavir and ritonavir,,FDA table
+tipranavir ritonavir,alias,tipranavir and ritonavir,,hand: written as tipranavir/ritonavir
+Tirosint,brand,,levothyroxine,RxNorm brand
+tirzepatide,generic,,tirzepatide,ClinCalc Top 300
+Tivorbex,brand,,indomethacin,RxNorm brand
+tizanidine,generic,tizanidine,,FDA table
+Tlando,brand,,testosterone undecanoate,RxNorm brand
+tobacco,alias,tobacco (smoking),,hand: how people write it
+tobacco (smoking),generic,tobacco (smoking),,FDA table
+Tobradex,brand,,dexamethasone;tobramycin,RxNorm brand
+tobramycin,generic,,tobramycin,RxNorm ingredient
+Tolak,brand,,fluorouracil,RxNorm brand
+tolbutamide,generic,tolbutamide,,FDA table
+Tolsura,brand,itraconazole,,RxNorm brand
+tolterodine,generic,tolterodine,,FDA table
+tolvaptan,generic,tolvaptan,,FDA table
+Tonmya,brand,,cyclobenzaprine,RxNorm brand
+Topamax,brand,,topiramate,RxNorm brand
+topiramate,generic,,topiramate,ClinCalc Top 300
+Toprol,brand,metoprolol,,synonyms.csv
+Torpenz,brand,everolimus,,RxNorm brand
+torsemide,generic,,torsemide,ClinCalc Top 300
+Tosymra,brand,,sumatriptan,RxNorm brand
+Toujeo,brand,,insulin glargine,RxNorm brand
+Tovet,brand,,emollient clobetasol,RxNorm brand
+Tracleer,brand,bosentan,,RxNorm brand
+tramadol,generic,tramadol,,FDA table
+Trandate,brand,labetalol,,RxNorm brand
+trazodone,generic,,trazodone,ClinCalc Top 300
+Trelegy,brand,,fluticasone furoate;umeclidinium;vilanterol,RxNorm brand
+Tresaderm,brand,,dexamethasone;neomycin;thiabendazole,RxNorm brand
+Tresiba,brand,,insulin degludec,RxNorm brand
+tretinoin,generic,,tretinoin,ClinCalc Top 300
+Trexall,brand,,methotrexate,RxNorm brand
+Treximet,brand,,naproxen;sumatriptan,RxNorm brand
+Trezix,brand,caffeine,acetaminophen;dihydrocodeine,RxNorm brand
+Tri-Estarylla,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+Tri Femynor,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+Tri-Linyah,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+Tri-Luma,brand,,fluocinolone acetonide;hydroquinone;tretinoin,RxNorm brand
+Tri-Mili,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+Tri-Pak,brand,,azithromycin,RxNorm brand
+Tri-VyLibra,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+triamcinolone,generic,,triamcinolone,ClinCalc Top 300
+triamcinolone acetonide,generic,,triamcinolone acetonide,RxNorm ingredient
+triamcinolone hexacetonide,generic,,triamcinolone hexacetonide,RxNorm ingredient
+triamterene,generic,,triamterene,ClinCalc Top 300
+Trianex,brand,,triamcinolone acetonide,RxNorm brand
+triazolam,generic,triazolam,,FDA table
+Tribenzor,brand,,amlodipine;hydrochlorothiazide;olmesartan medoxomil,RxNorm brand
+Tricor,brand,,fenofibrate,RxNorm brand
+Triderm,brand,,triamcinolone acetonide,RxNorm brand
+Triesence,brand,,triamcinolone acetonide,RxNorm brand
+Trifena,brand,,diclofenac;lidocaine;menthol,RxNorm brand
+Trijardy,brand,,empagliflozin;linagliptin;metformin,RxNorm brand
+Trikafta,brand,ivacaftor,elexacaftor;tezacaftor,RxNorm brand
+Trileptal,brand,,oxcarbazepine,RxNorm brand
+Trilipix,brand,,fenofibric acid,RxNorm brand
+Trimazole,brand,clotrimazole,,RxNorm brand
+Trimbow,brand,,beclomethasone dipropionate;formoterol;glycopyrrolate,RxNorm brand
+trimeprazine,generic,,trimeprazine,RxNorm ingredient
+trimethoprim,generic,trimethoprim,,FDA table
+trimipramine,generic,trimipramine,,FDA table
+triprolidine,generic,,triprolidine,RxNorm ingredient
+Trokendi,brand,,topiramate,RxNorm brand
+Trulicity,brand,,dulaglutide,RxNorm brand
+Truvada,brand,tenofovir,emtricitabine,RxNorm brand
+tryptophan,generic,,tryptophan,RxNorm ingredient
+tucatinib,generic,tucatinib,,FDA table
+Tukysa,brand,tucatinib,,RxNorm brand
+Turalio,brand,pexidartinib,,RxNorm brand
+Turqoz,brand,,ethinyl estradiol;inert ingredients;norgestrel,RxNorm brand
+Tussionex,brand,,chlorpheniramine;hydrocodone,RxNorm brand
+Tuxarin,brand,,chlorpheniramine;codeine,RxNorm brand
+twice-daily clindamycin,generic,,twice-daily clindamycin,RxNorm ingredient
+twice-daily diclofenac epolamine,generic,,twice-daily diclofenac epolamine,RxNorm ingredient
+Twilite,brand,,diphenhydramine,RxNorm brand
+Twyneo,brand,,benzoyl peroxide;tretinoin,RxNorm brand
+Twynsta,brand,,amlodipine;telmisartan,RxNorm brand
+Tybost,brand,cobicistat,,RxNorm brand
+Tydemy,brand,,drospirenone;ethinyl estradiol;levomefolate,RxNorm brand
+tylenol,brand,,acetaminophen,hand: common brand outside the table cut by the 15-brand limit
+Ubrelvy,brand,,ubrogepant,RxNorm brand
+ubrogepant,generic,,ubrogepant,ClinCalc Top 300
+Uceris,brand,budesonide,,RxNorm brand
+UlcerGard,brand,omeprazole,,RxNorm brand
+Ultacan,brand,,articaine;epinephrine,RxNorm brand
+Ultracet,brand,tramadol,acetaminophen,RxNorm brand
+Ultram,brand,tramadol,,synonyms.csv
+Umbrellin,brand,,amoxicillin;clavulanate,RxNorm brand
+umeclidinium,generic,,umeclidinium,ClinCalc Top 300
+Undecatrex,brand,,testosterone undecanoate,RxNorm brand
+Unithroid,brand,,levothyroxine,RxNorm brand
+Upcard,brand,,torsemide,RxNorm brand
+Uptravi,brand,selexipag,,RxNorm brand
+urea,generic,,urea,RxNorm ingredient
+Uricalm,brand,,phenazopyridine,RxNorm brand
+Uristat,brand,,phenazopyridine,RxNorm brand
+UroXatral,brand,,alfuzosin,RxNorm brand
+Uvadex,brand,methoxsalen,,RxNorm brand
+Uzedy,brand,,risperidone,RxNorm brand
+Vagisil Satin,brand,,hydrocortisone,RxNorm brand
+Vagistat,brand,miconazole,,RxNorm brand
+valacyclovir,generic,,valacyclovir,ClinCalc Top 300
+Valium,brand,diazepam,,synonyms.csv
+valproate,generic,,valproate,ClinCalc Top 300
+valsartan,generic,,valsartan,ClinCalc Top 300
+Valtoco,brand,diazepam,,RxNorm brand
+Valtrex,brand,,valacyclovir,RxNorm brand
+Vanatol,brand,caffeine,acetaminophen;butalbital,RxNorm brand
+Vandazole,brand,,metronidazole,RxNorm brand
+Vanquish,brand,caffeine,acetaminophen;aspirin,RxNorm brand
+Vaprisol,brand,conivaptan,,RxNorm brand
+vardenafil,generic,vardenafil,,FDA table
+Varubi,brand,rolapitant,,RxNorm brand
+Vaseretic,brand,,enalapril;hydrochlorothiazide,RxNorm brand
+Vasoflex D1,brand,diosmin,hesperidin methylchalcone,RxNorm brand
+Vasotec,brand,,enalapril,RxNorm brand
+Vectical,brand,,calcitriol,RxNorm brand
+Velivet,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Veltin,brand,,clindamycin;tretinoin,RxNorm brand
+vemurafenib,generic,vemurafenib,,FDA table
+Venclexta,brand,venetoclax,,RxNorm brand
+venetoclax,generic,venetoclax,,FDA table
+venlafaxine,alias,r-venlafaxine,,hand: follows the project's existing Effexor alias: racemic venlafaxine is read as its R-enantiomer row
+Ventolin,brand,,nda020983,RxNorm brand
+Veozah,brand,fezolinetant,,synonyms.csv
+verapamil,generic,verapamil,,FDA table
+Verdrocet,brand,,acetaminophen;hydrocodone,RxNorm brand
+Verelan,brand,verapamil,,synonyms.csv
+Veripred,brand,,prednisolone,RxNorm brand
+Verkazia,brand,cyclosporine,,RxNorm brand
+Versacloz,brand,clozapine,,RxNorm brand
+Versed,brand,midazolam,,synonyms.csv
+Verticalm,brand,,meclizine,RxNorm brand
+Vesicare,brand,,solifenacin,RxNorm brand
+Vestura,brand,,drospirenone;ethinyl estradiol;inert ingredients,RxNorm brand
+Vevye,brand,cyclosporine,,RxNorm brand
+Vfend,brand,voriconazole,,RxNorm brand
+Vi-Sudo,brand,,pseudoephedrine;triprolidine,RxNorm brand
+Viagra,brand,sildenafil,,synonyms.csv
+Vibramycin,brand,,doxycycline,RxNorm brand
+Vicoprofen,brand,,hydrocodone;ibuprofen,RxNorm brand
+Victoza,brand,,liraglutide,RxNorm brand
+viekira,brand,paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),dasabuvir;ombitasvir,hand: discontinued brand not returned by RxNav
+viekira pak,brand,paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),dasabuvir;ombitasvir,hand: discontinued brand not returned by RxNav
+Vigamox,brand,,moxifloxacin,RxNorm brand
+vilanterol,generic,,vilanterol,ClinCalc Top 300
+Vimovo,brand,omeprazole,naproxen,RxNorm brand
+Viokace,brand,,amylase;lipase;protease,RxNorm brand
+Viorele,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Viracept,brand,nelfinavir,,RxNorm brand
+Viramune,brand,nevirapine,,RxNorm brand
+Vistaril,brand,,hydroxyzine pamoate,RxNorm brand
+Vita-Respa,brand,,folic acid;pyridoxine;vitamin b12,RxNorm brand
+vitamin b12,generic,,vitamin b12,RxNorm ingredient
+vitamin b6,generic,,vitamin b6,RxNorm ingredient
+Vitrakvi,brand,larotrectinib,,RxNorm brand
+Vivacaine,brand,,bupivacaine;epinephrine,RxNorm brand
+Vivarin,brand,caffeine,,RxNorm brand
+Vivlodex,brand,,meloxicam,RxNorm brand
+Vogelxo,brand,,testosterone,RxNorm brand
+Volnea,brand,,desogestrel;ethinyl estradiol;inert ingredients,RxNorm brand
+Voltaren,brand,,diclofenac,RxNorm brand
+vonoprazan,generic,,vonoprazan,RxNorm ingredient
+Voquezna,brand,clarithromycin,amoxicillin;vonoprazan,RxNorm brand
+voriconazole,generic,voriconazole,,FDA table
+Vostally,brand,,ramipril,RxNorm brand
+Vtol,brand,caffeine,acetaminophen;butalbital,RxNorm brand
+Vusion,brand,miconazole,petrolatum;zinc oxide,RxNorm brand
+Vybrique,brand,sildenafil,,RxNorm brand
+VyLibra,brand,,ethinyl estradiol;inert ingredients;norgestimate,RxNorm brand
+Vyscoxa,brand,celecoxib,,RxNorm brand
+Vytorin,brand,simvastatin,ezetimibe,RxNorm brand
+Vyvanse,brand,,lisdexamfetamine dimesylate,RxNorm brand
+Wal-Dram,brand,,meclizine,RxNorm brand
+Wal-Dryl,brand,,diphenhydramine;zinc acetate,RxNorm brand
+Wal-Dryl Childrens,brand,,diphenhydramine,RxNorm brand
+Wal-Fex,brand,,fexofenadine,RxNorm brand
+Wal-itin,brand,,loratadine,RxNorm brand
+Wal-Phed,brand,,pseudoephedrine,RxNorm brand
+Wal-Profen,brand,,ibuprofen,RxNorm brand
+Wal-Proxen,brand,,naproxen,RxNorm brand
+Wal-vert,brand,,loratadine,RxNorm brand
+Wal-Zyr,brand,,cetirizine,RxNorm brand
+warfarin,generic,warfarin,,FDA table
+Wegovy,brand,,semaglutide,RxNorm brand
+Wellbutrin,brand,bupropion,,synonyms.csv
+Wera,brand,,ethinyl estradiol;inert ingredients;norethindrone,RxNorm brand
+Westhroid,brand,,thyroid (usp),RxNorm brand
+Widaplik,brand,,amlodipine;indapamide;telmisartan,RxNorm brand
+Wixela,brand,,fluticasone;salmeterol,RxNorm brand
+Wynzora,brand,,betamethasone dipropionate;calcipotriene,RxNorm brand
+Xaciato,brand,,clindamycin,RxNorm brand
+Xalatan,brand,,latanoprost,RxNorm brand
+Xalkori,brand,crizotinib,,RxNorm brand
+Xanax,brand,alprazolam,,synonyms.csv
+Xarelto,brand,rivaroxaban,,synonyms.csv
+Xatmep,brand,,methotrexate,RxNorm brand
+Xcopri,brand,cenobamate,,RxNorm brand
+Xelpros,brand,,latanoprost,RxNorm brand
+Xelstrym,brand,,dextroamphetamine,RxNorm brand
+Xerese,brand,acyclovir,hydrocortisone,RxNorm brand
+Xhance,brand,,fluticasone,RxNorm brand
+Xiclo,brand,,diclofenac,RxNorm brand
+Xifyrm,brand,,meloxicam,RxNorm brand
+Xigduo,brand,,dapagliflozin;metformin,RxNorm brand
+Xipere,brand,,triamcinolone acetonide,RxNorm brand
+Xolegel,brand,ketoconazole,,RxNorm brand
+Xopenex,brand,,levalbuterol,RxNorm brand
+Xtampza,brand,,abuse-deterrent,RxNorm brand
+Xtandi,brand,enzalutamide,,RxNorm brand
+Xulane,brand,,ethinyl estradiol;norelgestromin,RxNorm brand
+Xultophy,brand,,insulin degludec;liraglutide,RxNorm brand
+Xylocaine,brand,,lidocaine,RxNorm brand
+Xyosted,brand,,testosterone enanthate,RxNorm brand
+Xyzal,brand,,levocetirizine dihydrochloride,RxNorm brand
+Yonsa,brand,abiraterone,,RxNorm brand
+Yosprala,brand,omeprazole,aspirin,RxNorm brand
+Yulithira,brand,everolimus,,RxNorm brand
+Yuvezzi,brand,,brimonidine;carbachol,RxNorm brand
+Z-Pak,brand,,azithromycin,RxNorm brand
+Zafemy,brand,,ethinyl estradiol;norelgestromin,RxNorm brand
+Zanaflex,brand,tizanidine,,synonyms.csv
+Zantac,brand,ranitidine,,synonyms.csv
+zanubrutinib,generic,zanubrutinib,,FDA table
+Zarah,brand,,drospirenone;ethinyl estradiol;inert ingredients,RxNorm brand
+Zcort,brand,,dexamethasone,RxNorm brand
+Zeasorb,brand,miconazole,,RxNorm brand
+Zebutal,brand,caffeine,acetaminophen;butalbital,RxNorm brand
+Zegerid,brand,omeprazole,sodium bicarbonate,RxNorm brand
+Zelboraf,brand,vemurafenib,,RxNorm brand
+Zembrace,brand,,sumatriptan,RxNorm brand
+Zenatane,brand,,isotretinoin,RxNorm brand
+Zenpep,brand,,amylase;lipase;protease,RxNorm brand
+Zentrip,brand,,meclizine,RxNorm brand
+Zenzedi,brand,,dextroamphetamine,RxNorm brand
+Zepbound,brand,,tirzepatide,RxNorm brand
+Zerviate,brand,,cetirizine,RxNorm brand
+Zestoretic,brand,,hydrochlorothiazide;lisinopril,RxNorm brand
+Zestril,brand,,lisinopril,RxNorm brand
+Zetia,brand,,ezetimibe,RxNorm brand
+Ziana,brand,,clindamycin;tretinoin,RxNorm brand
+zileuton,generic,zileuton,,FDA table
+Zilretta,brand,,triamcinolone acetonide,RxNorm brand
+zinc acetate,generic,,zinc acetate,RxNorm ingredient
+Zingo,brand,,lidocaine,RxNorm brand
+Zipsor,brand,,diclofenac,RxNorm brand
+Zithromax,brand,,azithromycin,RxNorm brand
+Zituvimet,brand,,metformin;sitagliptin,RxNorm brand
+Zituvio,brand,,sitagliptin,RxNorm brand
+Zocor,brand,simvastatin,,synonyms.csv
+Zodryl DAC,brand,,chlorpheniramine;codeine;pseudoephedrine,RxNorm brand
+Zohydro,brand,,hydrocodone,RxNorm brand
+Zoloft,brand,sertraline,,synonyms.csv
+zolpidem,generic,,zolpidem,ClinCalc Top 300
+Zortress,brand,everolimus,,RxNorm brand
+Zorvolex,brand,,diclofenac,RxNorm brand
+Zovirax,brand,acyclovir,,RxNorm brand
+Zumandimine,brand,,drospirenone;ethinyl estradiol;inert ingredients,RxNorm brand
+Zyban,brand,bupropion,,synonyms.csv
+Zybic,brand,,meloxicam,RxNorm brand
+Zydaclin,brand,,clindamycin,RxNorm brand
+Zydelig,brand,idelalisib,,RxNorm brand
+Zyflo,brand,zileuton,,RxNorm brand
+Zykadia,brand,ceritinib,,RxNorm brand
+Zyloprim,brand,allopurinol,,RxNorm brand
+Zynrelef,brand,,bupivacaine;meloxicam,RxNorm brand
+Zyprexa,brand,,olanzapine,RxNorm brand
+Zyrtec,brand,,cetirizine,RxNorm brand
+Zytiga,brand,abiraterone,,RxNorm brand

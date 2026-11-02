@@ -1,0 +1,49 @@
+alias,drugs,others,kind,match,why
+st johns wort,st. john's wort,,alias,fuzzy,common spelling of the FDA table entry
+saint johns wort,st. john's wort,,alias,fuzzy,common spelling of the FDA table entry
+st john wort,st. john's wort,,alias,fuzzy,common spelling of the FDA table entry
+hypericum,st. john's wort,,alias,fuzzy,botanical name
+grapefruit,grapefruit juice,,alias,exact,how people write it
+tobacco,tobacco (smoking),,alias,exact,how people write it
+smoking,tobacco (smoking),,alias,exact,how people write it
+smoker,tobacco (smoking),,alias,exact,how people write it
+smokes,tobacco (smoking),,alias,exact,how people write it
+cigarettes,tobacco (smoking),,alias,exact,how people write it
+cigarette,tobacco (smoking),,alias,exact,how people write it
+cigs,tobacco (smoking),,alias,exact,how people write it
+oral contraceptive,oral contraceptives,,alias,exact,how people write it
+birth control,oral contraceptives,,alias,exact,how people write it
+birth control pill,oral contraceptives,,alias,exact,how people write it
+birth control pills,oral contraceptives,,alias,exact,how people write it
+contraceptive pill,oral contraceptives,,alias,exact,how people write it
+ocp,oral contraceptives,,alias,exact,clinical abbreviation
+ocps,oral contraceptives,,alias,exact,clinical abbreviation
+venlafaxine,r-venlafaxine,,alias,fuzzy,follows the project's existing Effexor alias: racemic venlafaxine is read as its R-enantiomer row
+mephenytoin,s-mephenytoin,,alias,fuzzy,the table lists the S-enantiomer
+peginterferon alfa-2a,peginterferon alpha-2a,,alias,fuzzy,RxNorm spelling
+esomeprazole,omeprazole,,alias,fuzzy,follows the project's existing Nexium alias; the FDA table lists only omeprazole
+lopinavir,lopinavir and ritonavir,,alias,fuzzy,lopinavir is only sold with ritonavir
+lopinavir ritonavir,lopinavir and ritonavir,,alias,fuzzy,written as lopinavir/ritonavir
+lumacaftor,lumacaftor and ivacaftor,,alias,fuzzy,lumacaftor is only sold with ivacaftor
+lumacaftor ivacaftor,lumacaftor and ivacaftor,,alias,fuzzy,written as lumacaftor/ivacaftor
+saquinavir ritonavir,saquinavir and ritonavir,,alias,fuzzy,written as saquinavir/ritonavir
+tipranavir ritonavir,tipranavir and ritonavir,,alias,fuzzy,written as tipranavir/ritonavir
+indinavir ritonavir,indinavir and ritonavir,,alias,fuzzy,written as indinavir/ritonavir
+elvitegravir ritonavir,elvitegravir and ritonavir,,alias,fuzzy,written as elvitegravir/ritonavir
+paritaprevir,paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),,alias,fuzzy,paritaprevir is only sold in these combinations
+viekira pak,paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),dasabuvir;ombitasvir,brand,fuzzy,discontinued brand not returned by RxNav
+viekira,paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),dasabuvir;ombitasvir,brand,fuzzy,discontinued brand not returned by RxNav
+technivie,paritaprevir and ritonavir and (ombitasvir and/or dasabuvir),ombitasvir,brand,fuzzy,discontinued brand not returned by RxNav
+adderall,,amphetamine,brand,fuzzy,common brand outside the table; its four-ingredient RxNorm name was filtered out
+tylenol,,acetaminophen,brand,fuzzy,common brand outside the table cut by the 15-brand limit
+desyrel,,trazodone,brand,fuzzy,common brand outside the table no longer in RxNav
+flexeril,,cyclobenzaprine,brand,fuzzy,common brand outside the table no longer in RxNav
+premarin,,conjugated estrogens,brand,fuzzy,common brand outside the table
+estrace,,estradiol,brand,fuzzy,common brand outside the table cut by the 15-brand limit
+ditropan,,oxybutynin,brand,fuzzy,common brand outside the table no longer in RxNav
+imdur,,isosorbide mononitrate,brand,fuzzy,common brand outside the table no longer in RxNav
+sinequan,,doxepin,brand,fuzzy,sound-alike of Seroquel
+doxepin,,doxepin,generic,fuzzy,sound-alike partner of a table drug outside the Top 300
+digoxin,,digoxin,generic,fuzzy,common medicine outside the Top 300 list used here
+lanoxin,,digoxin,brand,fuzzy,common medicine outside the Top 300 list used here
+smoke,tobacco (smoking),,alias,exact,how people write it

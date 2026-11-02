@@ -1,0 +1,1625 @@
+[
+  {
+    "id": "L001",
+    "style": "patient",
+    "text": "atorvastatin 40mg, lisinopril 10mg, metformin 500mg twice a day, omeprazole 20mg, aspirin 81mg",
+    "table_drugs": [
+      "atorvastatin",
+      "omeprazole"
+    ],
+    "other_meds": [
+      "lisinopril",
+      "metformin",
+      "aspirin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic, comma-separated: two table drugs among very common non-table primary-care meds."
+  },
+  {
+    "id": "L002",
+    "style": "printout",
+    "text": "METOPROLOL SUCC ER 50MG TAB\nAMLODIPINE BESYLATE 5MG TAB\nWARFARIN SODIUM 5MG TAB\nAMIODARONE HCL 200MG TAB\nFUROSEMIDE 40MG TAB\nPOTASSIUM CL ER 20MEQ TAB",
+    "table_drugs": [
+      "metoprolol",
+      "warfarin",
+      "amiodarone"
+    ],
+    "other_meds": [
+      "amlodipine",
+      "furosemide",
+      "potassium chloride"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "AMLODIPINE",
+        "not": "felodipine"
+      }
+    ],
+    "notes": "Generic, ALL-CAPS printout with salts and release forms (SUCC ER, HCL, SODIUM); amlodipine must not fuzzy-match felodipine."
+  },
+  {
+    "id": "L003",
+    "style": "clinician",
+    "text": "Adrenocortical carcinoma s/p resection. Meds: mitotane 2 g TID (last level 16 mcg/mL), hydrocortisone 30 mg AM / 15 mg PM, fludrocortisone 0.1 mg daily, levothyroxine 75 mcg daily, rosuvastatin 10 mg daily",
+    "table_drugs": [
+      "mitotane"
+    ],
+    "other_meds": [
+      "hydrocortisone",
+      "fludrocortisone",
+      "levothyroxine",
+      "rosuvastatin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic, clinician shorthand around a rare table drug; hydrocortisone, fludrocortisone and rosuvastatin are non-table."
+  },
+  {
+    "id": "L004",
+    "style": "caregiver",
+    "text": "Mom's meds:\nlevothyroxine 50 mcg every morning\ndonepezil 10 mg at bedtime\nescitalopram 5 mg\nmelatonin 3 mg at night\nvitamin D 2000 IU\ndiosmin 500 mg twice a day for her leg veins",
+    "table_drugs": [
+      "escitalopram",
+      "melatonin",
+      "diosmin"
+    ],
+    "other_meds": [
+      "levothyroxine",
+      "donepezil",
+      "cholecalciferol"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic caregiver line list; melatonin and diosmin supplements are table entries, vitamin D is not."
+  },
+  {
+    "id": "L005",
+    "style": "patient",
+    "text": "- lovastatin 40 mg at night\n- losartan 50 mg\n- hydrochlorothiazide 25 mg\n- felodipine ER 10 mg\n- fish oil 1000 mg",
+    "table_drugs": [
+      "lovastatin",
+      "felodipine"
+    ],
+    "other_meds": [
+      "losartan",
+      "hydrochlorothiazide",
+      "omega-3 fatty acids"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic, dash bullets; felodipine is the true table drug here (amlodipine look-alike traps appear elsewhere)."
+  },
+  {
+    "id": "L006",
+    "style": "printout",
+    "text": "PAROXETINE HCL 20MG TAB  TAKE 1 TABLET BY MOUTH DAILY\nTRAZODONE 50MG TAB  TAKE 1 TABLET AT BEDTIME AS NEEDED FOR SLEEP\nBUSPIRONE HCL 10MG TAB  TAKE 1 TABLET BY MOUTH TWICE DAILY\nHYDROXYZINE HCL 25MG TAB  TAKE 1 TABLET EVERY 6 HOURS AS NEEDED FOR ANXIETY",
+    "table_drugs": [
+      "paroxetine",
+      "buspirone"
+    ],
+    "other_meds": [
+      "trazodone",
+      "hydroxyzine"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "TRAZODONE",
+        "not": "tramadol"
+      }
+    ],
+    "notes": "Generic printout with sig text; trazodone must not become tramadol."
+  },
+  {
+    "id": "L007",
+    "style": "clinician",
+    "text": "Kidney tx 2023. cyclosporine modified 75 mg BID (goal C0 100-150), everolimus 0.75 mg BID, prednisone 5 mg daily, TMP-SMX SS 1 tab daily, valganciclovir 450 mg daily",
+    "table_drugs": [
+      "cyclosporine",
+      "everolimus",
+      "trimethoprim"
+    ],
+    "other_meds": [
+      "prednisone",
+      "sulfamethoxazole",
+      "valganciclovir"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic transplant shorthand; the TMP-SMX abbreviation must yield trimethoprim, not sulfamethoxazole."
+  },
+  {
+    "id": "L008",
+    "style": "patient",
+    "text": "1. apixaban 5 mg twice daily\n2. amiodarone 200 mg daily\n3. mexiletine 150 mg every 8 hours\n4. atorvastatin 80 mg\n5. carvedilol 12.5 mg twice daily\n6. spironolactone 25 mg\n7. empagliflozin 10 mg",
+    "table_drugs": [
+      "amiodarone",
+      "mexiletine",
+      "atorvastatin"
+    ],
+    "other_meds": [
+      "apixaban",
+      "carvedilol",
+      "spironolactone",
+      "empagliflozin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic numbered list of seven; apixaban, carvedilol, spironolactone and empagliflozin are non-table."
+  },
+  {
+    "id": "L009",
+    "style": "caregiver",
+    "text": "my son (11, Smith-Magenis): tasimelteon liquid 5 mL at bedtime, risperidone 0.5 mg twice a day, guanfacine ER 2 mg at night, montelukast 5 mg chewable, cetirizine 10 mg",
+    "table_drugs": [
+      "tasimelteon",
+      "montelukast"
+    ],
+    "other_meds": [
+      "risperidone",
+      "guanfacine",
+      "cetirizine"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "cetirizine",
+        "not": "sertraline"
+      }
+    ],
+    "notes": "Generic pediatric caregiver list with a rare table drug; cetirizine/sertraline look-alike."
+  },
+  {
+    "id": "L010",
+    "style": "printout",
+    "text": "carBAMazepine ER 200 MG 12 hr tablet - Take 1 tablet by mouth 2 times daily\ncenobamate (XCOPRI) 200 MG tablet - Take 1 tablet by mouth daily\ncloBAZam 10 MG tablet - Take 1 tablet by mouth 2 times daily\nfolic acid 1 MG tablet - Take 1 tablet by mouth daily\ncholecalciferol (VITAMIN D3) 50 MCG (2000 UT) capsule - Take 1 capsule by mouth daily",
+    "table_drugs": [
+      "carbamazepine",
+      "cenobamate",
+      "clobazam"
+    ],
+    "other_meds": [
+      "folic acid",
+      "cholecalciferol"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic EHR-portal printout with tall-man mixed case (carBAMazepine, cloBAZam) and a brand in parentheses."
+  },
+  {
+    "id": "L011",
+    "style": "clinician",
+    "text": "ART: darunavir 800 mg + ritonavir 100 mg daily, emtricitabine/tenofovir DF 200/300 mg daily. Also atorvastatin 20 mg, vardenafil 10 mg prn.",
+    "table_drugs": [
+      "darunavir",
+      "ritonavir",
+      "tenofovir",
+      "atorvastatin",
+      "vardenafil"
+    ],
+    "other_meds": [
+      "emtricitabine"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic HIV regimen: separately written darunavir + ritonavir are two entries (no combined entry exists); tenofovir DF -> tenofovir."
+  },
+  {
+    "id": "L012",
+    "style": "patient",
+    "text": "abiraterone 1000 mg daily (empty stomach)\nprednisone 5 mg twice a day\nwarfarin 5mg (blood thinner)\nlabetalol 200mg twice a day for blood pressure\nallopurinol 100mg for gout\ntamsulosin 0.4mg",
+    "table_drugs": [
+      "abiraterone",
+      "warfarin",
+      "labetalol",
+      "allopurinol"
+    ],
+    "other_meds": [
+      "prednisone",
+      "tamsulosin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic line list with conditions and instructions in parentheses; prednisone and tamsulosin are non-table."
+  },
+  {
+    "id": "L013",
+    "style": "printout",
+    "text": "ACTIVE PRESCRIPTIONS - PRINTED 10/28/2026\nQUETIAPINE FUMARATE 100MG TAB    QTY 30   RF 2\nLITHIUM CARBONATE ER 300MG TAB    QTY 60   RF 2\nPROPRANOLOL HCL 10MG TAB    QTY 60   RF 5\nLEVOTHYROXINE SODIUM 50MCG TAB    QTY 90   RF 1",
+    "table_drugs": [
+      "quetiapine",
+      "propranolol"
+    ],
+    "other_meds": [
+      "lithium carbonate",
+      "levothyroxine"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic printout with a header plus QTY and RF noise that must not be read as drugs."
+  },
+  {
+    "id": "L014",
+    "style": "caregiver",
+    "text": "Dad (82):\n• tramadol 50 mg up to 3x a day for back pain\n• duloxetine 60 mg\n• gabapentin 300 mg three times a day\n• tolterodine ER 4 mg\n• naloxegol 25 mg every morning\n• docusate 100 mg\n• acetaminophen 500 mg as needed",
+    "table_drugs": [
+      "tramadol",
+      "duloxetine",
+      "tolterodine",
+      "naloxegol"
+    ],
+    "other_meds": [
+      "gabapentin",
+      "docusate",
+      "acetaminophen"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic, bullet-character list of seven with mixed frequencies."
+  },
+  {
+    "id": "L015",
+    "style": "clinician",
+    "text": "Current: amiodarone gtt 0.5 mg/min, heparin gtt, midazolam 2 mg IV q2h prn, fentanyl 50 mcg/h, famotidine 20 mg IV BID, voriconazole 200 mg IV q12h, conivaptan 20 mg/24h infusion, insulin sliding scale",
+    "table_drugs": [
+      "amiodarone",
+      "midazolam",
+      "voriconazole",
+      "conivaptan"
+    ],
+    "other_meds": [
+      "heparin",
+      "fentanyl",
+      "famotidine",
+      "insulin"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "fentanyl",
+        "not": "alfentanil"
+      }
+    ],
+    "notes": "Generic ICU drip shorthand (gtt, q2h, q12h); fentanyl must not be matched to alfentanil, famotidine is non-table."
+  },
+  {
+    "id": "L016",
+    "style": "patient",
+    "text": "clarithromycin 500 mg twice daily x 14 days; amoxicillin 1 g twice daily; omeprazole 20 mg twice daily (H. pylori treatment); also triazolam 0.25 mg at bedtime for sleep",
+    "table_drugs": [
+      "clarithromycin",
+      "omeprazole",
+      "triazolam"
+    ],
+    "other_meds": [
+      "amoxicillin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic, semicolon-separated H. pylori regimen with durations plus a hypnotic."
+  },
+  {
+    "id": "L017",
+    "style": "printout",
+    "text": "NORGESTIMATE-ETH ESTRADIOL 0.25-35MG-MCG TAB\nELETRIPTAN HBR 40MG TAB\nFLUOXETINE HCL 20MG CAP\nONDANSETRON ODT 4MG TAB",
+    "table_drugs": [
+      "oral contraceptives",
+      "eletriptan",
+      "fluoxetine"
+    ],
+    "other_meds": [
+      "ondansetron"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic printout: a combined pill written by its ingredients maps to 'oral contraceptives'; HBR salt on eletriptan."
+  },
+  {
+    "id": "L018",
+    "style": "clinician",
+    "text": "Meds: theophylline ER 300 mg BID, tiotropium 18 mcg inh daily, budesonide/formoterol 160/4.5 2 puffs BID, albuterol prn, ciprofloxacin 500 mg BID started today for COPD exacerbation. Current smoker 1 ppd.",
+    "table_drugs": [
+      "theophylline",
+      "budesonide",
+      "ciprofloxacin",
+      "tobacco (smoking)"
+    ],
+    "other_meds": [
+      "tiotropium",
+      "formoterol",
+      "albuterol"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic clinician list: budesonide/formoterol -> budesonide; 'current smoker' -> tobacco (smoking)."
+  },
+  {
+    "id": "L019",
+    "style": "caregiver",
+    "text": "Grandpa's list\n1) rivaroxaban 2.5 mg twice a day\n2) aspirin 81 mg\n3) cilostazol 100 mg twice a day\n4) finasteride 5 mg\n5) cyanocobalamin 1000 mcg\n6) turmeric curcumin with BioPerine\n7) acetaminophen 650 mg as needed",
+    "table_drugs": [
+      "rivaroxaban",
+      "cilostazol",
+      "piperine"
+    ],
+    "other_meds": [
+      "aspirin",
+      "finasteride",
+      "cyanocobalamin",
+      "turmeric",
+      "acetaminophen"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic numbered list; 'turmeric curcumin with BioPerine' -> piperine (BioPerine is black pepper extract), turmeric is non-table."
+  },
+  {
+    "id": "L020",
+    "style": "clinician",
+    "text": "ALK+ NSCLC on lorlatinib 100 mg daily since 3/2025. Also atorvastatin 40 mg qhs (lorlatinib hyperlipidemia), levothyroxine 50 mcg daily, sertraline 50 mg daily, oxycodone 5 mg q6h prn",
+    "table_drugs": [
+      "lorlatinib",
+      "atorvastatin",
+      "sertraline"
+    ],
+    "other_meds": [
+      "levothyroxine",
+      "oxycodone"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Generic oncology note; lorlatinib is named twice and should be reported once."
+  },
+  {
+    "id": "L021",
+    "style": "patient",
+    "text": "Lipitor 20, Eliquis 5mg 2x day, Toprol XL 50, Synthroid 75mcg, Jardiance 10, Lotrimin for jock itch",
+    "table_drugs": [
+      "atorvastatin",
+      "metoprolol"
+    ],
+    "other_meds": [
+      "apixaban",
+      "levothyroxine",
+      "empagliflozin"
+    ],
+    "ambiguous": [
+      {
+        "text": "Lotrimin",
+        "candidates": [
+          "clotrimazole",
+          "miconazole"
+        ]
+      }
+    ],
+    "traps": [],
+    "notes": "Brand list; 'Lotrimin' alone is a product family (clotrimazole creams, miconazole sprays) and cannot be resolved."
+  },
+  {
+    "id": "L022",
+    "style": "patient",
+    "text": "Vytorin 10/40\nPlavix 75\nNexium 40 mg\nNorvasc 5\nJanuvia 100",
+    "table_drugs": [
+      "simvastatin",
+      "clopidogrel",
+      "omeprazole"
+    ],
+    "other_meds": [
+      "ezetimibe",
+      "amlodipine",
+      "sitagliptin"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Norvasc",
+        "not": "ritonavir"
+      }
+    ],
+    "notes": "Brand line list: Vytorin -> simvastatin (ezetimibe other); Nexium -> omeprazole by convention; Norvasc must not fuzzy-match Norvir."
+  },
+  {
+    "id": "L023",
+    "style": "caregiver",
+    "text": "Wife's meds:\n- Effexor XR 150 mg\n- Wellbutrin XL 300 mg\n- Lamictal 100 mg\n- Dayvigo 5 mg at bedtime\n- Singulair 10 mg",
+    "table_drugs": [
+      "r-venlafaxine",
+      "bupropion",
+      "lemborexant",
+      "montelukast"
+    ],
+    "other_meds": [
+      "lamotrigine"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Lamictal",
+        "not": "terbinafine"
+      }
+    ],
+    "notes": "Brand bullets with release suffixes; Effexor XR -> r-venlafaxine by convention; Lamictal/Lamisil look-alike."
+  },
+  {
+    "id": "L024",
+    "style": "patient",
+    "text": "1. Odefsey once a day with food\n2. Crestor 10mg\n3. Trintellix 10mg\n4. Viagra as needed\n5. Prilosec OTC for heartburn",
+    "table_drugs": [
+      "rilpivirine",
+      "tenofovir",
+      "sildenafil",
+      "omeprazole"
+    ],
+    "other_meds": [
+      "emtricitabine",
+      "rosuvastatin",
+      "vortioxetine"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand numbered list: Odefsey -> rilpivirine + tenofovir (emtricitabine other); OTC brand Prilosec OTC."
+  },
+  {
+    "id": "L025",
+    "style": "caregiver",
+    "text": "Liam's transplant meds\nPrograf 1 mg twice a day\nCellCept 250 mg twice a day\nBactrim on Mon/Wed/Fri\nValcyte\nPrevacid SoluTab 15 mg",
+    "table_drugs": [
+      "tacrolimus",
+      "trimethoprim",
+      "lansoprazole"
+    ],
+    "other_meds": [
+      "mycophenolate mofetil",
+      "sulfamethoxazole",
+      "valganciclovir"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand caregiver list: Bactrim -> trimethoprim (sulfamethoxazole other); dosage-form suffix SoluTab."
+  },
+  {
+    "id": "L026",
+    "style": "clinician",
+    "text": "PMH HFrEF (EF 30%), CAD. Meds: Entresto 49/51 BID, Corlanor 5 mg BID, Coreg 25 mg BID, Inspra 25 mg daily, Farxiga 10 mg daily, Lasix 40 mg daily, Lipitor 80 mg qhs",
+    "table_drugs": [
+      "ivabradine",
+      "eplerenone",
+      "atorvastatin"
+    ],
+    "other_meds": [
+      "sacubitril",
+      "valsartan",
+      "carvedilol",
+      "dapagliflozin",
+      "furosemide"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand clinician list; Entresto, Coreg, Farxiga and Lasix are non-table."
+  },
+  {
+    "id": "L027",
+    "style": "patient",
+    "text": "on chemo (cisplatin every 3 weeks):\nEmend with chemo\nZofran 8mg as needed\nDecadron 4mg for 3 days after chemo\nCoumadin 5mg\nZocor 40\nProtonix 40",
+    "table_drugs": [
+      "warfarin",
+      "simvastatin"
+    ],
+    "other_meds": [
+      "cisplatin",
+      "ondansetron",
+      "dexamethasone",
+      "pantoprazole"
+    ],
+    "ambiguous": [
+      {
+        "text": "Emend",
+        "candidates": [
+          "aprepitant",
+          "fosaprepitant"
+        ]
+      }
+    ],
+    "traps": [],
+    "notes": "Brand list; 'Emend' covers both oral aprepitant and IV fosaprepitant and the text does not say which."
+  },
+  {
+    "id": "L028",
+    "style": "caregiver",
+    "text": "Ava (13) seizure meds:\nOnfi 10 mg twice a day\nBanzel 400 mg twice a day\nFelbatol 600 mg twice a day\nEpidiolex 2.5 mL twice a day\nNayzilam nasal spray for clusters",
+    "table_drugs": [
+      "clobazam",
+      "rufinamide",
+      "felbamate",
+      "midazolam"
+    ],
+    "other_meds": [
+      "cannabidiol"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand list for a rare epilepsy; Nayzilam -> midazolam; Epidiolex is non-table."
+  },
+  {
+    "id": "L029",
+    "style": "printout",
+    "text": "IMBRUVICA 420MG TAB\nAMLODIPINE BESYLATE 5MG TAB\nACYCLOVIR 400MG TAB\nPANTOPRAZOLE SOD DR 40MG TAB\nVITAMIN D3 25MCG (1000 UNIT) TAB",
+    "table_drugs": [
+      "ibrutinib",
+      "acyclovir"
+    ],
+    "other_meds": [
+      "amlodipine",
+      "pantoprazole",
+      "cholecalciferol"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand line on a pharmacy printout mixed with generic lines; pantoprazole is non-table."
+  },
+  {
+    "id": "L030",
+    "style": "caregiver",
+    "text": "Mia (20 months) CF meds:\nOrkambi granules 1 packet every 12 hours with fatty food\nCreon 6000 with meals and snacks\nAquADEKs multivitamin\nalbuterol + hypertonic saline nebs twice a day",
+    "table_drugs": [
+      "lumacaftor and ivacaftor"
+    ],
+    "other_meds": [
+      "pancrelipase",
+      "multivitamin",
+      "albuterol",
+      "sodium chloride"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand list: Orkambi maps to the single combined entry 'lumacaftor and ivacaftor', not also 'ivacaftor'."
+  },
+  {
+    "id": "L031",
+    "style": "caregiver",
+    "text": "Mom 79\nCoumadin 2.5 mg except 5 mg on Mon/Fri\nLanoxin 0.125\nLasix 20\nZocor 20\nTylenol Arthritis\nTagamet HB when her stomach bothers her",
+    "table_drugs": [
+      "warfarin",
+      "simvastatin",
+      "cimetidine"
+    ],
+    "other_meds": [
+      "digoxin",
+      "furosemide",
+      "acetaminophen"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand elderly list incl. OTC Tagamet HB -> cimetidine and a split warfarin sig."
+  },
+  {
+    "id": "L032",
+    "style": "clinician",
+    "text": "AML, C2 Vidaza/Venclexta. Meds: Venclexta 70 mg daily (dose-reduced w/ posa), Noxafil DR 300 mg daily, Zovirax 400 mg BID, Zyloprim 300 mg daily, Zofran 8 mg q8h prn",
+    "table_drugs": [
+      "venetoclax",
+      "posaconazole",
+      "acyclovir",
+      "allopurinol"
+    ],
+    "other_meds": [
+      "azacitidine",
+      "ondansetron"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand oncology note; 'posa' is shorthand for the posaconazole already listed as Noxafil; Vidaza is non-table."
+  },
+  {
+    "id": "L033",
+    "style": "patient",
+    "text": "Aubagio 14 mg, Ampyra 10 mg twice a day, Zanaflex 4 mg at night, Cymbalta 60, Provigil 200 in the morning for fatigue, vitamin D 5000",
+    "table_drugs": [
+      "teriflunomide",
+      "tizanidine",
+      "duloxetine",
+      "modafinil"
+    ],
+    "other_meds": [
+      "dalfampridine",
+      "cholecalciferol"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand neurology list; Ampyra is non-table."
+  },
+  {
+    "id": "L034",
+    "style": "caregiver",
+    "text": "Dad - Parkinson's\nSinemet 25/100 four times a day\nNourianz 20 mg\nAzilect 1 mg\nSeroquel 25 at bedtime\nAricept 10",
+    "table_drugs": [
+      "istradefylline",
+      "quetiapine"
+    ],
+    "other_meds": [
+      "carbidopa",
+      "levodopa",
+      "rasagiline",
+      "donepezil"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Aricept",
+        "not": "rabeprazole"
+      }
+    ],
+    "notes": "Brand list; Sinemet has no table ingredient; Aricept/Aciphex look-alike."
+  },
+  {
+    "id": "L035",
+    "style": "patient",
+    "text": "Veozah 45 mg for hot flashes, Lexapro 10, Prolia shot every 6 months, Synthroid 88, Excedrin Migraine as needed",
+    "table_drugs": [
+      "fezolinetant",
+      "escitalopram",
+      "caffeine"
+    ],
+    "other_meds": [
+      "denosumab",
+      "levothyroxine",
+      "acetaminophen",
+      "aspirin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand list; Excedrin Migraine -> caffeine (acetaminophen and aspirin other)."
+  },
+  {
+    "id": "L036",
+    "style": "clinician",
+    "text": "PAH (WHO group 1): Opsynvi 10/40 mg daily, Uptravi 1600 mcg BID, Lasix 40 mg daily, KCl 20 mEq daily",
+    "table_drugs": [
+      "tadalafil",
+      "selexipag"
+    ],
+    "other_meds": [
+      "macitentan",
+      "furosemide",
+      "potassium chloride"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand clinician list: Opsynvi (macitentan/tadalafil) -> tadalafil; KCl is non-table."
+  },
+  {
+    "id": "L037",
+    "style": "patient",
+    "text": "Lotronex 0.5 mg twice a day, Bentyl as needed, Aciphex 20, Zofran, Imodium when needed",
+    "table_drugs": [
+      "alosetron",
+      "rabeprazole",
+      "loperamide"
+    ],
+    "other_meds": [
+      "dicyclomine",
+      "ondansetron"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand GI list; Imodium -> loperamide; Bentyl is non-table."
+  },
+  {
+    "id": "L038",
+    "style": "caregiver",
+    "text": "Noah (12)\nStrattera 40 mg every morning\nClarinex 5 mg\nFlonase 1 spray each nostril\nSingulair 5 mg chewable\nmelatonin gummies 1 mg",
+    "table_drugs": [
+      "atomoxetine",
+      "desloratadine",
+      "montelukast",
+      "melatonin"
+    ],
+    "other_meds": [
+      "fluticasone"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand pediatric list; Clarinex -> desloratadine."
+  },
+  {
+    "id": "L039",
+    "style": "printout",
+    "text": "GENVOYA TAB\nPRAVASTATIN SODIUM 40MG TAB\nZOLOFT 50MG TAB\nFLONASE ALLERGY 50MCG NASAL SPRAY",
+    "table_drugs": [
+      "cobicistat",
+      "tenofovir",
+      "sertraline"
+    ],
+    "other_meds": [
+      "elvitegravir",
+      "emtricitabine",
+      "pravastatin",
+      "fluticasone"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand printout: Genvoya is elvitegravir boosted by cobicistat (no ritonavir), so cobicistat + tenofovir, not 'elvitegravir and ritonavir'."
+  },
+  {
+    "id": "L040",
+    "style": "clinician",
+    "text": "Med list per pt: Auvelity 45/105 mg BID, Seglentis 2 tabs BID prn pain, Klonopin 0.5 mg qhs, Linzess 145 mcg daily",
+    "table_drugs": [
+      "dextromethorphan",
+      "bupropion",
+      "celecoxib",
+      "tramadol"
+    ],
+    "other_meds": [
+      "clonazepam",
+      "linaclotide"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Brand clinician list of combos whose ingredients are both table drugs (Auvelity, Seglentis)."
+  },
+  {
+    "id": "L041",
+    "style": "patient",
+    "text": "amiodorone 200 daily, metropolol 25 twice a day, warfrin 5mg, lisinipril 10, ranolozine 500 twice a day",
+    "table_drugs": [
+      "amiodarone",
+      "metoprolol",
+      "warfarin",
+      "ranolazine"
+    ],
+    "other_meds": [
+      "lisinopril"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspellings: wrong vowel (amiodorone, ranolozine), transposition (metropolol), dropped letter (warfrin, lisinipril)."
+  },
+  {
+    "id": "L042",
+    "style": "caregiver",
+    "text": "my mother takes:\nclarithromicin 500 twice a day (pneumonia, started yesterday)\nsimvastation 40 at night\namlodapine 5\nlevothyroxin 100mcg",
+    "table_drugs": [
+      "clarithromycin",
+      "simvastatin"
+    ],
+    "other_meds": [
+      "amlodipine",
+      "levothyroxine"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "amlodapine",
+        "not": "felodipine"
+      }
+    ],
+    "notes": "Misspellings of table and non-table drugs; misspelled amlodipine still must not become felodipine."
+  },
+  {
+    "id": "L043",
+    "style": "patient",
+    "text": "buproprion XL 300, sertaline 100, lurasadone 40 with dinner, Xanex .5 as needed, trazadone 50 for sleep",
+    "table_drugs": [
+      "bupropion",
+      "sertraline",
+      "lurasidone",
+      "alprazolam"
+    ],
+    "other_meds": [
+      "trazodone"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "trazadone",
+        "not": "tramadol"
+      }
+    ],
+    "notes": "Misspellings, classic ones (buproprion, Xanex, trazadone); misspelled trazodone must not become tramadol."
+  },
+  {
+    "id": "L044",
+    "style": "patient",
+    "text": "- propanolol 20mg\n- nortryptiline 10 at night\n- Lexipro 10 mg\n- Singular 10\n- Zyrtek",
+    "table_drugs": [
+      "propranolol",
+      "nortriptyline",
+      "escitalopram",
+      "montelukast"
+    ],
+    "other_meds": [
+      "cetirizine"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspelled generics and brands; 'Singular' is also an English word."
+  },
+  {
+    "id": "L045",
+    "style": "caregiver",
+    "text": "Dad: fenytoin 100mg three times a day, phenobarbitol 30mg at night, Kepra 500 twice a day, folic acid",
+    "table_drugs": [
+      "phenytoin",
+      "phenobarbital"
+    ],
+    "other_meds": [
+      "levetiracetam",
+      "folic acid"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspellings, sounded out (fenytoin, phenobarbitol); misspelled Keppra is non-table."
+  },
+  {
+    "id": "L046",
+    "style": "patient",
+    "text": "Zarelto 20 mg with supper\npropaphenone 150 three times a day\ndiltiazam 120 ER\natorvastin 40\nmetforman 1000 twice daily\nOzempik weekly",
+    "table_drugs": [
+      "rivaroxaban",
+      "propafenone",
+      "diltiazem",
+      "atorvastatin"
+    ],
+    "other_meds": [
+      "metformin",
+      "semaglutide"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspellings, sounded out (Zarelto, propaphenone, Ozempik), plus a dropped syllable (atorvastin)."
+  },
+  {
+    "id": "L047",
+    "style": "caregiver",
+    "text": "for my daughter (16):\nfluoxitine 20mg\nStraterra 60mg\nmontelucast 10mg\nbirth controll pill",
+    "table_drugs": [
+      "fluoxetine",
+      "atomoxetine",
+      "montelukast",
+      "oral contraceptives"
+    ],
+    "other_meds": [],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspellings incl. a transposition (Straterra) and 'birth controll pill' -> oral contraceptives."
+  },
+  {
+    "id": "L048",
+    "style": "patient",
+    "text": "quetiepine 50 at bedtime, Symbalta 60mg, gabapenten 300 three times a day, tizanadine 4mg at night, celocoxib 200",
+    "table_drugs": [
+      "quetiapine",
+      "duloxetine",
+      "tizanidine",
+      "celecoxib"
+    ],
+    "other_meds": [
+      "gabapentin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspellings incl. sounded-out brand Symbalta (Cymbalta)."
+  },
+  {
+    "id": "L049",
+    "style": "caregiver",
+    "text": "Grandma -\nCoumidin 3mg\nLescal XL 80\nallopurinal 100\ncolchacine 0.6 when gout flares\nglimeperide 2mg\npioglitizone 15\nmetformin 500 twice a day\nerythromicin 250 before meals",
+    "table_drugs": [
+      "warfarin",
+      "fluvastatin",
+      "allopurinol",
+      "colchicine",
+      "glimepiride",
+      "pioglitazone",
+      "erythromycin"
+    ],
+    "other_meds": [
+      "metformin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspellings in a long elderly list of brands and generics; seven table drugs."
+  },
+  {
+    "id": "L050",
+    "style": "patient",
+    "text": "ciprofloxasin 500 twice a day for UTI, theophyline 300, tamsulosen, finesteride, mirabegon 25",
+    "table_drugs": [
+      "ciprofloxacin",
+      "theophylline",
+      "mirabegron"
+    ],
+    "other_meds": [
+      "tamsulosin",
+      "finasteride"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspellings with dropped letters (theophyline, mirabegon) and a c/s swap (ciprofloxasin)."
+  },
+  {
+    "id": "L051",
+    "style": "patient",
+    "text": "1. Welbutrin 150\n2. Lamictil 200\n3. Seroquil 100\n4. melatonine 5mg\n5. Adderal 20",
+    "table_drugs": [
+      "bupropion",
+      "quetiapine",
+      "melatonin"
+    ],
+    "other_meds": [
+      "lamotrigine",
+      "amphetamine-dextroamphetamine"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Lamictil",
+        "not": "terbinafine"
+      },
+      {
+        "text": "Adderal",
+        "not": "propranolol"
+      }
+    ],
+    "notes": "Misspelled brands; misspelled Lamictal and Adderall must not drift to Lamisil or Inderal."
+  },
+  {
+    "id": "L052",
+    "style": "caregiver",
+    "text": "Mom's heart meds: Multac 400 twice a day, Elequis 5 twice a day, digoxen 0.125, spironolactone 25, Bistolic 5mg",
+    "table_drugs": [
+      "dronedarone",
+      "nebivolol"
+    ],
+    "other_meds": [
+      "apixaban",
+      "digoxin",
+      "spironolactone"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspelled brands (Multac, Bistolic) next to misspelled non-table drugs."
+  },
+  {
+    "id": "L053",
+    "style": "patient",
+    "text": "fluconozole 200mg daily, alprazalam 0.25mg, Ambian 10mg, simvistatin 20, buspropion (not sure what mg), grapefuit juice every morning",
+    "table_drugs": [
+      "fluconazole",
+      "alprazolam",
+      "simvastatin",
+      "grapefruit juice"
+    ],
+    "other_meds": [
+      "zolpidem"
+    ],
+    "ambiguous": [
+      {
+        "text": "buspropion",
+        "candidates": [
+          "bupropion",
+          "buspirone"
+        ]
+      }
+    ],
+    "traps": [],
+    "notes": "Misspellings plus a garbled bupropion/buspirone blend with no dose to disambiguate; misspelled grapefruit juice."
+  },
+  {
+    "id": "L054",
+    "style": "caregiver",
+    "text": "husband (kidney transplant 2021): sirolimis 2mg daily, mycophenolate 720 twice daily, predisone 5, Bactrim SS, nifedapine 30",
+    "table_drugs": [
+      "sirolimus",
+      "trimethoprim"
+    ],
+    "other_meds": [
+      "mycophenolate sodium",
+      "prednisone",
+      "sulfamethoxazole",
+      "nifedipine"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspelled transplant list; Bactrim SS -> trimethoprim; misspelled nifedipine is non-table."
+  },
+  {
+    "id": "L055",
+    "style": "patient",
+    "text": "Truvada for prep, fluvoxetine (for OCD), Viagara as needed, ibuprofin, acyclovar 400 twice a day",
+    "table_drugs": [
+      "tenofovir",
+      "sildenafil",
+      "acyclovir"
+    ],
+    "other_meds": [
+      "emtricitabine",
+      "ibuprofen"
+    ],
+    "ambiguous": [
+      {
+        "text": "fluvoxetine",
+        "candidates": [
+          "fluoxetine",
+          "fluvoxamine"
+        ]
+      }
+    ],
+    "traps": [],
+    "notes": "Misspellings plus a fluoxetine/fluvoxamine blend (both used for OCD); Truvada -> tenofovir."
+  },
+  {
+    "id": "L056",
+    "style": "clinician",
+    "text": "Meds: Brilenta 90 BID, ASA 81, rosuvastatin 20, omeprezole 40 daily, metoprolol succ 50, eplerinone 25",
+    "table_drugs": [
+      "ticagrelor",
+      "omeprazole",
+      "metoprolol",
+      "eplerenone"
+    ],
+    "other_meds": [
+      "aspirin",
+      "rosuvastatin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspelling: clinician typing with typos (Brilenta, omeprezole, eplerinone) and the ASA abbreviation."
+  },
+  {
+    "id": "L057",
+    "style": "caregiver",
+    "text": "son (15) - Abilfy 5mg, fluvoxamene 100mg, Intuniv 2mg, melatonin 3mg",
+    "table_drugs": [
+      "fluvoxamine",
+      "melatonin"
+    ],
+    "other_meds": [
+      "aripiprazole",
+      "guanfacine"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspelled brand and generic (Abilfy, fluvoxamene)."
+  },
+  {
+    "id": "L058",
+    "style": "patient",
+    "text": "Imatanib 400 daily (CML), loperimide as needed, ondansatron 4mg, Tums, Zertec",
+    "table_drugs": [
+      "imatinib",
+      "loperamide"
+    ],
+    "other_meds": [
+      "ondansetron",
+      "calcium carbonate",
+      "cetirizine"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspelled oncology and OTC drugs; Tums and Zertec (Zyrtec) are non-table."
+  },
+  {
+    "id": "L059",
+    "style": "caregiver",
+    "text": "Dad takes: carbamazapine 200 twice a day (face nerve pain), tramidol 50 as needed, Tylenol, mirtazepine 15, St Johns wart",
+    "table_drugs": [
+      "carbamazepine",
+      "tramadol",
+      "st. john's wort"
+    ],
+    "other_meds": [
+      "acetaminophen",
+      "mirtazapine"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspellings incl. 'St Johns wart' -> st. john's wort."
+  },
+  {
+    "id": "L060",
+    "style": "patient",
+    "text": "Cialas 5mg daily, verapimil ER 240, Pradexa 150 twice a day, finasteride 5, dextromethorphin cough syrup at night",
+    "table_drugs": [
+      "tadalafil",
+      "verapamil",
+      "dextromethorphan"
+    ],
+    "other_meds": [
+      "dabigatran",
+      "finasteride"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Misspelled brands and generics; Pradexa (Pradaxa) is non-table."
+  },
+  {
+    "id": "L061",
+    "style": "narrative",
+    "text": "my dad takes zocor at night for his cholesterol and the urgent care just gave him biaxin for a sinus infection. he's also on amlodipine and a baby aspirin",
+    "table_drugs": [
+      "simvastatin",
+      "clarithromycin"
+    ],
+    "other_meds": [
+      "amlodipine",
+      "aspirin"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Narrative with lowercase brands (zocor, biaxin)."
+  },
+  {
+    "id": "L062",
+    "style": "narrative",
+    "text": "I'm 24, on birth control (Junel) and my doctor just started me on rifampin for latent TB. I take ibuprofen for cramps and caffeine pills when I'm studying.",
+    "table_drugs": [
+      "oral contraceptives",
+      "rifampin",
+      "caffeine"
+    ],
+    "other_meds": [
+      "ibuprofen"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Narrative: 'birth control (Junel)' -> oral contraceptives; caffeine pills -> caffeine."
+  },
+  {
+    "id": "L063",
+    "style": "narrative",
+    "text": "Grandma is on warfarin. Last week the ER gave her Cipro for a UTI and she's been using Monistat 7 for a yeast infection. She eats half a grapefruit every morning and takes Tylenol for her knees.",
+    "table_drugs": [
+      "warfarin",
+      "ciprofloxacin",
+      "miconazole",
+      "grapefruit juice"
+    ],
+    "other_meds": [
+      "acetaminophen"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Narrative: Monistat 7 -> miconazole; eating grapefruit -> grapefruit juice."
+  },
+  {
+    "id": "L064",
+    "style": "narrative",
+    "text": "My husband had a kidney transplant in 2019. He's on Prograf, CellCept and prednisone, and his cardiologist wants to start diltiazem for his heart rate. He also started taking St. John's Wort on his own because he read it helps with mood.",
+    "table_drugs": [
+      "tacrolimus",
+      "diltiazem",
+      "st. john's wort"
+    ],
+    "other_meds": [
+      "mycophenolate mofetil",
+      "prednisone"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Narrative with a planned medication (counts) and a self-started supplement."
+  },
+  {
+    "id": "L065",
+    "style": "narrative",
+    "text": "I'm a smoker, about a pack a day, and I take clozapine 300 mg at night for schizophrenia. I also take docusate because the clozapine makes me constipated. My psychiatrist wants me to try Chantix to quit.",
+    "table_drugs": [
+      "tobacco (smoking)",
+      "clozapine"
+    ],
+    "other_meds": [
+      "docusate",
+      "varenicline"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Narrative: 'smoker' -> tobacco (smoking); Chantix (varenicline) is non-table."
+  },
+  {
+    "id": "L066",
+    "style": "narrative",
+    "text": "Mom takes Plavix and one of the -prazole pills for her stomach (omeprazole or lansoprazole, I can't remember which), plus her cholesterol pill Lipitor and Synthroid. She just started Saint John's Wort because she's been feeling down.",
+    "table_drugs": [
+      "clopidogrel",
+      "atorvastatin",
+      "st. john's wort"
+    ],
+    "other_meds": [
+      "levothyroxine"
+    ],
+    "ambiguous": [
+      {
+        "text": "omeprazole or lansoprazole",
+        "candidates": [
+          "omeprazole",
+          "lansoprazole"
+        ]
+      }
+    ],
+    "traps": [],
+    "notes": "Narrative with an explicit either/or PPI that cannot be resolved."
+  },
+  {
+    "id": "L067",
+    "style": "narrative",
+    "text": "My wife (34) started Tafinlar and Mekinist for melanoma last month. She's on birth control pills and takes Zoloft 50, plus Tylenol for the fevers she gets from the Tafinlar.",
+    "table_drugs": [
+      "dabrafenib",
+      "oral contraceptives",
+      "sertraline"
+    ],
+    "other_meds": [
+      "trametinib",
+      "acetaminophen"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Narrative: oncology brand pair where only Tafinlar (dabrafenib) is a table drug."
+  },
+  {
+    "id": "L068",
+    "style": "narrative",
+    "text": "I take Valium when I fly and my dermatologist just started me on Sporanox for toenail fungus. My flight is Friday. I also drink grapefruit juice most mornings and take melatonin to sleep.",
+    "table_drugs": [
+      "diazepam",
+      "itraconazole",
+      "grapefruit juice",
+      "melatonin"
+    ],
+    "other_meds": [],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Narrative: four table entries incl. a food and a supplement, no non-table meds."
+  },
+  {
+    "id": "L069",
+    "style": "narrative",
+    "text": "He got Paxlovid yesterday for covid but he's also on Eliquis, atorvastatin and amlodipine, plus tamsulosin for his prostate. Should he stop anything?",
+    "table_drugs": [
+      "ritonavir",
+      "atorvastatin"
+    ],
+    "other_meds": [
+      "nirmatrelvir",
+      "apixaban",
+      "amlodipine",
+      "tamsulosin"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "amlodipine",
+        "not": "felodipine"
+      }
+    ],
+    "notes": "Narrative: Paxlovid -> ritonavir (nirmatrelvir other); amlodipine must not become felodipine."
+  },
+  {
+    "id": "L070",
+    "style": "narrative",
+    "text": "My sister (28) takes Lamictal for bipolar, Latuda 40 mg, and birth control pills. She told me she started taking St John's wort and some melatonin gummies to help her sleep.",
+    "table_drugs": [
+      "lurasidone",
+      "oral contraceptives",
+      "st. john's wort",
+      "melatonin"
+    ],
+    "other_meds": [
+      "lamotrigine"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Lamictal",
+        "not": "terbinafine"
+      }
+    ],
+    "notes": "Narrative mixing brands, a contraceptive and two supplements."
+  },
+  {
+    "id": "L071",
+    "style": "narrative",
+    "text": "My uncle has had HIV since the 90s and has been on Kaletra and Combivir for years. His new doctor wants to start him on simvastatin, and he takes Viagra once in a while. Is that safe?",
+    "table_drugs": [
+      "lopinavir and ritonavir",
+      "simvastatin",
+      "sildenafil"
+    ],
+    "other_meds": [
+      "lamivudine",
+      "zidovudine"
+    ],
+    "ambiguous": [],
+    "traps": [],
+    "notes": "Narrative: Kaletra maps to the single entry 'lopinavir and ritonavir' only, not also 'ritonavir'."
+  },
+  {
+    "id": "L072",
+    "style": "narrative",
+    "text": "My father-in-law had a stroke last year and now gets these crying spells, so the neurologist put him on Nuedexta. He also takes Plavix, Lipitor, Lexapro 10 and Aricept. Can Nuedexta be taken with his other meds?",
+    "table_drugs": [
+      "dextromethorphan",
+      "quinidine",
+      "clopidogrel",
+      "atorvastatin",
+      "escitalopram"
+    ],
+    "other_meds": [
+      "donepezil"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Aricept",
+        "not": "rabeprazole"
+      }
+    ],
+    "notes": "Narrative: Nuedexta -> dextromethorphan + quinidine; brand named twice."
+  },
+  {
+    "id": "L073",
+    "style": "patient",
+    "text": "Celexa 20mg\nClaritin 10mg\nlisinopril 20mg\nXtandi 160mg (prostate cancer)",
+    "table_drugs": [
+      "enzalutamide"
+    ],
+    "other_meds": [
+      "citalopram",
+      "loratadine",
+      "lisinopril"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Celexa",
+        "not": "celecoxib"
+      },
+      {
+        "text": "Celexa",
+        "not": "escitalopram"
+      },
+      {
+        "text": "Claritin",
+        "not": "desloratadine"
+      }
+    ],
+    "notes": "Trap: Celexa (citalopram) vs Celebrex/escitalopram and Claritin (loratadine) vs Clarinex; only Xtandi is a table drug."
+  },
+  {
+    "id": "L074",
+    "style": "caregiver",
+    "text": "Mom: Lamictal 100 mg twice a day, trazodone 50 at bedtime, Lorzone 375 for back spasms, Fosamax 70 weekly",
+    "table_drugs": [
+      "chlorzoxazone"
+    ],
+    "other_meds": [
+      "lamotrigine",
+      "trazodone",
+      "alendronate"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Lamictal",
+        "not": "terbinafine"
+      },
+      {
+        "text": "trazodone",
+        "not": "tramadol"
+      }
+    ],
+    "notes": "Trap: Lamictal/Lamisil and trazodone/tramadol; Lorzone -> chlorzoxazone is the only table drug."
+  },
+  {
+    "id": "L075",
+    "style": "patient",
+    "text": "clonazepam 0.5 at bedtime, clonidine 0.1 twice a day, Topamax 50, Norvasc 10",
+    "table_drugs": [],
+    "other_meds": [
+      "clonazepam",
+      "clonidine",
+      "topiramate",
+      "amlodipine"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "clonazepam",
+        "not": "clozapine"
+      },
+      {
+        "text": "clonidine",
+        "not": "clozapine"
+      },
+      {
+        "text": "Topamax",
+        "not": "metoprolol"
+      },
+      {
+        "text": "Norvasc",
+        "not": "ritonavir"
+      }
+    ],
+    "notes": "Trap with zero table drugs: every item is a look-alike of one (clozapine, Toprol-XL, Norvir); correct output is empty."
+  },
+  {
+    "id": "L076",
+    "style": "printout",
+    "text": "GLIPIZIDE ER 10MG TAB\nQUININE SULFATE 324MG CAP\nOXCARBAZEPINE 300MG TAB\nRIFAXIMIN 550MG TAB\nLACTULOSE 10GM/15ML SOLN\nPROPRANOLOL HCL 20MG TAB",
+    "table_drugs": [
+      "propranolol"
+    ],
+    "other_meds": [
+      "glipizide",
+      "quinine",
+      "oxcarbazepine",
+      "rifaximin",
+      "lactulose"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "GLIPIZIDE",
+        "not": "glimepiride"
+      },
+      {
+        "text": "QUININE",
+        "not": "quinidine"
+      },
+      {
+        "text": "OXCARBAZEPINE",
+        "not": "carbamazepine"
+      },
+      {
+        "text": "RIFAXIMIN",
+        "not": "rifampin"
+      }
+    ],
+    "notes": "Trap printout of tall-man pairs: glipizide/glimepiride, quinine/quinidine, oxcarbazepine/carbamazepine, rifaximin/rifampin."
+  },
+  {
+    "id": "L077",
+    "style": "clinician",
+    "text": "Home meds: tiagabine 4 mg BID, lorazepam 1 mg qhs prn, desvenlafaxine 50 mg daily, perphenazine/amitriptyline 2/25 mg qhs, ramelteon 8 mg qhs",
+    "table_drugs": [
+      "perphenazine",
+      "ramelteon"
+    ],
+    "other_meds": [
+      "tiagabine",
+      "lorazepam",
+      "desvenlafaxine",
+      "amitriptyline"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "tiagabine",
+        "not": "tizanidine"
+      },
+      {
+        "text": "lorazepam",
+        "not": "alprazolam"
+      },
+      {
+        "text": "desvenlafaxine",
+        "not": "r-venlafaxine"
+      },
+      {
+        "text": "amitriptyline",
+        "not": "nortriptyline"
+      }
+    ],
+    "notes": "Trap: tall-man and name-containment pairs; perphenazine/amitriptyline combo -> perphenazine only."
+  },
+  {
+    "id": "L078",
+    "style": "caregiver",
+    "text": "Dad's list:\nActonel 35mg once a week\nAricept 10mg\nProscar 5mg\nJanuvia 100mg\nKeppra 500mg twice a day\nLopid 600mg twice a day",
+    "table_drugs": [
+      "gemfibrozil"
+    ],
+    "other_meds": [
+      "risedronate",
+      "donepezil",
+      "finasteride",
+      "sitagliptin",
+      "levetiracetam"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Actonel",
+        "not": "pioglitazone"
+      },
+      {
+        "text": "Aricept",
+        "not": "rabeprazole"
+      },
+      {
+        "text": "Proscar",
+        "not": "fluoxetine"
+      },
+      {
+        "text": "Keppra",
+        "not": "lopinavir and ritonavir"
+      }
+    ],
+    "notes": "Trap: brand pairs Actonel/Actos, Aricept/Aciphex, Proscar/Prozac, Keppra/Kaletra; Lopid -> gemfibrozil is the only table drug."
+  },
+  {
+    "id": "L079",
+    "style": "patient",
+    "text": "Allegra 180, azithromycin Z-pak (day 3), Zantac 360 as needed, Adderall XR 20, Stendra 100 as needed",
+    "table_drugs": [
+      "avanafil"
+    ],
+    "other_meds": [
+      "fexofenadine",
+      "azithromycin",
+      "famotidine",
+      "amphetamine-dextroamphetamine"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "Allegra",
+        "not": "sildenafil"
+      },
+      {
+        "text": "azithromycin",
+        "not": "erythromycin"
+      },
+      {
+        "text": "Zantac 360",
+        "not": "ranitidine"
+      },
+      {
+        "text": "Adderall XR",
+        "not": "propranolol"
+      }
+    ],
+    "notes": "Trap: Allegra/Viagra, azithromycin/erythromycin, Adderall/Inderal, and Zantac 360, which is famotidine, not ranitidine."
+  },
+  {
+    "id": "L080",
+    "style": "clinician",
+    "text": "Med rec 11/1: cetirizine 10 mg daily, Sinequan 25 mg qhs, disopyramide CR 150 mg BID, Zyvox 600 mg BID x10d (MRSA cellulitis), verapamil ER 240 mg daily",
+    "table_drugs": [
+      "verapamil"
+    ],
+    "other_meds": [
+      "cetirizine",
+      "doxepin",
+      "disopyramide",
+      "linezolid"
+    ],
+    "ambiguous": [],
+    "traps": [
+      {
+        "text": "cetirizine",
+        "not": "sertraline"
+      },
+      {
+        "text": "Sinequan",
+        "not": "quetiapine"
+      },
+      {
+        "text": "Sinequan",
+        "not": "montelukast"
+      },
+      {
+        "text": "disopyramide",
+        "not": "desipramine"
+      },
+      {
+        "text": "Zyvox",
+        "not": "acyclovir"
+      }
+    ],
+    "notes": "Trap: cetirizine/sertraline, Sinequan/Seroquel/Singulair, disopyramide/desipramine, Zyvox/Zovirax."
+  }
+]
