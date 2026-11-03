@@ -7,10 +7,11 @@ network, no database, no global state, so the whole model is testable.
 
 The point of the model
 ----------------------
-Interaction checkers evaluate drug pairs. A patient on seven drugs has 21 pairs,
-and a checker can clear all 21 while three of those drugs each partly inhibit the
-same enzyme. Inhibition of one enzyme by several drugs does not live in any pair,
-so no pairwise check can see it.
+Most interaction checkers evaluate drug pairs. A patient on seven drugs has 21
+pairs, and three of those drugs can each partly inhibit the same enzyme.
+Inhibition of one enzyme by several drugs does not live in any pair, so a
+pairwise check understates it, and a checker that reports only moderate and
+stronger interactions can clear every pair while the whole list reads moderate.
 
 Where the numbers come from
 ---------------------------

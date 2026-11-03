@@ -6,7 +6,7 @@ Cascade is an educational model of the drug interaction a pairwise check cannot 
 
 ## The problem, with a number
 
-Interaction checkers compare drugs two at a time. A patient on seven drugs generates 21 pairs. Each pair can be cleared while three of those drugs each partly inhibit the same enzyme, because the combined effect does not exist in any pair.
+Most interaction checkers compare drugs two at a time. A patient on seven drugs generates 21 pairs. Three of those drugs can each partly inhibit the same enzyme, and their combined effect appears in no single pair, so a check that looks one pair at a time understates it. A checker that reports only moderate and stronger interactions can miss it entirely.
 
 Taking the FDA's own index table of 205 drugs and enumerating every combination in it:
 
