@@ -3,13 +3,13 @@
 People do not type "simvastatin". They type "Zocor 40 at night", "simvistatin",
 "my dad's cholesterol pill (zocor) and the biaxin he just got". This module
 turns that text into names from the FDA table, using a small trained model that
-runs here, with no API key and nothing sent anywhere.
+runs in this process, with no API key and no call to any outside service.
 
 How it reads a list:
 
 1. Split the text into segments (lines, commas, "and") and every segment into
    word windows of one to four words.
-2. Retrieve, for each window, the closest names in a dictionary of about 2,400
+2. Retrieve, for each window, the closest names in a dictionary of 1,967
    drug names: every drug in the FDA table, its US brand names from RxNorm,
    the 300 most prescribed US drugs and their brands. Closeness is cosine
    similarity of character n-gram TF-IDF vectors, so "simvistatin" still lands
@@ -20,15 +20,18 @@ How it reads a list:
    person meant? Its inputs are string-similarity features and, importantly,
    how much better this candidate fits than the best candidate that means a
    different drug. That margin is how it learns to refuse on look-alike names
-   (Celexa and Celebrex) instead of guessing.
+   (Celexa and Celebrex) instead of picking the closer string.
 4. Keep the best non-overlapping windows. A confident match becomes a drug; a
    match to a known medication outside the table is reported as not covered;
    two plausible drugs become a question for the user; anything weaker is
-   left unread and visible, never silently dropped.
+   left unread and stays visible on the page. A name the dictionary lacks can
+   still be misread as a look-alike it has, so every reading is shown.
 
-The network is the only learned part. Everything it needs is in the JSON file,
-and inference uses only the standard library, so the evaluation numbers in
-the README come from exactly the code that serves the page.
+The network, and the small character model that scores how much a window
+looks like ordinary English (one of the network's inputs), are the only
+learned parts. Everything they need is in the JSON file, and inference uses
+only the standard library, so the evaluation numbers in the README come from
+exactly the code that serves the page.
 """
 from __future__ import annotations
 
@@ -44,7 +47,7 @@ from pathlib import Path
 DATA = Path(__file__).resolve().parent.parent / "data"
 RULES_VERSION = "1.1"   # 1.0 ran the blind test; 1.1 fixed two rule bugs it exposed (see README)
 MODEL_PATH = DATA / "reader_model.json"
-LEXICON_PATH = DATA / "english_words.txt.gz"   # the 50,000 commonest English words, from wordfreq
+LEXICON_PATH = DATA / "english_words.txt.gz"   # wordfreq's 50,000 commonest English words, minus drug names
 
 # --- normalisation ------------------------------------------------------------
 

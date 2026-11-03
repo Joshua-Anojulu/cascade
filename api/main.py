@@ -99,8 +99,8 @@ def read(request: ListText) -> dict:
     Runs here; nothing is sent to any outside service.
     """
     result = read_list(request.text, load_model())
-    result["note"] = ("Read by a small trained model. Check every reading: a name it is unsure of "
-                      "is asked about or left unread, never guessed.")
+    result["note"] = ("Read by a small trained model. Check every reading: it can misread a name, "
+                      "most often a medicine it has never seen.")
     return result
 
 
@@ -117,7 +117,8 @@ def roles_for(drug: str) -> dict:
             {"enzyme": r.enzyme, "role": r.role, "strength": r.strength}
             for r in load_roles() if r.drug == name
         ],
-        "source": "FDA, Drug Development and Drug Interactions, Table 1",
+        "source": ("FDA, For Healthcare Professionals: FDA's Examples of Drugs that Interact with "
+                   "CYP Enzymes and Transporter Systems, Table 1"),
         "source_url": ("https://www.fda.gov/drugs/drug-interactions-labeling/"
                        "healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-"
                        "and-transporter-systems"),

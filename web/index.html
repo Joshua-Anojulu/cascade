@@ -97,7 +97,7 @@ footer a{color:var(--accent)}
       <button class="primary" type="button" id="read">Read the list</button>
       <button type="button" id="messy">Use a messy example</button>
     </div>
-    <p class="hint">Brand names, misspellings, doses and pharmacy printouts are fine. A small model trained for this reads the list on this server; nothing is sent anywhere. Every reading is shown so you can check it, and a name it is unsure of is asked about or left unread, never guessed.</p>
+    <p class="hint">Brand names, misspellings, doses and pharmacy printouts are fine. A small model trained for this reads the list on the Cascade server; the text is not sent to any outside service. Every reading is shown so you can check it. It can misread a name, most often a medicine it has never seen.</p>
     <div class="readout" id="readout" aria-live="polite"></div>
   </section>
 
@@ -130,7 +130,7 @@ footer a{color:var(--accent)}
   </div>
 
   <footer>
-    Roles and class definitions: <a href="https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems" target="_blank" rel="noopener">FDA, Drug Development and Drug Interactions, Table 1</a>.
+    Roles and class definitions: <a href="https://www.fda.gov/drugs/drug-interactions-labeling/healthcare-professionals-fdas-examples-drugs-interact-cyp-enzymes-and-transporter-systems" target="_blank" rel="noopener">FDA, Examples of Drugs that Interact with CYP Enzymes and Transporter Systems, Tables 1 and 2</a>.
     Exposure ratios are intervals because the FDA classes are defined by ranges; no number in them is a fitted parameter.
     The list reader is a small trained model, measured on lists it never saw; see the README.
     Built by Joshua Anojulu with AI assistance; see the README for who wrote what.
@@ -144,6 +144,12 @@ const DEMO = ['simvastatin','diltiazem','erythromycin','grapefruit juice','metop
 let drugs = [], catalogue = [];
 
 const ratio = v => v >= 20 ? '20+' : v.toFixed(1);
+// The severity bands reuse the FDA's inhibitor thresholds; say which one a result is in.
+const BAND = {
+  high: 'a strong inhibitor (5&times; or more)',
+  moderate: 'a moderate inhibitor (2&times; to 5&times;)',
+  low: 'a weak inhibitor (1.25&times; to 2&times;)',
+};
 const title = s => s.charAt(0).toUpperCase() + s.slice(1);
 
 function card(f, prefix='') {
@@ -200,11 +206,13 @@ async function run() {
 
   $('#headline').innerHTML = data.cascades.length ? data.cascades.map(c => {
     const f = c.finding;
+    const band = BAND[f.severity];
     return `<section class="headline">
-      <h2>A pairwise check would call this ${esc(c.pairwise_severity)}. Together these drugs read ${esc(f.severity)}.</h2>
-      <p>${f.inhibitors.length} drugs each inhibit ${esc(f.enzyme)}. No single pair reaches more than
-      ${ratio(c.pairwise_aucr)}&times; predicted exposure of ${esc(f.substrate)}; the full list reaches
-      ${ratio(f.aucr.point)}&times;, which is the band the FDA uses to define a strong inhibitor.</p>
+      <h2>One pair at a time, the worst reads ${esc(c.pairwise_severity)}. All together, these drugs read ${esc(f.severity)}.</h2>
+      <p>${f.inhibitors.length} drugs each inhibit ${esc(f.enzyme)}. No single pair predicts more than
+      ${ratio(c.pairwise_aucr)}&times; the usual exposure of ${esc(f.substrate)}; the full list predicts
+      ${ratio(f.aucr.point)}&times; (range ${ratio(f.aucr.low)} to ${ratio(f.aucr.high)}).${band ? ` That central estimate
+      is in the band the FDA uses to define ${band}.` : ''}</p>
     </section>`;
   }).join('') : '';
 
